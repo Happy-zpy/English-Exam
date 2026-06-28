@@ -1,0 +1,2658 @@
+{
+  "title": "英语构词法全套单选题库",
+  "questions": [
+    {
+      "word": "aberration",
+      "question": "aberration 的中文意思是？",
+      "options": ["偏差", "无像差", "熔接", "缩略"],
+      "answer": "偏差"
+    },
+    {
+      "word": "abherent",
+      "question": "abherent 的中文意思是？",
+      "options": ["不干胶", "双面胶", "粘贴剂", "防粘剂"],
+      "answer": "防粘剂"
+    },
+    {
+      "word": "ablation",
+      "question": "ablation 的中文意思是？",
+      "options": ["剥落性", "可行性", "抗腐蚀性", "绝缘性"],
+      "answer": "剥落性"
+    },
+    {
+      "word": "abnormity",
+      "question": "abnormity 的中文意思是？",
+      "options": ["不可溶解性", "常态化", "畸形", "规则"],
+      "answer": "畸形"
+    },
+    {
+      "word": "acentric",
+      "question": "acentric 的中文意思是？",
+      "options": ["中心的", "偏离中心的", "古怪的", "突出的"],
+      "answer": "偏离中心的"
+    },
+    {
+      "word": "afocal",
+      "question": "afocal 的中文意思是？",
+      "options": ["无反应的", "无焦的", "进行中的", "集中的"],
+      "answer": "无焦的"
+    },
+    {
+      "word": "areflexia",
+      "question": "areflexia 的中文意思是？",
+      "options": ["区域", "无反射", "无流区", "返流区"],
+      "answer": "无反射"
+    },
+    {
+      "word": "asymmetry",
+      "question": "asymmetry 的中文意思是？",
+      "options": ["不兼容的", "不对称的", "同情的", "相似的"],
+      "answer": "不对称的"
+    },
+    {
+      "word": "illegible",
+      "question": "illegible 的中文意思是？",
+      "options": ["不合常理的", "不合法的", "字迹模糊的", "违背规律的"],
+      "answer": "字迹模糊的"
+    },
+    {
+      "word": "illegitimacy",
+      "question": "illegitimacy 的中文意思是？",
+      "options": ["不合逻辑的", "没有边际的", "看不清楚的", "非政府的"],
+      "answer": "非政府的"
+    },
+    {
+      "word": "illimitable",
+      "question": "illimitable 的中文意思是？",
+      "options": ["不可计量的", "无法更正的", "非合理的", "非现金的"],
+      "answer": "不可计量的"
+    },
+    {
+      "word": "illiterate",
+      "question": "illiterate 的中文意思是？",
+      "options": ["不合理的", "文盲的", "有文化的", "非法的"],
+      "answer": "文盲的"
+    },
+    {
+      "word": "immune",
+      "question": "immune 的中文意思是？",
+      "options": ["不成熟的", "免疫的", "免税的", "成熟的"],
+      "answer": "免疫的"
+    },
+    {
+      "word": "impartible",
+      "question": "impartible 的中文意思是？",
+      "options": ["不可分割的", "不可妥协的", "不可逾越的", "不耐心的"],
+      "answer": "不可分割的"
+    },
+    {
+      "word": "impediment",
+      "question": "impediment 的中文意思是？",
+      "options": ["不渗透性", "山形墙", "盆地", "障碍物"],
+      "answer": "障碍物"
+    },
+    {
+      "word": "impermanent",
+      "question": "impermanent 的中文意思是？",
+      "options": ["不灭的", "暂时的", "永久的", "防水的"],
+      "answer": "暂时的"
+    },
+    {
+      "word": "inanimate",
+      "question": "inanimate 的中文意思是？",
+      "options": ["不单调的", "不发光的", "无生命的", "无营养的"],
+      "answer": "无生命的"
+    },
+    {
+      "word": "inartificial",
+      "question": "inartificial 的中文意思是？",
+      "options": ["人工的", "复杂的", "天然的", "熟练的"],
+      "answer": "天然的"
+    },
+    {
+      "word": "inelastic",
+      "question": "inelastic 的中文意思是？",
+      "options": ["弯曲的", "无弹性的", "无法消除的", "柔韧的"],
+      "answer": "无弹性的"
+    },
+    {
+      "word": "inflexible",
+      "question": "inflexible 的中文意思是？",
+      "options": ["不可塑的", "不可弯曲的", "无刚性的", "未成形的"],
+      "answer": "不可弯曲的"
+    },
+    {
+      "word": "antecedent",
+      "question": "antecedent 的中文意思是？",
+      "options": ["先行的", "周期的", "宏观的", "未知的"],
+      "answer": "先行的"
+    },
+    {
+      "word": "anteroom",
+      "question": "anteroom 的中文意思是？",
+      "options": ["前厅", "后院", "密室", "门廊"],
+      "answer": "前厅"
+    },
+    {
+      "word": "decode",
+      "question": "decode 的中文意思是？",
+      "options": ["压缩", "滤除", "编码", "解码"],
+      "answer": "解码"
+    },
+    {
+      "word": "decolor",
+      "question": "decolor 的中文意思是？",
+      "options": ["显色", "染色", "洗染", "褪色"],
+      "answer": "褪色"
+    },
+    {
+      "word": "defrost",
+      "question": "defrost 的中文意思是？",
+      "options": ["冷凝", "压缩", "滤清", "除霜"],
+      "answer": "除霜"
+    },
+    {
+      "word": "deoxygenate",
+      "question": "deoxygenate 的中文意思是？",
+      "options": ["充氧", "制氧", "氧化", "脱氧"],
+      "answer": "脱氧"
+    },
+    {
+      "word": "discharge",
+      "question": "discharge 的中文意思是？",
+      "options": ["充电", "排斥", "放电", "断电"],
+      "answer": "放电"
+    },
+    {
+      "word": "disconnect",
+      "question": "disconnect 的中文意思是？",
+      "options": ["分配", "抛弃", "断开", "解散"],
+      "answer": "断开"
+    },
+    {
+      "word": "disprove",
+      "question": "disprove 的中文意思是？",
+      "options": ["伪证", "例证", "反对", "反证"],
+      "answer": "反证"
+    },
+    {
+      "word": "disroot",
+      "question": "disroot 的中文意思是？",
+      "options": ["分离", "断裂", "消除", "重启"],
+      "answer": "消除"
+    },
+    {
+      "word": "irrelevant",
+      "question": "irrelevant 的中文意思是？",
+      "options": ["不相关的", "不规则的", "有联系额", "非法的"],
+      "answer": "不相关的"
+    },
+    {
+      "word": "irremediably",
+      "question": "irremediably 的中文意思是？",
+      "options": ["无法抗拒地", "无法控制地", "无法约束地", "无法补救地"],
+      "answer": "无法补救地"
+    },
+    {
+      "word": "irreversible",
+      "question": "irreversible 的中文意思是？",
+      "options": ["不能分解的", "单向的", "可倒置的", "可逆的"],
+      "answer": "单向的"
+    },
+    {
+      "word": "non-existence",
+      "question": "non-existence 的中文意思是？",
+      "options": ["未确定性", "未退出状态", "非专业性", "非实在(物)"],
+      "answer": "非实在(物)"
+    },
+    {
+      "word": "nonmarketable",
+      "question": "nonmarketable 的中文意思是？",
+      "options": ["不可传导的", "不可变现的", "不可支付的", "不可流通的"],
+      "answer": "不可流通的"
+    },
+    {
+      "word": "nonperiodicity",
+      "question": "nonperiodicity 的中文意思是？",
+      "options": ["非周期性", "非季节性", "非盈利性", "非营业性"],
+      "answer": "非周期性"
+    },
+    {
+      "word": "unbranched",
+      "question": "unbranched 的中文意思是？",
+      "options": ["交叉的", "断链的", "无分支的", "未剪枝的"],
+      "answer": "无分支的"
+    },
+    {
+      "word": "unmeasurable",
+      "question": "unmeasurable 的中文意思是？",
+      "options": ["不可测的", "无意义的", "无方法的", "未测量的"],
+      "answer": "不可测的"
+    },
+    {
+      "word": "unprocessed",
+      "question": "unprocessed 的中文意思是？",
+      "options": ["不可加工的", "不可逆的", "无需过程的", "未处理的"],
+      "answer": "未处理的"
+    },
+    {
+      "word": "unsampled",
+      "question": "unsampled 的中文意思是？",
+      "options": ["不去除的", "不简单的", "未简化的", "未采样的"],
+      "answer": "未采样"
+    },
+    {
+      "word": "antedate",
+      "question": "antedate 的中文意思是？",
+      "options": ["先于", "后于", "止于", "迟于"],
+      "answer": "先于"
+    },
+    {
+      "word": "antetype",
+      "question": "antetype 的中文意思是？",
+      "options": ["原型", "参照", "常规", "模型"],
+      "answer": "原型"
+    },
+    {
+      "word": "ex-dictator",
+      "question": "ex-dictator 的中文意思是？",
+      "options": ["传令官", "前独裁者", "前讲解员", "口述人"],
+      "answer": "前独裁者"
+    },
+    {
+      "word": "ex-president",
+      "question": "ex-president 的中文意思是？",
+      "options": ["前任总统", "弹劾总统", "现任总统", "驱逐总统"],
+      "answer": "前任总统"
+    },
+    {
+      "word": "ex-serviceman",
+      "question": "ex-serviceman 的中文意思是？",
+      "options": ["内务人员", "外勤人员", "现役军人", "退役军人"],
+      "answer": "退役军人"
+    },
+    {
+      "word": "excolonial",
+      "question": "excolonial 的中文意思是？",
+      "options": ["前殖民地", "殖民地内的", "殖民地外的", "现殖民地"],
+      "answer": "前殖民地"
+    },
+    {
+      "word": "forecooler",
+      "question": "forecooler 的中文意思是？",
+      "options": ["冷饮机", "着色器", "镇静剂", "预冷器"],
+      "answer": "预冷器"
+    },
+    {
+      "word": "foreground",
+      "question": "foreground 的中文意思是？",
+      "options": ["前景", "愿景", "背景", "远景"],
+      "answer": "前景"
+    },
+    {
+      "word": "forewarmer",
+      "question": "forewarmer 的中文意思是？",
+      "options": ["暖气片", "温控器", "预热器", "预警器"],
+      "answer": "预热器"
+    },
+    {
+      "word": "foreword",
+      "question": "foreword 的中文意思是？",
+      "options": ["序言", "摘要", "致辞", "附录"],
+      "answer": "序言"
+    },
+    {
+      "word": "posterior",
+      "question": "posterior 的中文意思是？",
+      "options": ["前期的", "外部的", "较晚的", "里面的"],
+      "answer": "较晚的"
+    },
+    {
+      "word": "postprocessing",
+      "question": "postprocessing 的中文意思是？",
+      "options": ["前期进程", "后加工", "后期进程", "预加工"],
+      "answer": "后加工"
+    },
+    {
+      "word": "postproduction",
+      "question": "postproduction 的中文意思是？",
+      "options": ["后期制作", "延时生产", "邮寄产品", "预先制作"],
+      "answer": "后期制作"
+    },
+    {
+      "word": "postscript",
+      "question": "postscript 的中文意思是？",
+      "options": ["前言", "后记", "索引", "附录"],
+      "answer": "后记"
+    },
+    {
+      "word": "precedent",
+      "question": "precedent 的中文意思是？",
+      "options": ["先例", "前任", "前方", "提前"],
+      "answer": "先例"
+    },
+    {
+      "word": "precondition",
+      "question": "precondition 的中文意思是？",
+      "options": ["先决条件", "先前状态", "先前预言", "预先告知"],
+      "answer": "先决条件"
+    },
+    {
+      "word": "preestimate",
+      "question": "preestimate 的中文意思是？",
+      "options": ["互评", "评价", "预估", "预知"],
+      "answer": "预估"
+    },
+    {
+      "word": "prescience",
+      "question": "prescience 的中文意思是？",
+      "options": ["伪科学", "先见之明", "旧科技", "科学实验"],
+      "answer": "先见之明"
+    },
+    {
+      "word": "reassign",
+      "question": "reassign 的中文意思是？",
+      "options": ["再分配", "再确定", "重启动", "重签订"],
+      "answer": "再分配"
+    },
+    {
+      "word": "regress",
+      "question": "regress 的中文意思是？",
+      "options": ["倒退", "施压", "让步", "进步"],
+      "answer": "倒退"
+    },
+    {
+      "word": "exceed",
+      "question": "exceed 的中文意思是？",
+      "options": ["外置", "成功", "超过", "除去"],
+      "answer": "超过"
+    },
+    {
+      "word": "excenter",
+      "question": "excenter 的中文意思是？",
+      "options": ["内心", "外心", "旁心", "重心"],
+      "answer": "外心"
+    },
+    {
+      "word": "exposure",
+      "question": "exposure 的中文意思是？",
+      "options": ["出口", "暴露", "泄漏", "爆炸"],
+      "answer": "暴露"
+    },
+    {
+      "word": "extraction",
+      "question": "extraction 的中文意思是？",
+      "options": ["冷凝", "提取", "浓缩", "蒸馏"],
+      "answer": "提取"
+    },
+    {
+      "word": "import",
+      "question": "import 的中文意思是？",
+      "options": ["出口", "强制", "进口", "重要"],
+      "answer": "进口"
+    },
+    {
+      "word": "imprinter",
+      "question": "imprinter 的中文意思是？",
+      "options": ["制版机", "印花机", "压印机", "打印机"],
+      "answer": "压印机"
+    },
+    {
+      "word": "incorporate",
+      "question": "incorporate 的中文意思是？",
+      "options": ["不包含", "单一的", "抽象的", "组成公司"],
+      "answer": "组成公司"
+    },
+    {
+      "word": "inflame",
+      "question": "inflame 的中文意思是？",
+      "options": ["使发怒", "使燃烧", "火焰", "热情"],
+      "answer": "使燃烧"
+    },
+    {
+      "word": "outlet",
+      "question": "outlet 的中文意思是？",
+      "options": ["出口", "禁止", "进入", "零售店"],
+      "answer": "出口"
+    },
+    {
+      "word": "output",
+      "question": "output 的中文意思是？",
+      "options": ["向外", "收纳", "放置", "输出"],
+      "answer": "输出"
+    },
+    {
+      "word": "outskirt",
+      "question": "outskirt 的中文意思是？",
+      "options": ["城镇", "短裙", "裙边", "郊外"],
+      "answer": "郊外"
+    },
+    {
+      "word": "outspread",
+      "question": "outspread 的中文意思是？",
+      "options": ["升高", "向内", "扩张", "收回"],
+      "answer": "扩张"
+    },
+    {
+      "word": "overglass",
+      "question": "overglass 的中文意思是？",
+      "options": ["上等玻璃", "玻璃台板", "玻璃灯罩", "超级玻璃"],
+      "answer": "玻璃灯罩"
+    },
+    {
+      "word": "overlap",
+      "question": "overlap 的中文意思是？",
+      "options": ["折叠", "曲膝", "膝上", "重叠"],
+      "answer": "重叠"
+    },
+    {
+      "word": "overlay",
+      "question": "overlay 的中文意思是？",
+      "options": ["分离层", "最上层", "覆盖层", "重合层"],
+      "answer": "覆盖层"
+    },
+    {
+      "word": "overpass",
+      "question": "overpass 的中文意思是？",
+      "options": ["地下通道", "天桥", "涵洞", "空中走廊"],
+      "answer": "天桥"
+    },
+    {
+      "word": "reboot",
+      "question": "reboot 的中文意思是？",
+      "options": ["再生", "复算", "更新", "重启"],
+      "answer": "重启"
+    },
+    {
+      "word": "reproducible",
+      "question": "reproducible 的中文意思是？",
+      "options": ["低产出的", "可再生的", "易变化的", "难重复的"],
+      "answer": "可再生的"
+    },
+    {
+      "word": "underlying",
+      "question": "underlying 的中文意思是？",
+      "options": ["内在的", "基础的", "潜在的", "躺下的"],
+      "answer": "潜在的"
+    },
+    {
+      "word": "underpass",
+      "question": "underpass 的中文意思是？",
+      "options": ["下水道", "地下通道", "天桥", "隧道"],
+      "answer": "地下通道"
+    },
+    {
+      "word": "interaction",
+      "question": "interaction 的中文意思是？",
+      "options": ["共同行动", "内部影响", "内部活动", "相互影响"],
+      "answer": "相互影响"
+    },
+    {
+      "word": "interchangeable",
+      "question": "interchangeable 的中文意思是？",
+      "options": ["可互换的", "同时改变的", "易改变的", "易替换的"],
+      "answer": "可互换的"
+    },
+    {
+      "word": "interdisciplinary",
+      "question": "interdisciplinary 的中文意思是？",
+      "options": ["全部学科的", "单一学科的", "学科内部的", "跨学科的"],
+      "answer": "跨学科的"
+    },
+    {
+      "word": "interrelate",
+      "question": "interrelate 的中文意思是？",
+      "options": ["共同影响", "内部关连", "内部影响", "相互关连"],
+      "answer": "相互关连"
+    },
+    {
+      "word": "intracellular",
+      "question": "intracellular 的中文意思是？",
+      "options": ["细胞内的", "细胞外的", "细胞核的", "细胞间的"],
+      "answer": "细胞内的"
+    },
+    {
+      "word": "intragenic",
+      "question": "intragenic 的中文意思是？",
+      "options": ["基因内的", "基因外的", "基因间的", "转基因的"],
+      "answer": "基因内的"
+    },
+    {
+      "word": "intranational",
+      "question": "intranational 的中文意思是？",
+      "options": ["一国之内的", "国际的", "多国的", "民族之间的"],
+      "answer": "一国之内的"
+    },
+    {
+      "word": "intranet",
+      "question": "intranet 的中文意思是？",
+      "options": ["内网", "外网", "无线网", "有线网"],
+      "answer": "内网"
+    },
+    {
+      "word": "introflection",
+      "question": "introflection 的中文意思是？",
+      "options": ["内部感染", "向内弯曲", "向外弯曲", "外部感染"],
+      "answer": "向内弯曲"
+    },
+    {
+      "word": "introjection",
+      "question": "introjection 的中文意思是？",
+      "options": ["反对", "投入", "注射", "渗透"],
+      "answer": "投入"
+    },
+    {
+      "word": "introscope",
+      "question": "introscope 的中文意思是？",
+      "options": ["偏光显微镜", "内腔检视仪", "射电望远镜", "超声探测仪"],
+      "answer": "内腔检视仪"
+    },
+    {
+      "word": "introverted",
+      "question": "introverted 的中文意思是？",
+      "options": ["内向的", "内省", "变化的", "沉思的"],
+      "answer": "内向的"
+    },
+    {
+      "word": "perimeter",
+      "question": "perimeter 的中文意思是？",
+      "options": ["半径", "周长", "直径", "面积"],
+      "answer": "周长"
+    },
+    {
+      "word": "perinatal",
+      "question": "perinatal 的中文意思是？",
+      "options": ["临产的", "产后的", "怀孕的", "生产的"],
+      "answer": "临产的"
+    },
+    {
+      "word": "subnormal",
+      "question": "subnormal 的中文意思是？",
+      "options": ["不正常的", "低于正常的", "近于正常的", "高于正常的"],
+      "answer": "低于正常的"
+    },
+    {
+      "word": "subsoil",
+      "question": "subsoil 的中文意思是？",
+      "options": ["下层土", "亚土壤", "岩土", "表层土"],
+      "answer": "下层土"
+    },
+    {
+      "word": "substate",
+      "question": "substate 的中文意思是？",
+      "options": ["亚态", "偏态", "正态", "稳态"],
+      "answer": "亚态"
+    },
+    {
+      "word": "underframe",
+      "question": "underframe 的中文意思是？",
+      "options": ["底架", "横梁", "立柱", "诋毁"],
+      "answer": "底架"
+    },
+    {
+      "word": "understructure",
+      "question": "understructure 的中文意思是？",
+      "options": ["上层结构", "下层结构", "次级架构", "经济基础"],
+      "answer": "下层结构"
+    },
+    {
+      "word": "arch-criminal",
+      "question": "arch-criminal 的中文意思是？",
+      "options": ["从犯", "刑事罪犯", "罪魁祸首", "证人"],
+      "answer": "罪魁祸首"
+    },
+    {
+      "word": "arch-rival",
+      "question": "arch-rival 的中文意思是？",
+      "options": ["主要合作伙伴", "主要敌手", "强大对手", "次要竞争对手"],
+      "answer": "主要敌手"
+    },
+    {
+      "word": "archbishop",
+      "question": "archbishop 的中文意思是？",
+      "options": ["主牧师", "大主教", "大法师", "大祭司"],
+      "answer": "大主教"
+    },
+    {
+      "word": "archpriest",
+      "question": "archpriest 的中文意思是？",
+      "options": ["主牧师", "修道院长", "大主教", "大公爵"],
+      "answer": "主牧师"
+    },
+    {
+      "word": "circumcircle",
+      "question": "circumcircle 的中文意思是？",
+      "options": ["内切圆", "内接圆", "外切圆", "外接圆"],
+      "answer": "外接圆"
+    },
+    {
+      "word": "circumference",
+      "question": "circumference 的中文意思是？",
+      "options": ["半径", "圆周", "直径", "面积"],
+      "answer": "圆周"
+    },
+    {
+      "word": "circumnavigate",
+      "question": "circumnavigate 的中文意思是？",
+      "options": ["沿着…航行", "环绕…航行", "逆向航行", "顺向航行"],
+      "answer": "环绕…航行"
+    },
+    {
+      "word": "circumsolar",
+      "question": "circumsolar 的中文意思是？",
+      "options": ["围绕太阳的", "围绕月亮的", "环绕恒星的", "环绕星系的"],
+      "answer": "围绕太阳的"
+    },
+    {
+      "word": "extracurrent",
+      "question": "extracurrent 的中文意思是？",
+      "options": ["额外功率", "额外电流", "额定功率", "额定电流"],
+      "answer": "额外电流"
+    },
+    {
+      "word": "extralunar",
+      "question": "extralunar 的中文意思是？",
+      "options": ["地球之外的", "太阳之外的", "星系之外的", "月球之外的"],
+      "answer": "月球之外的"
+    },
+    {
+      "word": "extrasolar",
+      "question": "extrasolar 的中文意思是？",
+      "options": ["地球以外的", "太阳系以外的", "星系以外的", "月球以外的"],
+      "answer": "太阳系以外的"
+    },
+    {
+      "word": "extraviolet",
+      "question": "extraviolet 的中文意思是？",
+      "options": ["大气的", "紫外线的", "红外线的", "辐射的"],
+      "answer": "紫外线的"
+    },
+    {
+      "word": "perineural",
+      "question": "perineural 的中文意思是？",
+      "options": ["中枢神经的", "周围神经的", "末梢神经的", "脊髓神经的"],
+      "answer": "周围神经的"
+    },
+    {
+      "word": "periscope",
+      "question": "periscope 的中文意思是？",
+      "options": ["显微镜", "望远镜", "潜望镜", "透视镜"],
+      "answer": "潜望镜"
+    },
+    {
+      "word": "superconductor",
+      "question": "superconductor 的中文意思是？",
+      "options": ["半导体", "良导体", "超导体", "非导体"],
+      "answer": "超导体"
+    },
+    {
+      "word": "supermassive",
+      "question": "supermassive 的中文意思是？",
+      "options": ["超大体积的", "超大密度的", "超大视野的", "超大质量的"],
+      "answer": "超大质量的"
+    },
+    {
+      "word": "transcode",
+      "question": "transcode 的中文意思是？",
+      "options": ["代码", "编码", "解码", "转码"],
+      "answer": "转码"
+    },
+    {
+      "word": "transgenic",
+      "question": "transgenic 的中文意思是？",
+      "options": ["仿基因的", "基因突变的", "基因重置的", "转基因的"],
+      "answer": "转基因的"
+    },
+    {
+      "word": "transplant",
+      "question": "transplant 的中文意思是？",
+      "options": ["传送", "移植", "转变", "运输"],
+      "answer": "移植"
+    },
+    {
+      "word": "transposition",
+      "question": "transposition 的中文意思是？",
+      "options": ["[数]消元", "[数]移项", "[数]约分", "[数]通分"],
+      "answer": "[数]移项"
+    },
+    {
+      "word": "hyperactive",
+      "question": "hyperactive 的中文意思是？",
+      "options": ["不活跃的", "互动的", "多动的", "起反应的"],
+      "answer": "多动的"
+    },
+    {
+      "word": "hyperlink",
+      "question": "hyperlink 的中文意思是？",
+      "options": ["弱链接", "强链接", "次链接", "超链接"],
+      "answer": "超链接"
+    },
+    {
+      "word": "hypersensitive",
+      "question": "hypersensitive 的中文意思是？",
+      "options": ["失去知觉的", "恢复知觉的", "感觉迟钝的", "过分敏感的"],
+      "answer": "过分敏感的"
+    },
+    {
+      "word": "hypertext",
+      "question": "hypertext 的中文意思是？",
+      "options": ["文稿", "潜台词", "短信", "超文本"],
+      "answer": "超文本"
+    },
+    {
+      "word": "outgrow",
+      "question": "outgrow 的中文意思是？",
+      "options": ["出现", "发展停滞", "增长快于", "扩展"],
+      "answer": "增长快于"
+    },
+    {
+      "word": "outnumber",
+      "question": "outnumber 的中文意思是？",
+      "options": ["数量超过", "漏算", "给…编号", "计算出"],
+      "answer": "数量超过"
+    },
+    {
+      "word": "outpace",
+      "question": "outpace 的中文意思是？",
+      "options": ["同步", "徒步", "提速", "超过"],
+      "answer": "超过"
+    },
+    {
+      "word": "outshine",
+      "question": "outshine 的中文意思是？",
+      "options": ["使…失去光芒", "使…曝光过度", "使…相形见绌", "使…褪去色泽"],
+      "answer": "使…相形见绌"
+    },
+    {
+      "word": "overbalance",
+      "question": "overbalance 的中文意思是？",
+      "options": ["保持平衡", "失去平衡", "平衡", "非常平衡"],
+      "answer": "失去平衡"
+    },
+    {
+      "word": "overcharge",
+      "question": "overcharge 的中文意思是？",
+      "options": ["充电不足", "再充电", "放电", "过度充电"],
+      "answer": "过度充电"
+    },
+    {
+      "word": "superactivity",
+      "question": "superactivity 的中文意思是？",
+      "options": ["开放性", "挥发性", "灵活性", "超活性"],
+      "answer": "超活性"
+    },
+    {
+      "word": "superaudio",
+      "question": "superaudio 的中文意思是？",
+      "options": ["超动态", "超视觉", "超视频", "超音频"],
+      "answer": "超音频"
+    },
+    {
+      "word": "surcharge",
+      "question": "surcharge 的中文意思是？",
+      "options": ["主管", "低价索取", "卸货", "附加费"],
+      "answer": "附加费"
+    },
+    {
+      "word": "surpass",
+      "question": "surpass 的中文意思是？",
+      "options": ["度过", "绕过", "超过", "路过"],
+      "answer": "超过"
+    },
+    {
+      "word": "surplus",
+      "question": "surplus 的中文意思是？",
+      "options": ["剩余", "增加", "求和", "累计"],
+      "answer": "剩余"
+    },
+    {
+      "word": "surtax",
+      "question": "surtax 的中文意思是？",
+      "options": ["增值税", "消费税", "营业税", "附加税"],
+      "answer": "附加税"
+    },
+    {
+      "word": "ultralight",
+      "question": "ultralight 的中文意思是？",
+      "options": ["愉快", "超轻型的", "轻微的", "重燃"],
+      "answer": "超轻型的"
+    },
+    {
+      "word": "ultramodern",
+      "question": "ultramodern 的中文意思是？",
+      "options": ["超新型的", "跨时代的", "过时的", "近代的"],
+      "answer": "超新型的"
+    },
+    {
+      "word": "ultrasonic",
+      "question": "ultrasonic 的中文意思是？",
+      "options": ["不协调的", "有回声的", "超声波的", "辅音的"],
+      "answer": "超声波的"
+    },
+    {
+      "word": "ultraviolet",
+      "question": "ultraviolet 的中文意思是？",
+      "options": ["剧烈的", "紫外线", "红外线", "超前的"],
+      "answer": "紫外线"
+    },
+    {
+      "word": "bypass",
+      "question": "bypass 的中文意思是？",
+      "options": ["主道", "小道", "旁道", "通道"],
+      "answer": "旁道"
+    },
+    {
+      "word": "byproduct",
+      "question": "byproduct 的中文意思是？",
+      "options": ["伪劣品", "副产品", "次品", "附加品"],
+      "answer": "副产品"
+    },
+    {
+      "word": "bystander",
+      "question": "bystander 的中文意思是？",
+      "options": ["同路人", "旁观者", "陌生人", "领航员"],
+      "answer": "旁观者"
+    },
+    {
+      "word": "bywork",
+      "question": "bywork 的中文意思是？",
+      "options": ["主业", "副业", "杂活", "零活"],
+      "answer": "副业"
+    },
+    {
+      "word": "macroeffect",
+      "question": "macroeffect 的中文意思是？",
+      "options": ["宏指令", "宏观效应", "微气候", "微观效应"],
+      "answer": "宏观效应"
+    },
+    {
+      "word": "macrophotography",
+      "question": "macrophotography 的中文意思是？",
+      "options": ["大型植物", "大孔隙", "宏观摄影", "微观摄影"],
+      "answer": "宏观摄影"
+    },
+    {
+      "word": "micro-electronics",
+      "question": "micro-electronics 的中文意思是？",
+      "options": ["微电力学", "微电子学", "微电机学", "微电气学"],
+      "answer": "微电子学"
+    },
+    {
+      "word": "microcontroller",
+      "question": "microcontroller 的中文意思是？",
+      "options": ["微循环", "微控制器", "微芯片", "微观世界"],
+      "answer": "微控制器"
+    },
+    {
+      "word": "microcopy",
+      "question": "microcopy 的中文意思是？",
+      "options": ["小规模仿制", "平装本", "微缩本", "显微刻录"],
+      "answer": "微缩本"
+    },
+    {
+      "word": "microelement",
+      "question": "microelement 的中文意思是？",
+      "options": ["微电子", "微电极", "微观组织", "（电子）微型元件"],
+      "answer": "（电子）微型元件"
+    },
+    {
+      "word": "overcapacity",
+      "question": "overcapacity 的中文意思是？",
+      "options": ["产能不足", "产能过剩", "力所不及", "满载运行"],
+      "answer": "产能过剩"
+    },
+    {
+      "word": "overflow",
+      "question": "overflow 的中文意思是？",
+      "options": ["悬浮", "溢出", "飞越", "高于"],
+      "answer": "溢出"
+    },
+    {
+      "word": "subcategory",
+      "question": "subcategory 的中文意思是？",
+      "options": ["亚类", "分型", "子域", "次级"],
+      "answer": "亚类"
+    },
+    {
+      "word": "subchannel",
+      "question": "subchannel 的中文意思是？",
+      "options": ["下属分支", "分频道", "备用频道", "子通道"],
+      "answer": "子通道"
+    },
+    {
+      "word": "subform",
+      "question": "subform 的中文意思是？",
+      "options": ["分型", "子目录", "衍生形式", "附加形式"],
+      "answer": "分型"
+    },
+    {
+      "word": "subsonic",
+      "question": "subsonic 的中文意思是？",
+      "options": ["亚音速的", "半固态的", "子空间的", "次光速的"],
+      "answer": "亚音速的"
+    },
+    {
+      "word": "undercharge",
+      "question": "undercharge 的中文意思是？",
+      "options": ["充电不足", "潜移默化", "电量过低", "私下收费"],
+      "answer": "充电不足"
+    },
+    {
+      "word": "undercount",
+      "question": "undercount 的中文意思是？",
+      "options": ["不指望", "柜台下", "计数缺漏", "过低估计"],
+      "answer": "计数缺漏"
+    },
+    {
+      "word": "undercurrent",
+      "question": "undercurrent 的中文意思是？",
+      "options": ["功率不足", "电势不足", "电压不足", "电流不足"],
+      "answer": "电流不足"
+    },
+    {
+      "word": "underexposure",
+      "question": "underexposure 的中文意思是？",
+      "options": ["曝光不足", "输出不足", "过度曝光", "过度输入"],
+      "answer": "曝光不足"
+    },
+    {
+      "word": "co-location",
+      "question": "co-location 的中文意思是？",
+      "options": ["共时位置", "协同定位", "合作地点", "联合地产"],
+      "answer": "协同定位"
+    },
+    {
+      "word": "coadjustment",
+      "question": "coadjustment 的中文意思是？",
+      "options": ["共同协作", "独立调整", "相互调节", "联合创建"],
+      "answer": "相互调节"
+    },
+    {
+      "word": "coexistence",
+      "question": "coexistence 的中文意思是？",
+      "options": ["共处", "共存", "共居", "共栖"],
+      "answer": "共存"
+    },
+    {
+      "word": "comanage",
+      "question": "comanage 的中文意思是？",
+      "options": ["公共管理", "共同管理", "特许经营", "独立经营"],
+      "answer": "共同管理"
+    },
+    {
+      "word": "contraband",
+      "question": "contraband 的中文意思是？",
+      "options": ["反组织", "束腹带", "矛盾", "禁运品"],
+      "answer": "禁运品"
+    },
+    {
+      "word": "contradict",
+      "question": "contradict 的中文意思是？",
+      "options": ["反驳", "承认", "许可", "遵循"],
+      "answer": "反驳"
+    },
+    {
+      "word": "counterclockwise",
+      "question": "counterclockwise 的中文意思是？",
+      "options": ["逆时针方向的", "逆钟摆方向的", "顺时针方向的", "顺钟摆方向的"],
+      "answer": "逆时针方向的"
+    },
+    {
+      "word": "countercurrent",
+      "question": "countercurrent 的中文意思是？",
+      "options": ["反向电流", "正向电流", "正电荷", "负电荷"],
+      "answer": "反向电流"
+    },
+    {
+      "word": "counterpart",
+      "question": "counterpart 的中文意思是？",
+      "options": ["反动组织", "执政党", "职能(或地位)相当的人", "零部件"],
+      "answer": "职能(或地位)相当的人"
+    },
+    {
+      "word": "counterproductive",
+      "question": "counterproductive 的中文意思是？",
+      "options": ["抵制生产", "效果显著", "柜台销售", "适得其反"],
+      "answer": "适得其反"
+    },
+    {
+      "word": "macrograph",
+      "question": "macrograph 的中文意思是？",
+      "options": ["宏指令", "宏观图", "宏观状态", "高分子"],
+      "answer": "宏观图"
+    },
+    {
+      "word": "macroinstruction",
+      "question": "macroinstruction 的中文意思是？",
+      "options": ["宏指令", "宏观建设", "微指令", "微观建设"],
+      "answer": "宏指令"
+    },
+    {
+      "word": "maxicoat",
+      "question": "maxicoat 的中文意思是？",
+      "options": ["中款外套", "短款外套", "紧身衣", "长大衣"],
+      "answer": "长大衣"
+    },
+    {
+      "word": "maximization",
+      "question": "maximization 的中文意思是？",
+      "options": ["普及化", "最大化", "最小化", "自动化"],
+      "answer": "最大化"
+    },
+    {
+      "word": "maximum",
+      "question": "maximum 的中文意思是？",
+      "options": ["最多的", "最小的", "最远的", "最长的"],
+      "answer": "最多的"
+    },
+    {
+      "word": "maxiskirt",
+      "question": "maxiskirt 的中文意思是？",
+      "options": ["苏格兰裙", "超短裙", "超长裙", "迷你裙"],
+      "answer": "超长裙"
+    },
+    {
+      "word": "minicalculator",
+      "question": "minicalculator 的中文意思是？",
+      "options": ["小型放大器", "小型电子计算机", "袖珍电子计算器", "袖珍计算尺"],
+      "answer": "袖珍电子计算器"
+    },
+    {
+      "word": "minicomponent",
+      "question": "minicomponent 的中文意思是？",
+      "options": ["大分子聚合物", "大型组件", "小分子化合物", "小型元件"],
+      "answer": "小型元件"
+    },
+    {
+      "word": "minitransistor",
+      "question": "minitransistor 的中文意思是？",
+      "options": ["小型晶体管", "小型电子管", "微型真空管", "微型译码器"],
+      "answer": "小型晶体管"
+    },
+    {
+      "word": "miniwatt",
+      "question": "miniwatt 的中文意思是？",
+      "options": ["低电压", "大功率", "小功率", "高电压"],
+      "answer": "小功率"
+    },
+    {
+      "word": "antibacterial",
+      "question": "antibacterial 的中文意思是？",
+      "options": ["抗氧化的", "抗菌的", "细菌滋生的", "耐药的"],
+      "answer": "抗菌的"
+    },
+    {
+      "word": "antibiotic",
+      "question": "antibiotic 的中文意思是？",
+      "options": ["干燥剂", "抗生素", "添加剂", "转基因"],
+      "answer": "抗生素"
+    },
+    {
+      "word": "antibody",
+      "question": "antibody 的中文意思是？",
+      "options": ["抗体", "疫苗", "益生菌", "肿瘤"],
+      "answer": "抗体"
+    },
+    {
+      "word": "antioxidant",
+      "question": "antioxidant 的中文意思是？",
+      "options": ["干扰素", "抗氧化剂", "抗生素", "添加剂"],
+      "answer": "抗氧化剂"
+    },
+    {
+      "word": "contranatural",
+      "question": "contranatural 的中文意思是？",
+      "options": ["性质相悖的", "超自然的", "违背自然的", "遵循自然的"],
+      "answer": "违背自然的"
+    },
+    {
+      "word": "contratest",
+      "question": "contratest 的中文意思是？",
+      "options": ["与测试相悖的", "反对考试的", "对照试验的", "无效的"],
+      "answer": "对照试验的"
+    },
+    {
+      "word": "malabsorption",
+      "question": "malabsorption 的中文意思是？",
+      "options": ["不适应", "凸螺旋", "吸收不良", "失调"],
+      "answer": "吸收不良"
+    },
+    {
+      "word": "malfunction",
+      "question": "malfunction 的中文意思是？",
+      "options": ["副作用", "功能障碍", "反函数", "多功能"],
+      "answer": "功能障碍"
+    },
+    {
+      "word": "misalign",
+      "question": "misalign 的中文意思是？",
+      "options": ["使失调", "分配不当", "滥用", "错误瞄准"],
+      "answer": "错误瞄准"
+    },
+    {
+      "word": "misorder",
+      "question": "misorder 的中文意思是？",
+      "options": ["使混乱", "定位不当", "标错价格", "错位"],
+      "answer": "使混乱"
+    },
+    {
+      "word": "misplace",
+      "question": "misplace 的中文意思是？",
+      "options": ["忽视", "放错地方", "贬低", "降低地位"],
+      "answer": "放错地方"
+    },
+    {
+      "word": "misreport",
+      "question": "misreport 的中文意思是？",
+      "options": ["不如实地报道", "假象", "引用", "错过报告"],
+      "answer": "不如实地报道"
+    },
+    {
+      "word": "pro-American",
+      "question": "pro-American 的中文意思是？",
+      "options": ["亲美的", "反美的", "泛美的", "源于美国的"],
+      "answer": "亲美的"
+    },
+    {
+      "word": "proclivity",
+      "question": "proclivity 的中文意思是？",
+      "options": ["不良倾向", "依赖", "活性", "活跃度"],
+      "answer": "不良倾向"
+    },
+    {
+      "word": "proponent",
+      "question": "proponent 的中文意思是？",
+      "options": ["反对", "反对者", "拥护者", "支持"],
+      "answer": "拥护者"
+    },
+    {
+      "word": "proslavery",
+      "question": "proslavery 的中文意思是？",
+      "options": ["反对奴隶制度", "取缔奴隶制度", "推广奴隶制度", "支持奴隶制度"],
+      "answer": "支持奴隶制度"
+    },
+    {
+      "word": "pseudoclassic",
+      "question": "pseudoclassic 的中文意思是？",
+      "options": ["仿古典的", "反古典的", "古典主义", "虚拟事件"],
+      "answer": "仿古典的"
+    },
+    {
+      "word": "pseudogene",
+      "question": "pseudogene 的中文意思是？",
+      "options": ["假基因", "基因疗法", "基因突变", "检测基因"],
+      "answer": "假基因"
+    },
+    {
+      "word": "pseudomemory",
+      "question": "pseudomemory 的中文意思是？",
+      "options": ["心理历史", "深度记忆", "记忆错误", "超强记忆"],
+      "answer": "记忆错误"
+    },
+    {
+      "word": "pseudoplastic",
+      "question": "pseudoplastic 的中文意思是？",
+      "options": ["假塑性的", "塑形的", "破碎塑料", "迷幻世界"],
+      "answer": "假塑性的"
+    },
+    {
+      "word": "bicorn",
+      "question": "bicorn 的中文意思是？",
+      "options": ["单角的", "双角的", "复合的", "多元的"],
+      "answer": "双角的"
+    },
+    {
+      "word": "bicultural",
+      "question": "bicultural 的中文意思是？",
+      "options": ["双元文化的", "外国文化的", "文化多样性", "本国文化的"],
+      "answer": "双元文化的"
+    },
+    {
+      "word": "binal",
+      "question": "binal 的中文意思是？",
+      "options": ["2000周年的", "双重的", "快速旋转", "生物种"],
+      "answer": "双重的"
+    },
+    {
+      "word": "diatomic",
+      "question": "diatomic 的中文意思是？",
+      "options": ["二轴突细胞", "单细胞的", "双原子的", "多细胞的"],
+      "answer": "双原子的"
+    },
+    {
+      "word": "maladministration",
+      "question": "maladministration 的中文意思是？",
+      "options": ["中产阶级", "大男子主义", "管理不善", "脉冲"],
+      "answer": "管理不善"
+    },
+    {
+      "word": "maldevelopment",
+      "question": "maldevelopment 的中文意思是？",
+      "options": ["发展落后", "发育不良", "快速发展", "畸形"],
+      "answer": "发育不良"
+    },
+    {
+      "word": "monocracy",
+      "question": "monocracy 的中文意思是？",
+      "options": ["一元论", "混血", "独裁政治", "绰号"],
+      "answer": "独裁政治"
+    },
+    {
+      "word": "monograph",
+      "question": "monograph 的中文意思是？",
+      "options": ["专著", "同源", "摄影", "本位"],
+      "answer": "专著"
+    },
+    {
+      "word": "monolayer",
+      "question": "monolayer 的中文意思是？",
+      "options": ["单细胞层", "复合层", "多层的", "杂种"],
+      "answer": "单层"
+    },
+    {
+      "word": "quadrangle",
+      "question": "quadrangle 的中文意思是？",
+      "options": ["三角形", "五角形", "六角形", "四角形"],
+      "answer": "四角形"
+    },
+    {
+      "word": "quadrant",
+      "question": "quadrant 的中文意思是？",
+      "options": ["向量", "坐标", "矢量", "象限"],
+      "answer": "象限"
+    },
+    {
+      "word": "quadrasonic",
+      "question": "quadrasonic 的中文意思是？",
+      "options": ["三声道的", "五声道的", "六声道的", "四声道的"],
+      "answer": "四声道的"
+    },
+    {
+      "word": "quadricycle",
+      "question": "quadricycle 的中文意思是？",
+      "options": ["三轮车", "四周的", "四轮车", "环绕的"],
+      "answer": "四轮车"
+    },
+    {
+      "word": "quadrilateral",
+      "question": "quadrilateral 的中文意思是？",
+      "options": ["三边的", "五边的", "六边的", "四边的"],
+      "answer": "四边的"
+    },
+    {
+      "word": "quadrilingual",
+      "question": "quadrilingual 的中文意思是？",
+      "options": ["三国语言的", "五国语言的", "六国语言的", "四国语言的"],
+      "answer": "四国语言的"
+    },
+    {
+      "word": "triad",
+      "question": "triad 的中文意思是？",
+      "options": ["三人小组", "排列组", "摩擦学", "预赛"],
+      "answer": "三人小组"
+    },
+    {
+      "word": "triangular",
+      "question": "triangular 的中文意思是？",
+      "options": ["三叠纪", "三角形的", "心轴", "部落"],
+      "answer": "三角形的"
+    },
+    {
+      "word": "trias",
+      "question": "trias 的中文意思是？",
+      "options": ["三叠纪", "偏见的", "心轴", "试验的"],
+      "answer": "三叠纪"
+    },
+    {
+      "word": "tricyclic",
+      "question": "tricyclic 的中文意思是？",
+      "options": ["三轮的", "控制轮", "特技自行车", "诡计多端的"],
+      "answer": "三环的"
+    },
+    {
+      "word": "universalize",
+      "question": "universalize 的中文意思是？",
+      "options": ["不可知之", "使通用化", "大学学院", "拆散"],
+      "answer": "使通用化"
+    },
+    {
+      "word": "heptatomic",
+      "question": "heptatomic 的中文意思是？",
+      "options": ["七原子的", "三原子的", "九原子的", "五原子的"],
+      "answer": "七原子的"
+    },
+    {
+      "word": "heptoxide",
+      "question": "heptoxide 的中文意思是？",
+      "options": ["七氧化物的", "五氧化物的", "六氧化物的", "四氧化物的"],
+      "answer": "七氧化物的"
+    },
+    {
+      "word": "hexadecimal",
+      "question": "hexadecimal 的中文意思是？",
+      "options": ["二进制的", "八进制的", "十六进制的", "四进制的"],
+      "answer": "十六进制的"
+    },
+    {
+      "word": "hexagon",
+      "question": "hexagon 的中文意思是？",
+      "options": ["七角形", "五角形", "六角形", "四角形"],
+      "answer": "六角形"
+    },
+    {
+      "word": "hexapod",
+      "question": "hexapod 的中文意思是？",
+      "options": ["二足动物的", "八足动物的", "六足动物的", "四足动物的"],
+      "answer": "六足动物的"
+    },
+    {
+      "word": "hexoxide",
+      "question": "hexoxide 的中文意思是？",
+      "options": ["三氧化物", "五氧化物", "六氧化物", "四氧化物"],
+      "answer": "六氧化物"
+    },
+    {
+      "word": "pentagon",
+      "question": "pentagon 的中文意思是？",
+      "options": ["七角形", "五角形", "六角形", "四角形"],
+      "answer": "五角形"
+    },
+    {
+      "word": "pentamirror",
+      "question": "pentamirror 的中文意思是？",
+      "options": ["三面镜", "五面镜", "六面镜", "四面镜"],
+      "answer": "五面镜"
+    },
+    {
+      "word": "pentaprism",
+      "question": "pentaprism 的中文意思是？",
+      "options": ["三棱镜", "五棱镜", "六棱镜", "四棱镜"],
+      "answer": "五棱镜"
+    },
+    {
+      "word": "pentathlete",
+      "question": "pentathlete 的中文意思是？",
+      "options": ["三项全能运动员", "二项全能运动员", "五项全能运动员", "十项全能运动员"],
+      "answer": "五项全能运动员"
+    },
+    {
+      "word": "quadrisection",
+      "question": "quadrisection 的中文意思是？",
+      "options": ["三等分", "五等分", "六等分", "四等分"],
+      "answer": "四等分"
+    },
+    {
+      "word": "septan",
+      "question": "septan 的中文意思是？",
+      "options": ["每隔七日再现的", "每隔三日再现的", "每隔九日再现的", "每隔五日再现的"],
+      "answer": "每隔七日再现的"
+    },
+    {
+      "word": "septangular",
+      "question": "septangular 的中文意思是？",
+      "options": ["七角形的", "五角形的", "六角形的", "四角形的"],
+      "answer": "七角形的"
+    },
+    {
+      "word": "septennial",
+      "question": "septennial 的中文意思是？",
+      "options": ["七年一次的", "九年一次的", "八年一次的", "六年一次的"],
+      "answer": "七年一次的"
+    },
+    {
+      "word": "septuple",
+      "question": "septuple 的中文意思是？",
+      "options": ["七倍的", "五倍的", "六倍的", "四倍的"],
+      "answer": "七倍的"
+    },
+    {
+      "word": "tetranuclear",
+      "question": "tetranuclear 的中文意思是？",
+      "options": ["二核的", "八核的", "六核的", "四核的"],
+      "answer": "四核的"
+    },
+    {
+      "word": "tetraoxide",
+      "question": "tetraoxide 的中文意思是？",
+      "options": ["三氧化物", "二氧化物", "五氧化物", "四氧化物"],
+      "answer": "四氧化物"
+    },
+    {
+      "word": "tetrapod",
+      "question": "tetrapod 的中文意思是？",
+      "options": ["二足动物的", "八足动物的", "四足动物的", "六足动物的"],
+      "answer": "四足动物的"
+    },
+    {
+      "word": "tetrapolar",
+      "question": "tetrapolar 的中文意思是？",
+      "options": ["二极的", "八极的", "六极的", "四极的"],
+      "answer": "四极的"
+    },
+    {
+      "word": "tetratomic",
+      "question": "tetratomic 的中文意思是？",
+      "options": ["三原子的", "二原子的", "五原子的", "四原子的"],
+      "answer": "四原子的"
+    },
+    {
+      "word": "decade",
+      "question": "decade 的中文意思是？",
+      "options": ["二十年", "五年", "十年", "年代"],
+      "answer": "十年"
+    },
+    {
+      "word": "decameter",
+      "question": "decameter 的中文意思是？",
+      "options": ["分米", "十米", "厘米", "毫米"],
+      "answer": "十米"
+    },
+    {
+      "word": "deciare",
+      "question": "deciare 的中文意思是？",
+      "options": ["一公亩", "五分之一公亩", "十分之一公亩", "四分之一公亩"],
+      "answer": "十分之一公亩"
+    },
+    {
+      "word": "decigram",
+      "question": "decigram 的中文意思是？",
+      "options": ["万分之一克", "十分之一克", "千分之一克", "百分之一克"],
+      "answer": "十分之一克"
+    },
+    {
+      "word": "decimal",
+      "question": "decimal 的中文意思是？",
+      "options": ["二进制", "十进制", "千进制", "百进制"],
+      "answer": "十进制"
+    },
+    {
+      "word": "decimeter",
+      "question": "decimeter 的中文意思是？",
+      "options": ["分米", "厘米", "毫米", "纳米"],
+      "answer": "分米"
+    },
+    {
+      "word": "ennead",
+      "question": "ennead 的中文意思是？",
+      "options": ["七个一组", "九个一组", "八个一组", "十个一组"],
+      "answer": "九个一组"
+    },
+    {
+      "word": "enneagon",
+      "question": "enneagon 的中文意思是？",
+      "options": ["七边形", "九边形", "八边形", "十边形"],
+      "answer": "九边形"
+    },
+    {
+      "word": "enneastyle",
+      "question": "enneastyle 的中文意思是？",
+      "options": ["九柱式建筑", "八柱式建筑", "六柱式建筑", "十柱式建筑"],
+      "answer": "九柱式建筑"
+    },
+    {
+      "word": "enneasyllable",
+      "question": "enneasyllable 的中文意思是？",
+      "options": ["七音节", "九音节", "八音节", "十音节"],
+      "answer": "九音节"
+    },
+    {
+      "word": "heptathlon",
+      "question": "heptathlon 的中文意思是？",
+      "options": ["七项全能", "三项全能", "五项全能", "十项全能"],
+      "answer": "七项全能"
+    },
+    {
+      "word": "nonagon",
+      "question": "nonagon 的中文意思是？",
+      "options": ["七边形", "九边形", "八边形", "十边形"],
+      "answer": "九边形"
+    },
+    {
+      "word": "nonary",
+      "question": "nonary 的中文意思是？",
+      "options": ["七个一组", "九个一组", "八个一组", "十个一组"],
+      "answer": "九个一组"
+    },
+    {
+      "word": "nonode",
+      "question": "nonode 的中文意思是？",
+      "options": ["三极管", "九极管", "二极管", "六极管"],
+      "answer": "九极管"
+    },
+    {
+      "word": "nonuple",
+      "question": "nonuple 的中文意思是？",
+      "options": ["七倍的", "九倍的", "八倍的", "十倍的"],
+      "answer": "九倍的"
+    },
+    {
+      "word": "nonuploid",
+      "question": "nonuploid 的中文意思是？",
+      "options": ["七倍体", "九倍体", "八倍体", "十倍体"],
+      "answer": "九倍体"
+    },
+    {
+      "word": "octagon",
+      "question": "octagon 的中文意思是？",
+      "options": ["七角形", "九角形", "八角形", "十角形"],
+      "answer": "八角形"
+    },
+    {
+      "word": "octal",
+      "question": "octal 的中文意思是？",
+      "options": ["二进制的", "八进制的", "十六进制的", "四进制的"],
+      "answer": "八进制的"
+    },
+    {
+      "word": "octastyle",
+      "question": "octastyle 的中文意思是？",
+      "options": ["九柱式建筑", "八柱式建筑", "六柱式建筑", "十柱式建筑"],
+      "answer": "八柱式建筑"
+    },
+    {
+      "word": "octuple",
+      "question": "octuple 的中文意思是？",
+      "options": ["八倍的", "十二倍的", "十倍的", "四倍的"],
+      "answer": "八倍的"
+    },
+    {
+      "word": "centigram",
+      "question": "centigram 的中文意思是？",
+      "options": ["十克", "厘克", "微克", "毫克"],
+      "answer": "厘克"
+    },
+    {
+      "word": "centiliter",
+      "question": "centiliter 的中文意思是？",
+      "options": ["公升", "千升", "厘升", "毫升"],
+      "answer": "厘升"
+    },
+    {
+      "word": "centimeter",
+      "question": "centimeter 的中文意思是？",
+      "options": ["分米", "厘米", "微米", "毫米"],
+      "answer": "厘米"
+    },
+    {
+      "word": "centipede",
+      "question": "centipede 的中文意思是？",
+      "options": ["蚂蚁", "蜈蚣", "蜘蛛", "螃蟹"],
+      "answer": "蜈蚣"
+    },
+    {
+      "word": "decagon",
+      "question": "decagon 的中文意思是？",
+      "options": ["五角形", "八角形", "六角形", "十角形"],
+      "answer": "十角形"
+    },
+    {
+      "word": "decathlon",
+      "question": "decathlon 的中文意思是？",
+      "options": ["九项运动", "八项运动", "十二项运动", "十项运动"],
+      "answer": "十项运动"
+    },
+    {
+      "word": "gigabyte",
+      "question": "gigabyte 的中文意思是？",
+      "options": ["万兆字节", "亿兆字节", "千兆字节", "百万兆字节"],
+      "answer": "千兆字节"
+    },
+    {
+      "word": "gigahertz",
+      "question": "gigahertz 的中文意思是？",
+      "options": ["万兆赫兹", "亿兆赫兹", "千兆赫兹", "百兆赫兹"],
+      "answer": "千兆赫兹"
+    },
+    {
+      "word": "kilogram",
+      "question": "kilogram 的中文意思是？",
+      "options": ["十克", "千克", "毫克", "百克"],
+      "answer": "千克"
+    },
+    {
+      "word": "kilometer",
+      "question": "kilometer 的中文意思是？",
+      "options": ["分米", "千米", "微米", "毫米"],
+      "answer": "千米"
+    },
+    {
+      "word": "kilovolt",
+      "question": "kilovolt 的中文意思是？",
+      "options": ["伏特", "十伏特", "千伏特", "百伏特"],
+      "answer": "千伏特"
+    },
+    {
+      "word": "kilowatt",
+      "question": "kilowatt 的中文意思是？",
+      "options": ["万瓦", "十瓦", "千瓦", "百瓦"],
+      "answer": "千瓦"
+    },
+    {
+      "word": "megabyte",
+      "question": "megabyte 的中文意思是？",
+      "options": ["万字节", "亿字节", "兆字节", "千字节"],
+      "answer": "兆字节"
+    },
+    {
+      "word": "megacycle",
+      "question": "megacycle 的中文意思是？",
+      "options": ["万周", "亿周", "兆周", "千周"],
+      "answer": "兆周"
+    },
+    {
+      "word": "megavolt",
+      "question": "megavolt 的中文意思是？",
+      "options": ["万伏特", "亿伏特", "兆伏特", "千伏特"],
+      "answer": "兆伏特"
+    },
+    {
+      "word": "megawatt",
+      "question": "megawatt 的中文意思是？",
+      "options": ["万瓦", "亿瓦", "兆瓦", "千瓦"],
+      "answer": "兆瓦"
+    },
+    {
+      "word": "millionaire",
+      "question": "millionaire 的中文意思是？",
+      "options": ["万元富翁", "亿万富翁", "千万富翁", "百万富翁"],
+      "answer": "百万富翁"
+    },
+    {
+      "word": "millennial",
+      "question": "millennial 的中文意思是？",
+      "options": ["万年的", "十年的", "千年的", "百年的"],
+      "answer": "千年的"
+    },
+    {
+      "word": "millimeter",
+      "question": "millimeter 的中文意思是？",
+      "options": ["分米", "厘米", "微米", "毫米"],
+      "answer": "毫米"
+    },
+    {
+      "word": "millimole",
+      "question": "millimole 的中文意思是？",
+      "options": ["分摩", "厘摩", "摩尔", "毫摩"],
+      "answer": "毫摩"
+    },
+    {
+      "word": "bepowder",
+      "question": "bepowder 的中文意思是？",
+      "options": ["授权给", "施以权力", "用粉撒上", "装填炸药"],
+      "answer": "用粉撒上"
+    },
+    {
+      "word": "bespectacled",
+      "question": "bespectacled 的中文意思是？",
+      "options": ["令人炫目的", "戴眼镜的", "景象壮观的", "近视的"],
+      "answer": "戴眼镜的"
+    },
+    {
+      "word": "gigabit",
+      "question": "gigabit 的中文意思是？",
+      "options": ["万兆比特", "千兆比特", "百兆比特", "百兆比特"],
+      "answer": "千兆比特"
+    },
+    {
+      "word": "gigantic",
+      "question": "gigantic 的中文意思是？",
+      "options": ["大的", "巨大的", "庞大的", "很大的"],
+      "answer": "巨大的"
+    },
+    {
+      "word": "hemicellulose",
+      "question": "hemicellulose 的中文意思是？",
+      "options": ["半导体", "半月板", "半球体", "半纤维素"],
+      "answer": "半纤维素"
+    },
+    {
+      "word": "hemifacial",
+      "question": "hemifacial 的中文意思是？",
+      "options": ["半月板的", "半球体的", "半纤维素的", "半面部的"],
+      "answer": "半面部的"
+    },
+    {
+      "word": "hemiplegia",
+      "question": "hemiplegia 的中文意思是？",
+      "options": ["半导体", "半月板", "半球体", "半身麻痹"],
+      "answer": "半身麻痹"
+    },
+    {
+      "word": "hemisphere",
+      "question": "hemisphere 的中文意思是？",
+      "options": ["半导体", "半月板", "半球", "半糖"],
+      "answer": "半球"
+    },
+    {
+      "word": "multifunctional",
+      "question": "multifunctional 的中文意思是？",
+      "options": ["多功能的", "多国的", "多媒体的", "多边的"],
+      "answer": "多功能的"
+    },
+    {
+      "word": "multilateral",
+      "question": "multilateral 的中文意思是？",
+      "options": ["多国集团的", "多媒体的", "多媒体的", "多边的"],
+      "answer": "多边的"
+    },
+    {
+      "word": "multimedia",
+      "question": "multimedia 的中文意思是？",
+      "options": ["互联网媒体", "多媒体", "大众传媒", "电子传媒"],
+      "answer": "多媒体"
+    },
+    {
+      "word": "multiplier",
+      "question": "multiplier 的中文意思是？",
+      "options": ["乘数", "多面手", "电子镇流器", "电容器"],
+      "answer": "乘数"
+    },
+    {
+      "word": "nanocomposite",
+      "question": "nanocomposite 的中文意思是？",
+      "options": ["纳米化合物", "纳米合成技术", "纳米复合材料", "纳米机器人"],
+      "answer": "纳米复合材料"
+    },
+    {
+      "word": "nanometer",
+      "question": "nanometer 的中文意思是？",
+      "options": ["微米", "纳米", "纳米技术", "纳米计量器"],
+      "answer": "纳米"
+    },
+    {
+      "word": "nanoparticle",
+      "question": "nanoparticle 的中文意思是？",
+      "options": ["纳米化合物", "纳米技术", "纳米机器人", "纳米颗粒"],
+      "answer": "纳米颗粒"
+    },
+    {
+      "word": "nanoscale",
+      "question": "nanoscale 的中文意思是？",
+      "options": ["纳米复合材料", "纳米级", "纳米装甲", "纳米计量器"],
+      "answer": "纳米级"
+    },
+    {
+      "word": "polygon",
+      "question": "polygon 的中文意思是？",
+      "options": ["六角形", "多边形", "玻璃钢", "钢化玻璃"],
+      "answer": "多边形"
+    },
+    {
+      "word": "polymer",
+      "question": "polymer 的中文意思是？",
+      "options": ["复合纤维", "多分子化合物", "多糖皂甙", "聚合物"],
+      "answer": "聚合物"
+    },
+    {
+      "word": "polymorphism",
+      "question": "polymorphism 的中文意思是？",
+      "options": ["复合纤维", "多态性", "多糖皂甙", "玻璃磨棒"],
+      "answer": "多态性"
+    },
+    {
+      "word": "polynomial",
+      "question": "polynomial 的中文意思是？",
+      "options": ["多维度的", "多边形", "多项式", "玻璃纳米"],
+      "answer": "多项式"
+    },
+    {
+      "word": "ablaze",
+      "question": "ablaze 的中文意思是？",
+      "options": ["冒烟的", "发光的", "发芽的", "暗淡的"],
+      "answer": "发光的"
+    },
+    {
+      "word": "afloat",
+      "question": "afloat 的中文意思是？",
+      "options": ["冻僵的", "沸腾的", "流动的", "漂浮的"],
+      "answer": "漂浮的"
+    },
+    {
+      "word": "aground",
+      "question": "aground 的中文意思是？",
+      "options": ["地下的", "基础的", "悬空的", "搁浅的"],
+      "answer": "搁浅的"
+    },
+    {
+      "word": "amid",
+      "question": "amid 的中文意思是？",
+      "options": ["在...之上", "在...之下", "在...之中", "在...之外"],
+      "answer": "在...之中"
+    },
+    {
+      "word": "autoantibody",
+      "question": "autoantibody 的中文意思是？",
+      "options": ["染色体", "标本", "活性元素", "自身抗体"],
+      "answer": "自身抗体"
+    },
+    {
+      "word": "autocorrection",
+      "question": "autocorrection 的中文意思是？",
+      "options": ["无人控制", "自动校正", "自发连接", "自我复制"],
+      "answer": "自动校正"
+    },
+    {
+      "word": "autopilot",
+      "question": "autopilot 的中文意思是？",
+      "options": ["导航仪", "自动驾驶仪", "车载导航", "飞行员"],
+      "answer": "自动驾驶仪"
+    },
+    {
+      "word": "autoverify",
+      "question": "autoverify 的中文意思是？",
+      "options": ["自动升降", "自动校验", "自动生成", "自动装配"],
+      "answer": "自动校验"
+    },
+    {
+      "word": "bejeweled",
+      "question": "bejeweled 的中文意思是？",
+      "options": ["信犹太教的", "心爱的", "珍贵的", "饰有珠宝的"],
+      "answer": "饰有珠宝的"
+    },
+    {
+      "word": "bescreen",
+      "question": "bescreen 的中文意思是？",
+      "options": ["以屏遮掩", "增强反光", "投屏", "拍成电影"],
+      "answer": "以屏遮掩"
+    },
+    {
+      "word": "embank",
+      "question": "embank 的中文意思是？",
+      "options": ["存款", "开户", "溃坝", "筑堤"],
+      "answer": "筑堤"
+    },
+    {
+      "word": "embed",
+      "question": "embed 的中文意思是？",
+      "options": ["奠基", "嵌入", "装载", "铺床"],
+      "answer": "嵌入"
+    },
+    {
+      "word": "embody",
+      "question": "embody 的中文意思是？",
+      "options": ["体现", "假体", "具体", "背负"],
+      "answer": "体现"
+    },
+    {
+      "word": "empower",
+      "question": "empower 的中文意思是？",
+      "options": ["增强力量", "授权与", "施加影响", "颠覆"],
+      "answer": "授权与"
+    },
+    {
+      "word": "encode",
+      "question": "encode 的中文意思是？",
+      "options": ["编码", "解码", "译码", "转码"],
+      "answer": "编码"
+    },
+    {
+      "word": "enforce",
+      "question": "enforce 的中文意思是？",
+      "options": ["反作用力", "强制执行", "承载压力", "缓解压力"],
+      "answer": "强制执行"
+    },
+    {
+      "word": "enhearten",
+      "question": "enhearten 的中文意思是？",
+      "options": ["使...心狠手辣", "使中心化", "把...放在心上", "鼓舞；振奋"],
+      "answer": "鼓舞；振奋"
+    },
+    {
+      "word": "entitle",
+      "question": "entitle 的中文意思是？",
+      "options": ["使出名", "加标题", "提拔", "给…定名"],
+      "answer": "加标题"
+    },
+    {
+      "word": "neoclassical",
+      "question": "neoclassical 的中文意思是？",
+      "options": ["后古典主义的", "新古典主义的", "旧古典主义的", "泛古典主义的"],
+      "answer": "新古典主义的"
+    },
+    {
+      "word": "neoformation",
+      "question": "neoformation 的中文意思是？",
+      "options": ["新形态", "新模型", "新生物", "新表单"],
+      "answer": "新生物"
+    },
+    {
+      "word": "equi-arm",
+      "question": "equi-arm 的中文意思是？",
+      "options": ["前臂的", "双臂的", "独臂的", "等臂的"],
+      "answer": "等臂的"
+    },
+    {
+      "word": "equi-effect",
+      "question": "equi-effect 的中文意思是？",
+      "options": ["后果", "正面", "等效", "负面"],
+      "answer": "等效"
+    },
+    {
+      "word": "equi-join",
+      "question": "equi-join 的中文意思是？",
+      "options": ["单链接", "等结合", "结合部", "装备部"],
+      "answer": "等结合"
+    },
+    {
+      "word": "equi-length",
+      "question": "equi-length 的中文意思是？",
+      "options": ["深度（的）", "相似度（的）", "等长（的）", "长度（的）"],
+      "answer": "等长（的）"
+    },
+    {
+      "word": "neo-biological",
+      "question": "neo-biological 的中文意思是？",
+      "options": ["反人类的", "新生物的", "旧石器时代的", "生物起源的"],
+      "answer": "新生物的"
+    },
+    {
+      "word": "neofat",
+      "question": "neofat 的中文意思是？",
+      "options": ["新分区表", "新炼油脂", "新生脂肪", "新肥胖症"],
+      "answer": "新生脂肪"
+    },
+    {
+      "word": "pan-American",
+      "question": "pan-American 的中文意思是？",
+      "options": ["亲美的", "抗美的", "泛美的", "美式的"],
+      "answer": "泛美的"
+    },
+    {
+      "word": "pan-chromatic",
+      "question": "pan-chromatic 的中文意思是？",
+      "options": ["全色的", "季节性的", "急性的", "慢性的"],
+      "answer": "全色的"
+    },
+    {
+      "word": "panbiogeography",
+      "question": "panbiogeography 的中文意思是？",
+      "options": ["一般地理学", "人类地理学", "泛生物地理学", "非生物地理学"],
+      "answer": "泛生物地理学"
+    },
+    {
+      "word": "pantheism",
+      "question": "pantheism 的中文意思是？",
+      "options": ["个人主任", "无神论", "泛神论", "集体主义"],
+      "answer": "泛神论"
+    },
+    {
+      "word": "protohistoric",
+      "question": "protohistoric 的中文意思是？",
+      "options": ["与历史有关的", "历史学家", "史前时期的", "有历史意义的"],
+      "answer": "史前时期的"
+    },
+    {
+      "word": "protohuman",
+      "question": "protohuman 的中文意思是？",
+      "options": ["人类历史", "人类学的", "史前时期的", "早期原始人的"],
+      "answer": "早期原始人的"
+    },
+    {
+      "word": "prototype",
+      "question": "prototype 的中文意思是？",
+      "options": ["原型", "形状", "成型", "草案"],
+      "answer": "原型"
+    },
+    {
+      "word": "protozoology",
+      "question": "protozoology 的中文意思是？",
+      "options": ["动物学", "原始动物园", "原始生物学", "原生动物学"],
+      "answer": "原生动物学"
+    },
+    {
+      "word": "quasilinear",
+      "question": "quasilinear 的中文意思是？",
+      "options": ["准沸腾的", "准线性的", "弯曲的", "流线型的"],
+      "answer": "准线性的"
+    },
+    {
+      "word": "quasispecies",
+      "question": "quasispecies 的中文意思是？",
+      "options": ["准种", "物种", "特性", "疑问"],
+      "answer": "准种"
+    },
+    {
+      "word": "quasistatic",
+      "question": "quasistatic 的中文意思是？",
+      "options": ["准静态的", "复杂的", "流动的", "非静态的"],
+      "answer": "准静态的"
+    },
+    {
+      "word": "quasisteady",
+      "question": "quasisteady 的中文意思是？",
+      "options": ["一般性的", "准活跃的", "准稳定的", "准静态的"],
+      "answer": "准稳定的"
+    },
+    {
+      "word": "vice-consul",
+      "question": "vice-consul 的中文意思是？",
+      "options": ["副专员", "副代理", "副顾问", "副领事"],
+      "answer": "副领事"
+    },
+    {
+      "word": "vice-premier",
+      "question": "vice-premier 的中文意思是？",
+      "options": ["副主席", "副手", "副首相", "总理"],
+      "answer": "副首相"
+    },
+    {
+      "word": "astronaut",
+      "question": "astronaut 的中文意思是？",
+      "options": ["天文学", "太空服", "宇航员", "飞行员"],
+      "answer": "宇航员"
+    },
+    {
+      "word": "astronomy",
+      "question": "astronomy 的中文意思是？",
+      "options": ["天文学", "太空站", "宇航员", "宇航服"],
+      "answer": "天文学"
+    },
+    {
+      "word": "astrophysics",
+      "question": "astrophysics 的中文意思是？",
+      "options": ["天体力学", "天体物理学", "天文学", "物理学"],
+      "answer": "天体物理学"
+    },
+    {
+      "word": "astrospace",
+      "question": "astrospace 的中文意思是？",
+      "options": ["外太空", "太空舱", "宇航员", "空间站"],
+      "answer": "外太空"
+    },
+    {
+      "word": "biochemistry",
+      "question": "biochemistry 的中文意思是？",
+      "options": ["物理化学", "生命科学", "生物化学", "生物医学"],
+      "answer": "生物化学"
+    },
+    {
+      "word": "biocide",
+      "question": "biocide 的中文意思是？",
+      "options": ["杀虫剂", "洗洁精", "灭菌器", "除草剂"],
+      "answer": "杀虫剂"
+    },
+    {
+      "word": "bioclean",
+      "question": "bioclean 的中文意思是？",
+      "options": ["整洁的", "整齐的", "无菌的", "洁净的"],
+      "answer": "无菌的"
+    },
+    {
+      "word": "biohazard",
+      "question": "biohazard 的中文意思是？",
+      "options": ["双重风险", "环境污染", "生物危害", "自然危害"],
+      "answer": "生物危害"
+    },
+    {
+      "word": "cyber-investing",
+      "question": "cyber-investing 的中文意思是？",
+      "options": ["网上交易", "网上银行", "网络安全", "网络投资"],
+      "answer": "网络投资"
+    },
+    {
+      "word": "cyberaddiction",
+      "question": "cyberaddiction 的中文意思是？",
+      "options": ["瘾君子", "网民", "网瘾", "网虫"],
+      "answer": "网瘾"
+    },
+    {
+      "word": "cybercafe",
+      "question": "cybercafe 的中文意思是？",
+      "options": ["咖啡馆", "网吧", "酒店", "食堂"],
+      "answer": "网吧"
+    },
+    {
+      "word": "cyberculture",
+      "question": "cyberculture 的中文意思是？",
+      "options": ["互联网", "现代文明", "网络教育", "网络文化"],
+      "answer": "网络文化"
+    },
+    {
+      "word": "geometry",
+      "question": "geometry 的中文意思是？",
+      "options": ["几何学", "地理测绘学", "地质测绘学", "立体声学"],
+      "answer": "几何学"
+    },
+    {
+      "word": "geopolitics",
+      "question": "geopolitics 的中文意思是？",
+      "options": ["地理政策学", "地理社会学", "地缘政治学", "地质政治学"],
+      "answer": "地缘政治学"
+    },
+    {
+      "word": "telediagnosis",
+      "question": "telediagnosis 的中文意思是？",
+      "options": ["治疗", "电话诊断", "诊断", "远程医疗"],
+      "answer": "远程医疗"
+    },
+    {
+      "word": "telemanipulator",
+      "question": "telemanipulator 的中文意思是？",
+      "options": ["控制器", "电话操作", "远程操控", "遥控装置"],
+      "answer": "遥控装置"
+    },
+    {
+      "word": "telemarketing",
+      "question": "telemarketing 的中文意思是？",
+      "options": ["推销电话", "电信市场", "电话市场", "电话营销"],
+      "answer": "电话营销"
+    },
+    {
+      "word": "telemetry",
+      "question": "telemetry 的中文意思是？",
+      "options": ["勘测器", "自动监测", "遥感勘测", "遥测接收"],
+      "answer": "遥感勘测"
+    },
+    {
+      "word": "vice-minister",
+      "question": "vice-minister 的中文意思是？",
+      "options": ["副部长", "外交官", "牧师", "部长"],
+      "answer": "副部长"
+    },
+    {
+      "word": "vice-principal",
+      "question": "vice-principal 的中文意思是？",
+      "options": ["副代理", "副总统", "副校长", "负责人"],
+      "answer": "副校长"
+    },
+    {
+      "word": "electromagnetic",
+      "question": "electromagnetic 的中文意思是？",
+      "options": ["电化的", "电磁的", "电解的", "电镀的"],
+      "answer": "电磁的"
+    },
+    {
+      "word": "electrotechnics",
+      "question": "electrotechnics 的中文意思是？",
+      "options": ["电力工程", "电子技术", "电子技术员", "电工学"],
+      "answer": "电工学"
+    },
+    {
+      "word": "geosynchronous",
+      "question": "geosynchronous 的中文意思是？",
+      "options": ["地球同步的", "地理协作的", "地貌同一的", "地质单一的"],
+      "answer": "地球同步的"
+    },
+    {
+      "word": "geothermics",
+      "question": "geothermics 的中文意思是？",
+      "options": ["地热学", "地理学", "地缘学", "地质学"],
+      "answer": "地热学"
+    },
+    {
+      "word": "neurophone",
+      "question": "neurophone 的中文意思是？",
+      "options": ["听诊器", "幻听症", "脑听器", "脑电波"],
+      "answer": "脑听器"
+    },
+    {
+      "word": "neuroregulator",
+      "question": "neuroregulator 的中文意思是？",
+      "options": ["神经兴奋剂", "神经抑制剂", "神经调节剂", "神经镇静剂"],
+      "answer": "神经调节剂"
+    },
+    {
+      "word": "neurosensory",
+      "question": "neurosensory 的中文意思是？",
+      "options": ["听觉神经的", "味觉神经的", "嗅觉神经的", "感觉神经的"],
+      "answer": "感觉神经的"
+    },
+    {
+      "word": "neurosurgery",
+      "question": "neurosurgery 的中文意思是？",
+      "options": ["心血管内科", "心血管外科", "神经内科", "神经外科"],
+      "answer": "神经外科"
+    },
+    {
+      "word": "psychoanalysis",
+      "question": "psychoanalysis 的中文意思是？",
+      "options": ["分析原型", "原型解读", "社会分析", "精神解读"],
+      "answer": "精神解读"
+    },
+    {
+      "word": "psychodiagnosis",
+      "question": "psychodiagnosis 的中文意思是？",
+      "options": ["心理介入", "心理分析", "心理治疗", "心理诊断"],
+      "answer": "心理诊断"
+    },
+    {
+      "word": "psychoreaction",
+      "question": "psychoreaction 的中文意思是？",
+      "options": ["心理反应", "精神作用", "精神变态", "逆反心理"],
+      "answer": "心理反应"
+    },
+    {
+      "word": "psychotherapy",
+      "question": "psychotherapy 的中文意思是？",
+      "options": ["心理疗法", "心理诊断", "精神分析", "精神变态"],
+      "answer": "心理疗法"
+    },
+    {
+      "word": "technocrat",
+      "question": "technocrat 的中文意思是？",
+      "options": ["技术专家", "技术产品", "技术恐惧", "技术统治论"],
+      "answer": "技术专家"
+    },
+    {
+      "word": "technomania",
+      "question": "technomania 的中文意思是？",
+      "options": ["技术恐惧", "技术狂", "技术盲", "科技城"],
+      "answer": "技术狂"
+    },
+    {
+      "word": "technophobia",
+      "question": "technophobia 的中文意思是？",
+      "options": ["技术崇拜论", "技术恐惧症", "技术支配论", "技术狂热症"],
+      "answer": "技术恐惧症"
+    },
+    {
+      "word": "technostructure",
+      "question": "technostructure 的中文意思是？",
+      "options": ["技术专家体制", "技术分类架构", "技术市场结构", "技术构成体系"],
+      "answer": "技术专家体制"
+    },
+    {
+      "word": "thermobarometer",
+      "question": "thermobarometer 的中文意思是？",
+      "options": ["温压仪", "温度气压表", "温控表", "湿度气压表"],
+      "answer": "温度气压表"
+    },
+    {
+      "word": "thermoconductivity",
+      "question": "thermoconductivity 的中文意思是？",
+      "options": ["导热性", "导电性", "散热性", "超导性"],
+      "answer": "导热性"
+    },
+    {
+      "word": "thermodynamics",
+      "question": "thermodynamics 的中文意思是？",
+      "options": ["动力学", "热力学", "运动学", "静力学"],
+      "answer": "热力学"
+    },
+    {
+      "word": "thermosensor",
+      "question": "thermosensor 的中文意思是？",
+      "options": ["控温仪", "温度计", "热成像仪", "热敏元件"],
+      "answer": "热敏元件"
+    },
+    {
+      "word": "anthropologist",
+      "question": "anthropologist 的中文意思是？",
+      "options": ["人类学家", "哲学家", "心理学家", "文学家"],
+      "answer": "人类学家"
+    },
+    {
+      "word": "electrology",
+      "question": "electrology 的中文意思是？",
+      "options": ["电力学", "电子学", "电疗学", "电路学"],
+      "answer": "电疗学"
+    },
+    {
+      "word": "electrotherapy",
+      "question": "electrotherapy 的中文意思是？",
+      "options": ["电极法", "电疗法", "电解法", "电镀法"],
+      "answer": "电疗法"
+    },
+    {
+      "word": "hydrocarbon",
+      "question": "hydrocarbon 的中文意思是？",
+      "options": ["一氧化碳", "二氧化碳", "甲醛", "碳水化合物"],
+      "answer": "碳水化合物"
+    },
+    {
+      "word": "hydroelectric",
+      "question": "hydroelectric 的中文意思是？",
+      "options": ["太阳能发电的", "水力发电的", "火力发电的", "风力发电的"],
+      "answer": "水力发电的"
+    },
+    {
+      "word": "hydrophobic",
+      "question": "hydrophobic 的中文意思是？",
+      "options": ["偏头痛的", "哮喘的", "狂犬病的", "疏水的"],
+      "answer": "疏水的"
+    },
+    {
+      "word": "hydropower",
+      "question": "hydropower 的中文意思是？",
+      "options": ["原子核能", "地热能", "水力发电", "潮汐能"],
+      "answer": "水力发电"
+    },
+    {
+      "word": "magnetization",
+      "question": "magnetization 的中文意思是？",
+      "options": ["气化", "氧化", "液化", "磁化"],
+      "answer": "磁化"
+    },
+    {
+      "word": "magnetometer",
+      "question": "magnetometer 的中文意思是？",
+      "options": ["气压计", "水表", "电表", "磁力计"],
+      "answer": "磁力计"
+    },
+    {
+      "word": "magnetoresistance",
+      "question": "magnetoresistance 的中文意思是？",
+      "options": ["强磁性", "磁传感器", "磁场敏感", "磁致电阻"],
+      "answer": "磁致电阻"
+    },
+    {
+      "word": "magnetosphere",
+      "question": "magnetosphere 的中文意思是？",
+      "options": ["地球磁层", "磁力线", "磁感应", "磁通密度"],
+      "answer": "地球磁层"
+    },
+    {
+      "word": "phonofilm",
+      "question": "phonofilm 的中文意思是？",
+      "options": ["哑剧", "摄影胶卷", "无声电影", "有声电影"],
+      "answer": "有声电影"
+    },
+    {
+      "word": "phonograph",
+      "question": "phonograph 的中文意思是？",
+      "options": ["发报机", "扩音器", "留声机", "磁带录音机"],
+      "answer": "留声机"
+    },
+    {
+      "word": "phonological",
+      "question": "phonological 的中文意思是？",
+      "options": ["哲学的", "文字学的", "方言学的", "音韵学的"],
+      "answer": "音韵学的"
+    },
+    {
+      "word": "phonometer",
+      "question": "phonometer 的中文意思是？",
+      "options": ["光强计", "声强计", "测速仪", "音速仪"],
+      "answer": "声强计"
+    },
+    {
+      "word": "photocopy",
+      "question": "photocopy 的中文意思是？",
+      "options": ["影印", "拓印", "油印", "胶印"],
+      "answer": "影印"
+    },
+    {
+      "word": "photometer",
+      "question": "photometer 的中文意思是？",
+      "options": ["光度计", "光栅尺", "光通量", "光速仪"],
+      "answer": "光度计"
+    },
+    {
+      "word": "photon",
+      "question": "photon 的中文意思是？",
+      "options": ["光子", "分子", "原子", "粒子"],
+      "answer": "光子"
+    },
+    {
+      "word": "photophobia",
+      "question": "photophobia 的中文意思是？",
+      "options": ["光敏症", "畏光症", "趋光性", "避光性"],
+      "answer": "畏光症"
+    },
+    {
+      "word": "photovoltaic",
+      "question": "photovoltaic 的中文意思是？",
+      "options": ["光子的", "光波的", "光电的", "光纤的"],
+      "answer": "光电的"
+    },
+    {
+      "word": "anthropocentrism",
+      "question": "anthropocentrism 的中文意思是？",
+      "options": ["人类中心说", "地心说", "日心说", "社会中心说"],
+      "answer": "人类中心说"
+    },
+    {
+      "word": "anthropogenetic",
+      "question": "anthropogenetic 的中文意思是？",
+      "options": ["人类起源学的", "动物遗传学的", "文字起源学的", "物种起源学的"],
+      "answer": "人类起源学的"
+    },
+    {
+      "word": "anthropometry",
+      "question": "anthropometry 的中文意思是？",
+      "options": ["人体测量学", "人类诗歌学", "机械测量学", "电子测量学"],
+      "answer": "人体测量学"
+    },
+    {
+      "word": "anthroponym",
+      "question": "anthroponym 的中文意思是？",
+      "options": ["姓氏", "昵称", "绰号", "谦称"],
+      "answer": "姓氏"
+    },
+    {
+      "word": "barograph",
+      "question": "barograph 的中文意思是？",
+      "options": ["压力层", "巴洛克", "气压记录计", "重力"],
+      "answer": "气压记录计"
+    },
+    {
+      "word": "cartography",
+      "question": "cartography 的中文意思是？",
+      "options": ["制图法", "制图者", "漫画", "草图"],
+      "answer": "制图法"
+    },
+    {
+      "word": "chromatography",
+      "question": "chromatography 的中文意思是？",
+      "options": ["色彩学", "色素体", "色素细胞", "色谱法"],
+      "answer": "色谱法"
+    },
+    {
+      "word": "diagram",
+      "question": "diagram 的中文意思是？",
+      "options": ["图表", "对角线", "直径", "诊断"],
+      "answer": "图表"
+    },
+    {
+      "word": "metallography",
+      "question": "metallography 的中文意思是？",
+      "options": ["准金属", "类金属", "金属蛋白", "金相学"],
+      "answer": "金相学"
+    },
+    {
+      "word": "oscillogram",
+      "question": "oscillogram 的中文意思是？",
+      "options": ["振动幻视", "示波图", "示波计", "示波镜"],
+      "answer": "示波图"
+    },
+    {
+      "word": "photograph",
+      "question": "photograph 的中文意思是？",
+      "options": ["光合作用", "影印本", "摄影师", "照片"],
+      "answer": "照片"
+    },
+    {
+      "word": "program",
+      "question": "program 的中文意思是？",
+      "options": ["程序", "过程", "进步", "连续"],
+      "answer": "程序"
+    },
+    {
+      "word": "radiography",
+      "question": "radiography 的中文意思是？",
+      "options": ["X光照相", "放射学", "无线电", "辐射能"],
+      "answer": "X光照相"
+    },
+    {
+      "word": "systematics",
+      "question": "systematics 的中文意思是？",
+      "options": ["体系的", "分类学", "制度", "系统化"],
+      "answer": "分类学"
+    },
+    {
+      "word": "telegram",
+      "question": "telegram 的中文意思是？",
+      "options": ["望远镜", "电信", "电报", "电视"],
+      "answer": "电报"
+    },
+    {
+      "word": "theocentric",
+      "question": "theocentric 的中文意思是？",
+      "options": ["以理论为中心的", "以神为中心的", "宇宙中心论的", "民主集中的"],
+      "answer": "以神为中心的"
+    },
+    {
+      "word": "theology",
+      "question": "theology 的中文意思是？",
+      "options": ["伦理学", "理学", "神学", "神话学"],
+      "answer": "神学"
+    },
+    {
+      "word": "theotherapy",
+      "question": "theotherapy 的中文意思是？",
+      "options": ["占星术", "宗教疗法", "求神问卜术", "理论疗效"],
+      "answer": "宗教疗法"
+    },
+    {
+      "word": "thermograph",
+      "question": "thermograph 的中文意思是？",
+      "options": ["恒温调节器", "温度记录器", "热力学", "热处理"],
+      "answer": "温度记录器"
+    },
+    {
+      "word": "vibrograph",
+      "question": "vibrograph 的中文意思是？",
+      "options": ["振动压铸", "振动台", "振动系统", "振动计"],
+      "answer": "振动计"
+    },
+    {
+      "word": "abiophysiology",
+      "question": "abiophysiology 的中文意思是？",
+      "options": ["无机化学", "无机生理学", "生物学", "生理学"],
+      "answer": "无机生理学"
+    },
+    {
+      "word": "absorbability",
+      "question": "absorbability 的中文意思是？",
+      "options": ["可吸收性", "可排斥性", "可调整性", "适应性"],
+      "answer": "可吸收性"
+    },
+    {
+      "word": "accountability",
+      "question": "accountability 的中文意思是？",
+      "options": ["可计算性", "可说明性", "可通过性", "易测量性"],
+      "answer": "可说明性"
+    },
+    {
+      "word": "archeology",
+      "question": "archeology 的中文意思是？",
+      "options": ["人类学", "历史学", "心理学", "考古学"],
+      "answer": "考古学"
+    },
+    {
+      "word": "diagnostics",
+      "question": "diagnostics 的中文意思是？",
+      "options": ["对角线", "诊断医生", "诊断学", "诊断法"],
+      "answer": "诊断学"
+    },
+    {
+      "word": "diameter",
+      "question": "diameter 的中文意思是？",
+      "options": ["分度表", "分米", "测量计", "直径"],
+      "answer": "直径"
+    },
+    {
+      "word": "dynamics",
+      "question": "dynamics 的中文意思是？",
+      "options": ["动力学", "活力", "测力计", "炸药"],
+      "answer": "动力学"
+    },
+    {
+      "word": "gastroscope",
+      "question": "gastroscope 的中文意思是？",
+      "options": ["汽油计", "测气仪", "胃容积", "胃镜"],
+      "answer": "胃镜"
+    },
+    {
+      "word": "inflammability",
+      "question": "inflammability 的中文意思是？",
+      "options": ["可靠性", "敏感性", "易燃性", "易爆性"],
+      "answer": "易燃性"
+    },
+    {
+      "word": "kaleidoscope",
+      "question": "kaleidoscope 的中文意思是？",
+      "options": ["万花筒", "显像仪", "晴雨表", "示振器"],
+      "answer": "万花筒"
+    },
+    {
+      "word": "logistics",
+      "question": "logistics 的中文意思是？",
+      "options": ["后勤成本", "物流", "登录", "逻辑"],
+      "answer": "物流"
+    },
+    {
+      "word": "manifold",
+      "question": "manifold 的中文意思是？",
+      "options": ["多人的", "多样的", "折叠的", "放大的"],
+      "answer": "多样的"
+    },
+    {
+      "word": "methodology",
+      "question": "methodology 的中文意思是？",
+      "options": ["数学", "数论", "方法论", "神学"],
+      "answer": "方法论"
+    },
+    {
+      "word": "micrometer",
+      "question": "micrometer 的中文意思是？",
+      "options": ["千分尺", "微米", "微软", "测距仪"],
+      "answer": "千分尺"
+    },
+    {
+      "word": "microscope",
+      "question": "microscope 的中文意思是？",
+      "options": ["微观", "微量元素", "显微镜", "测微仪"],
+      "answer": "显微镜"
+    },
+    {
+      "word": "millimeter",
+      "question": "millimeter 的中文意思是？",
+      "options": ["分米", "厘米", "微米", "毫米"],
+      "answer": "毫米"
+    },
+    {
+      "word": "productscope",
+      "question": "productscope 的中文意思是？",
+      "options": ["产品检验", "产品清单", "产品范围", "产品观察"],
+      "answer": "产品范围"
+    },
+    {
+      "word": "sensibility",
+      "question": "sensibility 的中文意思是？",
+      "options": ["可燃性", "可行性", "可靠性", "敏感性"],
+      "answer": "敏感性"
+    },
+    {
+      "word": "thermometer",
+      "question": "thermometer 的中文意思是？",
+      "options": ["温度计", "热水瓶", "热能表", "里程仪"],
+      "answer": "温度计"
+    },
+    {
+      "word": "thousandfold",
+      "question": "thousandfold 的中文意思是？",
+      "options": ["一千", "千倍的", "千百万的", "第一千个"],
+      "answer": "千倍的"
+    },
+    {
+      "word": "unfold",
+      "question": "unfold 的中文意思是？",
+      "options": ["展开", "折叠", "收起", "无数倍"],
+      "answer": "展开"
+    },
+    {
+      "word": "upfold",
+      "question": "upfold 的中文意思是？",
+      "options": ["使折起", "倍数", "叠加", "展开"],
+      "answer": "使折起"
+    },
+    {
+      "word": "zoology",
+      "question": "zoology 的中文意思是？",
+      "options": ["动物园", "动物学", "植物学", "生物学"],
+      "answer": "动物学"
+    }
+  
+  ]
+}

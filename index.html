@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语刷题网站</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            padding: 30px 0;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        .bank-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .bank-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+            border-radius: 12px;
+            padding: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+        }
+
+        .bank-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+
+        .bank-card h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .bank-card p {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+
+        .bank-stats {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85em;
+            color: #888;
+        }
+
+        .progress-bar {
+            background: #e0e0e0;
+            border-radius: 10px;
+            height: 8px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .nav-tab {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 0.95em;
+            transition: all 0.3s ease;
+            background: #f0f0f0;
+            color: #555;
+        }
+
+        .nav-tab:hover {
+            background: #e0e0e0;
+        }
+
+        .nav-tab.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .question-number {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .question-word {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9ff;
+            border-radius: 10px;
+        }
+
+        .question-text {
+            font-size: 1.05em;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        .chinese-translation {
+            background: #fff9e6;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            color: #8b6914;
+            line-height: 1.7;
+            font-size: 0.95em;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 25px;
+        }
+
+        .option {
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #f0f2ff;
+        }
+
+        .option.correct {
+            border-color: #10b981;
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .option.wrong {
+            border-color: #ef4444;
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .option-label {
+            font-weight: bold;
+            min-width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9em;
+            flex-shrink: 0;
+        }
+
+        .option.selected .option-label {
+            background: #667eea;
+            color: white;
+        }
+
+        .option.correct .option-label {
+            background: #10b981;
+            color: white;
+        }
+
+        .option.wrong .option-label {
+            background: #ef4444;
+            color: white;
+        }
+
+        .option-text {
+            flex: 1;
+            line-height: 1.6;
+            padding-top: 2px;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #555;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        .btn-success {
+            background: #10b981;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #059669;
+        }
+
+        .result-panel {
+            background: #f8f9ff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .result-panel.show {
+            display: block;
+        }
+
+        .result-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .result-correct {
+            color: #10b981;
+        }
+
+        .result-wrong {
+            color: #ef4444;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            border: 1px solid #e8ecf1;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #888;
+        }
+
+        .empty-state-icon {
+            font-size: 4em;
+            margin-bottom: 15px;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #667eea;
+            cursor: pointer;
+            font-size: 0.95em;
+            margin-bottom: 20px;
+            text-decoration: none;
+            background: none;
+            border: none;
+            padding: 0;
+        }
+
+        .back-btn:hover {
+            text-decoration: underline;
+        }
+
+        .wrong-question-item {
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            background: #fff;
+        }
+
+        .wrong-question-item .question-text {
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            margin-right: 8px;
+        }
+
+        .tag-bank-0 {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .tag-bank-1 {
+            background: #fce7f3;
+            color: #9d174d;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .loading-spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .mode-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .mode-tab {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            background: white;
+            cursor: pointer;
+            font-size: 0.95em;
+            transition: all 0.3s ease;
+        }
+
+        .mode-tab.active {
+            border-color: #667eea;
+            background: #f0f2ff;
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .question-word {
+                font-size: 1.4em;
+            }
+
+            .btn-group {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 英语刷题网站</h1>
+            <p>高效刷题，轻松提升英语水平</p>
+        </div>
+
+        <div id="app">
+            <div class="loading" id="loading">
+                <div class="loading-spinner"></div>
+                <p>正在加载题库...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let questionBanks = [];
+        let currentBankIndex = 0;
+        let currentQuestionIndex = 0;
+        let currentMode = 'practice';
+        let wrongQuestions = [];
+        let userAnswers = {};
+        let bankProgress = {};
+        let isRandomMode = false;
+        let questionOrder = [];
+
+        const STORAGE_KEY_WRONG = 'english_exam_wrong_questions';
+        const STORAGE_KEY_PROGRESS = 'english_exam_progress';
+
+        async function loadJSON(url) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error('Failed to load ' + url);
+                return await response.json();
+            } catch (e) {
+                console.error('Error loading ' + url + ':', e);
+                return null;
+            }
+        }
+
+        async function init() {
+            try {
+                const [data1, data2] = await Promise.all([
+                    loadJSON('data.json'),
+                    loadJSON('tech_80_english.json')
+                ]);
+
+                if (data1 && data1.questions && Array.isArray(data1.questions)) {
+                    questionBanks.push({
+                        title: data1.title || '英语构词法题库',
+                        type: 'word',
+                        questions: data1.questions.map(function(q, i) {
+                            return {
+                                word: q.word || '',
+                                question: q.question || '',
+                                options: Array.isArray(q.options) ? q.options : [],
+                                answer: q.answer || q.options[0] || '',
+                                id: 'bank0_' + i,
+                                bankIndex: 0,
+                                type: 'word'
+                            };
+                        })
+                    });
+                }
+
+                if (data2 && Array.isArray(data2)) {
+                    questionBanks.push({
+                        title: '科技英语阅读理解',
+                        type: 'reading',
+                        questions: data2.map(function(q, i) {
+                            var optionsArray = [];
+                            if (q.options) {
+                                optionsArray = [
+                                    q.options.A || '',
+                                    q.options.B || '',
+                                    q.options.C || '',
+                                    q.options.D || ''
+                                ];
+                            }
+                            var answerLetter = q.answer || 'A';
+                            var answerText = q.options ? (q.options[answerLetter] || optionsArray[0] || '') : optionsArray[0] || '';
+
+                            return {
+                                english_text: q.english_text || '',
+                                chinese_translation: q.chinese_translation || '',
+                                question: q.english_text || '',
+                                options: optionsArray,
+                                answer: answerText,
+                                answerLetter: answerLetter,
+                                id: 'bank1_' + i,
+                                bankIndex: 1,
+                                type: 'reading'
+                            };
+                        })
+                    });
+                }
+            } catch (error) {
+                console.error('初始化错误:', error);
+            }
+
+            loadFromStorage();
+            renderBankSelector();
+        }
+
+        function loadFromStorage() {
+            try {
+                var savedWrong = localStorage.getItem(STORAGE_KEY_WRONG);
+                if (savedWrong) {
+                    wrongQuestions = JSON.parse(savedWrong);
+                }
+                var savedProgress = localStorage.getItem(STORAGE_KEY_PROGRESS);
+                if (savedProgress) {
+                    bankProgress = JSON.parse(savedProgress);
+                }
+            } catch (e) {
+                console.error('Error loading from storage:', e);
+            }
+        }
+
+        function saveToStorage() {
+            try {
+                localStorage.setItem(STORAGE_KEY_WRONG, JSON.stringify(wrongQuestions));
+                localStorage.setItem(STORAGE_KEY_PROGRESS, JSON.stringify(bankProgress));
+            } catch (e) {
+                console.error('Error saving to storage:', e);
+            }
+        }
+
+        function getBankProgress(bankIndex) {
+            var key = 'bank_' + bankIndex;
+            if (!bankProgress[key]) {
+                bankProgress[key] = { answered: 0, correct: 0 };
+            }
+            return bankProgress[key];
+        }
+
+        function shuffleArray(array) {
+            var shuffled = array.slice();
+            for (var i = shuffled.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var temp = shuffled[i];
+                shuffled[i] = shuffled[j];
+                shuffled[j] = temp;
+            }
+            return shuffled;
+        }
+
+        function renderBankSelector() {
+            var app = document.getElementById('app');
+            var html = '';
+
+            html += '<div class="card">';
+            html += '    <div class="nav-tabs">';
+            html += '        <button class="nav-tab active" onclick="showTab(\'banks\', this)">题库选择</button>';
+            html += '        <button class="nav-tab" onclick="showTab(\'wrong\', this)">错题本 (' + wrongQuestions.length + ')</button>';
+            html += '    </div>';
+
+            html += '    <div id="tab-banks">';
+            html += '        <h2 style="margin-bottom: 15px;">选择题库开始刷题</h2>';
+            html += '        <div class="mode-tabs">';
+            html += '            <button class="mode-tab active" id="mode-seq" onclick="setRandomMode(false, this)">📖 顺序练习</button>';
+            html += '            <button class="mode-tab" id="mode-random" onclick="setRandomMode(true, this)">🎲 随机练习</button>';
+            html += '        </div>';
+            html += '        <div class="bank-selector">';
+
+            for (var i = 0; i < questionBanks.length; i++) {
+                var bank = questionBanks[i];
+                var progress = getBankProgress(i);
+                var total = bank.questions.length;
+                var percent = total > 0 ? (progress.answered / total) * 100 : 0;
+                var accuracy = progress.answered > 0 ? Math.round((progress.correct / progress.answered) * 100) : 0;
+
+                html += '            <div class="bank-card" onclick="startPractice(' + i + ')">';
+                html += '                <h3>' + bank.title + '</h3>';
+                html += '                <p>' + (bank.type === 'word' ? '单词释义选择题' : '阅读理解填空题') + '</p>';
+                html += '                <div class="bank-stats">';
+                html += '                    <span>共 ' + total + ' 题</span>';
+                html += '                    <span>已做 ' + progress.answered + ' 题</span>';
+                html += '                </div>';
+                html += '                <div class="progress-bar">';
+                html += '                    <div class="progress-fill" style="width: ' + percent + '%"></div>';
+                html += '                </div>';
+                html += '                <div class="bank-stats" style="margin-top: 8px;">';
+                html += '                    <span>正确率: ' + accuracy + '%</span>';
+                html += '                </div>';
+                html += '            </div>';
+            }
+
+            html += '        </div>';
+            html += '    </div>';
+
+            html += '    <div id="tab-wrong" style="display: none;">';
+            html += '        <h2 style="margin-bottom: 15px;">错题本</h2>';
+
+            if (wrongQuestions.length === 0) {
+                html += '        <div class="empty-state">';
+                html += '            <div class="empty-state-icon">🎉</div>';
+                html += '            <p>暂无错题，继续加油！</p>';
+                html += '        </div>';
+            } else {
+                html += '        <p style="margin-bottom: 15px; color: #666;">共 ' + wrongQuestions.length + ' 道错题</p>';
+                html += '        <div class="btn-group" style="margin-bottom: 20px;">';
+                html += '            <button class="btn btn-primary" onclick="startWrongPractice()">开始错题练习</button>';
+                html += '            <button class="btn btn-secondary" onclick="clearWrongQuestions()">清空错题本</button>';
+                html += '        </div>';
+                html += '        <div id="wrong-list">';
+
+                for (var j = 0; j < wrongQuestions.length; j++) {
+                    html += renderWrongQuestionItem(wrongQuestions[j], j);
+                }
+
+                html += '        </div>';
+            }
+
+            html += '    </div>';
+            html += '</div>';
+
+            app.innerHTML = html;
+        }
+
+        function showTab(tab, btn) {
+            var tabs = document.querySelectorAll('.nav-tab');
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove('active');
+            }
+            btn.classList.add('active');
+
+            document.getElementById('tab-banks').style.display = tab === 'banks' ? 'block' : 'none';
+            document.getElementById('tab-wrong').style.display = tab === 'wrong' ? 'block' : 'none';
+        }
+
+        function setRandomMode(random, btn) {
+            isRandomMode = random;
+            var tabs = document.querySelectorAll('.mode-tab');
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove('active');
+            }
+            btn.classList.add('active');
+        }
+
+        function renderWrongQuestionItem(q, idx) {
+            var bankName = questionBanks[q.bankIndex] ? questionBanks[q.bankIndex].title : '未知题库';
+            var questionText = q.type === 'word' ? q.question : q.question.substring(0, 100) + '...';
+
+            var html = '';
+            html += '<div class="wrong-question-item">';
+            html += '    <span class="tag tag-bank-' + q.bankIndex + '">' + bankName + '</span>';
+            html += '    <div class="question-text" style="margin-top: 10px;">' + questionText + '</div>';
+            html += '    <div class="btn-group">';
+            html += '        <button class="btn btn-secondary" onclick="removeWrongQuestion(' + idx + ')">移出错题本</button>';
+            html += '    </div>';
+            html += '</div>';
+            return html;
+        }
+
+        function startPractice(bankIndex) {
+            currentBankIndex = bankIndex;
+            currentQuestionIndex = 0;
+            currentMode = 'practice';
+            userAnswers = {};
+
+            if (isRandomMode) {
+                questionOrder = shuffleArray(questionBanks[bankIndex].questions.map(function(_, i) { return i; }));
+            } else {
+                questionOrder = questionBanks[bankIndex].questions.map(function(_, i) { return i; });
+            }
+
+            renderQuestion();
+        }
+
+        function startWrongPractice() {
+            currentMode = 'wrong';
+            currentQuestionIndex = 0;
+            userAnswers = {};
+            questionOrder = wrongQuestions.map(function(_, i) { return i; });
+            renderQuestion();
+        }
+
+        function getCurrentQuestions() {
+            if (currentMode === 'wrong') {
+                return wrongQuestions;
+            }
+            return questionBanks[currentBankIndex].questions;
+        }
+
+        function getCurrentQuestion() {
+            var questions = getCurrentQuestions();
+            if (!questions || questions.length === 0) {
+                return null;
+            }
+            var idx = questionOrder[currentQuestionIndex];
+            if (idx === undefined || idx < 0 || idx >= questions.length) {
+                return questions[0];
+            }
+            return questions[idx];
+        }
+
+        function renderQuestion() {
+            var questions = getCurrentQuestions();
+            if (!questions || questions.length === 0) {
+                renderBankSelector();
+                return;
+            }
+
+            if (currentQuestionIndex >= questions.length) {
+                renderResult();
+                return;
+            }
+
+            var q = getCurrentQuestion();
+            if (!q) {
+                renderBankSelector();
+                return;
+            }
+
+            var app = document.getElementById('app');
+            var isAnswered = userAnswers[currentQuestionIndex] !== undefined;
+            var isWordType = q.type === 'word';
+
+            var optionsHtml = '';
+            var options = q.options || [];
+            var correctAnswer = q.answer || '';
+
+            for (var i = 0; i < options.length; i++) {
+                var opt = options[i];
+                var optionClass = 'option';
+                var label = String.fromCharCode(65 + i);
+
+                if (isAnswered) {
+                    if (opt === correctAnswer) {
+                        optionClass += ' correct';
+                    } else if (userAnswers[currentQuestionIndex] === i) {
+                        optionClass += ' wrong';
+                    }
+                } else if (userAnswers[currentQuestionIndex] === i) {
+                    optionClass += ' selected';
+                }
+
+                optionsHtml += '<div class="' + optionClass + '" onclick="selectOption(' + i + ')">';
+                optionsHtml += '    <div class="option-label">' + label + '</div>';
+                optionsHtml += '    <div class="option-text">' + opt + '</div>';
+                optionsHtml += '</div>';
+            }
+
+            var questionContent = '';
+            if (isWordType) {
+                questionContent = '<div class="question-word">' + q.word + '</div>';
+                questionContent += '<div class="question-text" style="text-align: center;">' + q.question + '</div>';
+            } else {
+                questionContent = '<div class="question-text">' + q.question + '</div>';
+                questionContent += '<div class="chinese-translation">💡 ' + q.chinese_translation + '</div>';
+            }
+
+            var bankTitle = '';
+            if (currentMode === 'wrong') {
+                bankTitle = questionBanks[q.bankIndex] ? questionBanks[q.bankIndex].title : '错题练习';
+            } else {
+                bankTitle = questionBanks[currentBankIndex].title;
+            }
+
+            var nextBtnText = currentQuestionIndex === questions.length - 1 ? '查看结果' : '下一题';
+
+            var html = '';
+            html += '<div class="card">';
+            html += '    <button class="back-btn" onclick="renderBankSelector()">← 返回题库</button>';
+            html += '    <div class="question-header">';
+            html += '        <span class="question-number">第 ' + (currentQuestionIndex + 1) + ' / ' + questions.length + ' 题</span>';
+            html += '        <span style="color: #888; font-size: 0.9em;">' + bankTitle + '</span>';
+            html += '    </div>';
+            html += questionContent;
+            html += '    <div class="options">' + optionsHtml + '</div>';
+            html += '    <div class="result-panel ' + (isAnswered ? 'show' : '') + '" id="result-panel">';
+            html += '        <div class="result-title" id="result-title"></div>';
+            html += '        <div id="result-explanation"></div>';
+            html += '    </div>';
+            html += '    <div class="btn-group">';
+            html += '        <button class="btn btn-secondary" onclick="prevQuestion()" ' + (currentQuestionIndex === 0 ? 'disabled' : '') + '>上一题</button>';
+
+            if (!isAnswered) {
+                html += '        <button class="btn btn-primary" onclick="submitAnswer()" id="submit-btn" disabled>提交答案</button>';
+            }
+
+            html += '        <button class="btn btn-primary" onclick="nextQuestion()">' + nextBtnText + '</button>';
+            html += '    </div>';
+            html += '</div>';
+
+            app.innerHTML = html;
+
+            if (isAnswered) {
+                showResultFeedback();
+            }
+        }
+
+        function selectOption(idx) {
+            if (userAnswers[currentQuestionIndex] !== undefined) {
+                return;
+            }
+
+            userAnswers[currentQuestionIndex] = idx;
+
+            var options = document.querySelectorAll('.option');
+            for (var i = 0; i < options.length; i++) {
+                options[i].classList.remove('selected');
+                if (i === idx) {
+                    options[i].classList.add('selected');
+                }
+            }
+
+            var submitBtn = document.getElementById('submit-btn');
+            if (submitBtn) {
+                submitBtn.disabled = false;
+            }
+        }
+
+        function submitAnswer() {
+            var q = getCurrentQuestion();
+            if (!q) {
+                return;
+            }
+
+            var options = q.options || [];
+            var correctAnswer = q.answer || '';
+            var userAnswerIdx = userAnswers[currentQuestionIndex];
+            var isCorrect = userAnswerIdx !== undefined && options[userAnswerIdx] === correctAnswer;
+
+            var optionElements = document.querySelectorAll('.option');
+            for (var i = 0; i < optionElements.length; i++) {
+                optionElements[i].classList.remove('selected');
+                if (options[i] === correctAnswer) {
+                    optionElements[i].classList.add('correct');
+                } else if (i === userAnswerIdx) {
+                    optionElements[i].classList.add('wrong');
+                }
+            }
+
+            showResultFeedback();
+
+            if (currentMode === 'practice') {
+                var progress = getBankProgress(currentBankIndex);
+                progress.answered++;
+                if (isCorrect) {
+                    progress.correct++;
+                }
+                bankProgress['bank_' + currentBankIndex] = progress;
+
+                if (!isCorrect && q.id) {
+                    var exists = wrongQuestions.some(function(wq) { return wq.id === q.id; });
+                    if (!exists) {
+                        wrongQuestions.push(q);
+                    }
+                }
+
+                saveToStorage();
+            } else if (currentMode === 'wrong' && isCorrect && q.id) {
+                wrongQuestions = wrongQuestions.filter(function(wq) { return wq.id !== q.id; });
+                saveToStorage();
+            }
+        }
+
+        function showResultFeedback() {
+            var q = getCurrentQuestion();
+            if (!q) {
+                return;
+            }
+
+            var options = q.options || [];
+            var correctAnswer = q.answer || '';
+            var userAnswerIdx = userAnswers[currentQuestionIndex];
+            var isCorrect = userAnswerIdx !== undefined && options[userAnswerIdx] === correctAnswer;
+
+            var resultPanel = document.getElementById('result-panel');
+            var resultTitle = document.getElementById('result-title');
+            var resultExplanation = document.getElementById('result-explanation');
+
+            if (isCorrect) {
+                resultTitle.textContent = '✅ 回答正确！';
+                resultTitle.className = 'result-title result-correct';
+            } else {
+                resultTitle.textContent = '❌ 回答错误';
+                resultTitle.className = 'result-title result-wrong';
+            }
+
+            resultExplanation.innerHTML = '<p>正确答案：<strong>' + correctAnswer + '</strong></p>';
+            if (resultPanel) {
+                resultPanel.classList.add('show');
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                renderQuestion();
+            }
+        }
+
+        function nextQuestion() {
+            var questions = getCurrentQuestions();
+            if (!questions || questions.length === 0) {
+                renderBankSelector();
+                return;
+            }
+            if (currentQuestionIndex < questions.length - 1) {
+                currentQuestionIndex++;
+                renderQuestion();
+            } else {
+                renderResult();
+            }
+        }
+
+        function renderResult() {
+            var questions = getCurrentQuestions();
+            if (!questions || questions.length === 0) {
+                renderBankSelector();
+                return;
+            }
+
+            var correct = 0;
+            var answered = 0;
+
+            for (var i = 0; i < questions.length; i++) {
+                if (userAnswers[i] !== undefined) {
+                    answered++;
+                    var idx = questionOrder[i];
+                    if (idx !== undefined && idx >= 0 && idx < questions.length) {
+                        var q = questions[idx];
+                        if (q && q.options && q.answer) {
+                            var options = q.options;
+                            var correctAnswer = q.answer;
+                            if (options[userAnswers[i]] === correctAnswer) {
+                                correct++;
+                            }
+                        }
+                    }
+                }
+            }
+
+            var accuracy = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+
+            var app = document.getElementById('app');
+            var html = '';
+
+            html += '<div class="card">';
+            html += '    <button class="back-btn" onclick="renderBankSelector()">← 返回题库</button>';
+            html += '    <h2 style="text-align: center; margin-bottom: 25px;">📊 练习结果</h2>';
+            html += '    <div class="stats-grid">';
+            html += '        <div class="stat-item">';
+            html += '            <div class="stat-number">' + answered + '</div>';
+            html += '            <div class="stat-label">已答题数</div>';
+            html += '        </div>';
+            html += '        <div class="stat-item">';
+            html += '            <div class="stat-number" style="color: #10b981;">' + correct + '</div>';
+            html += '            <div class="stat-label">正确数</div>';
+            html += '        </div>';
+            html += '        <div class="stat-item">';
+            html += '            <div class="stat-number" style="color: #ef4444;">' + (answered - correct) + '</div>';
+            html += '            <div class="stat-label">错误数</div>';
+            html += '        </div>';
+            html += '        <div class="stat-item">';
+            html += '            <div class="stat-number">' + accuracy + '%</div>';
+            html += '            <div class="stat-label">正确率</div>';
+            html += '        </div>';
+            html += '    </div>';
+            html += '    <div style="text-align: center; margin-top: 30px;">';
+            html += '        <div style="font-size: 3em; margin-bottom: 15px;">';
+
+            if (accuracy >= 90) {
+                html += '🏆';
+            } else if (accuracy >= 70) {
+                html += '👍';
+            } else if (accuracy >= 50) {
+                html += '💪';
+            } else {
+                html += '📚';
+            }
+
+            html += '        </div>';
+            html += '        <p style="color: #666; margin-bottom: 25px;">';
+
+            if (accuracy >= 90) {
+                html += '太棒了！你已经掌握得非常好了！';
+            } else if (accuracy >= 70) {
+                html += '不错哦，继续加油！';
+            } else if (accuracy >= 50) {
+                html += '还需要多加练习哦！';
+            } else {
+                html += '基础还需要加强，多刷题吧！';
+            }
+
+            html += '        </p>';
+            html += '    </div>';
+            html += '    <div class="btn-group" style="justify-content: center;">';
+            html += '        <button class="btn btn-primary" onclick="restartPractice()">重新练习</button>';
+            html += '        <button class="btn btn-secondary" onclick="renderBankSelector()">返回题库</button>';
+
+            if (answered - correct > 0) {
+                html += '        <button class="btn btn-success" onclick="startWrongPractice()">练习错题</button>';
+            }
+
+            html += '    </div>';
+            html += '</div>';
+
+            app.innerHTML = html;
+        }
+
+        function restartPractice() {
+            currentQuestionIndex = 0;
+            userAnswers = {};
+
+            if (currentMode === 'practice' && isRandomMode) {
+                questionOrder = shuffleArray(questionBanks[currentBankIndex].questions.map(function(_, i) { return i; }));
+            }
+
+            renderQuestion();
+        }
+
+        function removeWrongQuestion(idx) {
+            wrongQuestions.splice(idx, 1);
+            saveToStorage();
+            renderBankSelector();
+            showWrongTab();
+        }
+
+        function clearWrongQuestions() {
+            if (confirm('确定要清空所有错题吗？')) {
+                wrongQuestions = [];
+                saveToStorage();
+                renderBankSelector();
+            }
+        }
+
+        function showWrongTab() {
+            var tabs = document.querySelectorAll('.nav-tab');
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove('active');
+                if (i === 1) {
+                    tabs[i].classList.add('active');
+                }
+            }
+            document.getElementById('tab-banks').style.display = 'none';
+            document.getElementById('tab-wrong').style.display = 'block';
+        }
+
+        init();
+    </script>
+</body>
+</html>

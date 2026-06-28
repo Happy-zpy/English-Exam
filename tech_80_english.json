@@ -1,0 +1,962 @@
+[
+    {
+        "id": 1,
+        "english_text": "Crude oil contains a mixture of gasoline, kerosene, and heavy oils. If crude oil is heated, which has the lowest boiling point, becomes a gas, which can then be drawn off and condensed into gasoline. If the mixture is heated further, kerosene gas can be drawn off and condensed. The heavy oils that have the highest boiling point are drawn off last. This process of separating the components of crude oil would not be possible if they all had ______.",
+        "options": {
+            "A": "higher boiling points",
+            "B": "the same boiling point",
+            "C": "to be condensed",
+            "D": "lower boiling points"
+        },
+        "answer": "B",
+        "chinese_translation": "原油是汽油、煤油和重油的混合物。加热原油时，沸点最低的物质会汽化，随后被导出并冷凝成汽油。继续加热混合物，煤油蒸汽会析出冷凝。沸点最高的重油最后被分离出来。如果所有成分的沸点都______，这种分离原油组分的工艺就无法实现。"
+    },
+    {
+        "id": 2,
+        "english_text": "Disagreeable or too loud sounds can be so annoying to workers that their efficiency is reduced. Acoustical engineers have made many factories more pleasant to work in by the use of insulating materials that reduce noise. At the same time, the productivity of the workers is often ______.",
+        "options": {
+            "A": "pleasant",
+            "B": "expensive",
+            "C": "musical",
+            "D": "increased"
+        },
+        "answer": "D",
+        "chinese_translation": "刺耳或过响的噪音会严重干扰工人，降低工作效率。声学工程师通过隔音降噪材料，让许多工厂的工作环境变得更舒适。与此同时，工人的生产效率往往会______。"
+    },
+    {
+        "id": 3,
+        "english_text": "There are vast stretches in southern Italy where there used to be nothing but a few shepherds’ huts. In this region, there are now high chimney stacks, large water tanks, large cranes, and other paraphernalia of modern factories. Southern Italy has become ______.",
+        "options": {
+            "A": "internationalized",
+            "B": "industrialized",
+            "C": "class-conscious",
+            "D": "democratic"
+        },
+        "answer": "B",
+        "chinese_translation": "意大利南部大片区域过去只有几间牧羊人小屋。如今这片地区矗立着高耸烟囱、大型储水罐、巨型起重机以及各类现代化工厂设备。意大利南部已经变得______。"
+    },
+    {
+        "id": 4,
+        "english_text": "Copper is a fairly soft metal and is easily shaped even when it is cold. It was one of the first metals used in making tools. Copper relics have been found that are older than recorded history. Copper is more extensively used than any other metal except iron. Fortunately, it is not ______.",
+        "options": {
+            "A": "malleable",
+            "B": "available",
+            "C": "expensive",
+            "D": "plentiful"
+        },
+        "answer": "C",
+        "chinese_translation": "铜质地较软，常温下也易于塑形。它是人类最早用来制作工具的金属之一，出土的铜器文物甚至早于文字记载的历史。除铁以外，铜的应用范围远超其他金属。幸运的是，它并不______。"
+    },
+    {
+        "id": 5,
+        "english_text": "Steel containing even less than one percent of molybdenum is remarkably hard and useful for making fine cutting tools. Many molybdenum ores that contain less than 1 percent by mass of molybdenum are mined because the metal is rare and ______.",
+        "options": {
+            "A": "an alloy",
+            "B": "valuable",
+            "C": "sharp",
+            "D": "unavailable"
+        },
+        "answer": "B",
+        "chinese_translation": "仅含不到1%钼的钢材硬度极高，适合制造精密切削刀具。许多钼含量不足1%的钼矿仍会被开采，因为这种金属储量稀少且______。"
+    },
+    {
+        "id": 6,
+        "english_text": "Many of us could make our homes safer if we had better lighting. We should learn from the experience of industry, which has often found that better planning of plant lighting has resulted in ______.",
+        "options": {
+            "A": "higher wages",
+            "B": "cleaner buildings",
+            "C": "fewer accidents",
+            "D": "more sales"
+        },
+        "answer": "C",
+        "chinese_translation": "如果照明条件更好，我们的居家环境会安全很多。我们可以借鉴工业领域的经验：工厂合理规划照明后，往往能______。"
+    },
+    {
+        "id": 7,
+        "english_text": "During the last half of the 19th century, the United States and Germany made rapid progress in industrialization. Their deposits of coal and iron — essential factors in developing industry — aided them in becoming ______.",
+        "options": {
+            "A": "self-sufficient",
+            "B": "manufacturing hubs",
+            "C": "cultural leaders",
+            "D": "democracies"
+        },
+        "answer": "B",
+        "chinese_translation": "19世纪下半叶，美国与德国工业化进程飞速发展。两国拥有丰富的煤炭与铁矿资源——工业发展的核心原料，助力它们成为______。"
+    },
+    {
+        "id": 8,
+        "english_text": "In the port cities of London, Liverpool, and Le Havre, the water depth varies greatly between low tide and high tide, wet docks, or basins, have been built in these places. The walls of these concrete docks have gates that operate to maintain a navigable water level when ______.",
+        "options": {
+            "A": "the tide is low",
+            "B": "the dock is crowded",
+            "C": "no ships are near",
+            "D": "dry docks are scarce"
+        },
+        "answer": "A",
+        "chinese_translation": "伦敦、利物浦、勒阿弗尔等港口城市涨潮与落潮水位落差极大，当地修建了湿船坞与港池。这些混凝土船坞配有闸门，可在______时维持可供船只航行的水位。"
+    },
+    {
+        "id": 9,
+        "english_text": "The uses of water are increasing rapidly, and there is cause for concern. One hopeful area of research in providing more water is in ______.",
+        "options": {
+            "A": "removing salt from sea water",
+            "B": "better weather reporting",
+            "C": "snow surveys",
+            "D": "lowering water cost"
+        },
+        "answer": "A",
+        "chinese_translation": "人类用水需求飞速增长，水资源问题令人担忧。增加淡水供给最有前景的研究方向是______。"
+    },
+    {
+        "id": 10,
+        "english_text": "Iron is of prime importance in tool making, weaponry, transport facilities, construction, and machinery. Because of its unmatched magnetic properties, iron provides the cores that are used in all electric generators, and the production of electricity on any large scale would be impossible without it. Although gold, silver, and some other metals cost more and are also used in industry, iron is the most ______.",
+        "options": {
+            "A": "dispensable",
+            "B": "expensive",
+            "C": "vital",
+            "D": "rare"
+        },
+        "answer": "C",
+        "chinese_translation": "铁在工具制造、武器、交通设施、建筑与机械领域都至关重要。它拥有无可替代的磁性，所有发电机的铁芯都离不开铁，大规模发电完全无法脱离铁。尽管金、银等金属价格更高且也用于工业，但铁是最______的金属。"
+    },
+    {
+        "id": 11,
+        "english_text": "With the advent of mechanization, the workers who had previously performed the tasks by hand complained that the machines were taking their jobs away from them. Of course, this particular complaint was true, but if the overall employment picture is considered, it is clear that machines do not take jobs away without proving other jobs, for machines ______.",
+        "options": {
+            "A": "restrict the purchasing power of the operators",
+            "B": "do away with only the highest-paid jobs",
+            "C": "have to be built and repaired by workers",
+            "D": "can produce goods more cheaply than can handworkers"
+        },
+        "answer": "C",
+        "chinese_translation": "机械化出现后，原本手工劳作的工人抱怨机器抢走了他们的工作。这种抱怨确实有道理，但从整体就业来看，机器并不会单纯减少岗位，因为机器______。"
+    },
+    {
+        "id": 12,
+        "english_text": "Metals contract when cold and expand when hot. An industry that makes precision metal machine parts must control the temperature in its manufacturing plants. For this reason many of these plants are ______.",
+        "options": {
+            "A": "well lighted",
+            "B": "in the suburbs",
+            "C": "built of brick",
+            "D": "air-conditioned"
+        },
+        "answer": "D",
+        "chinese_translation": "金属遇冷收缩、遇热膨胀。生产精密金属机械零件的工厂必须严格控制车间温度。因此这类工厂大多配备______。"
+    },
+    {
+        "id": 13,
+        "english_text": "We do not know exactly when glass was first made, but the time is set by historians as between ten thousand and three thousand years before the Christian era. For thousands of years the manufacture of glass was so difficult that glass objects were rare and were considered to have great ______.",
+        "options": {
+            "A": "age",
+            "B": "use",
+            "C": "value",
+            "D": "history"
+        },
+        "answer": "C",
+        "chinese_translation": "人类最早烧制玻璃的准确时间已无从考证，历史学家推断是公元前一万至三千年之间。数千年来玻璃制作工艺难度极高，玻璃制品十分稀少，被认为拥有极高______。"
+    },
+    {
+        "id": 14,
+        "english_text": "Before the Industrial Revolution, buyers generally dealt directly with the manufacturer, who crafted the product by hand, shoes were made to order by a bootmaker, clothing was hand-tailored, furniture was hand-made, and so on. But with the developments of the Industrial Revolution, goods were mass-produced by machines, and the manufacturer and buyer became ______.",
+        "options": {
+            "A": "dissatisfied",
+            "B": "one and the same",
+            "C": "partners",
+            "D": "widely separated"
+        },
+        "answer": "D",
+        "chinese_translation": "工业革命之前，买家直接和手工匠人交易：鞋匠定制鞋子、裁缝手工制衣、木匠打造家具。但工业革命后商品机器批量生产，生产商与消费者变得______。"
+    },
+    {
+        "id": 15,
+        "english_text": "When an engineer has designed a new product, a model of the design is built to assure the manufacturer that the design is really workable. Building a model is often expensive, but the tools for starting actual production are so expensive that the manufacturer cannot risk the investment without having tested the design by ______.",
+        "options": {
+            "A": "a model",
+            "B": "an engineer",
+            "C": "a factory",
+            "D": "a survey"
+        },
+        "answer": "A",
+        "chinese_translation": "工程师设计新产品后，会制作模型，向厂商证明方案具备可行性。制作模型成本不低，但量产设备造价更加高昂，厂商不会贸然投入，必须先用______验证设计。"
+    },
+    {
+        "id": 16,
+        "english_text": "Khaki uniforms are made in both cotton and wool materials. The word khaki is an Urdu or Hindi word meaning dust. A fairly wide range of shades are referred to as khaki, but all khaki looks ______.",
+        "options": {
+            "A": "warm",
+            "B": "Indian",
+            "C": "military",
+            "D": "dusty"
+        },
+        "answer": "D",
+        "chinese_translation": "卡其色制服有棉、毛两种面料。卡其一词源自乌尔都语/印地语，本意是尘土。深浅不一的色调都被称作卡其色，但所有卡其色看起来都______。"
+    },
+    {
+        "id": 17,
+        "english_text": "Iron is produced commercially on every continent and on many islands. The United States is one of the major producers of iron. Although some metals seem more valuable, iron is the most important metal in the world. The great industrial development of the United States has made use of tremendous quantities of iron. It is fortunate that its domestic supply is so ______.",
+        "options": {
+            "A": "expensive",
+            "B": "large",
+            "C": "deep",
+            "D": "localized"
+        },
+        "answer": "B",
+        "chinese_translation": "全球各大洲、众多岛屿都有工业化炼铁产业，美国是主要产铁国之一。尽管部分金属价值更高，但铁是全球最重要金属。美国工业化发展消耗巨量铁，幸运的是本国铁矿储量十分______。"
+    },
+    {
+        "id": 18,
+        "english_text": "Competition among different steel manufactures is nothing new; but, until recently, there seemed to be a question of whose steel would be used, not a question of whether steel as such would be used. Now that function once served exclusively by steel are being served also by light metals, concrete, or plastics, the entire steel industry is finding itself in competition with ______.",
+        "options": {
+            "A": "steel producers abroad",
+            "B": "governments",
+            "C": "individual steel companies",
+            "D": "other materials manufacturing industries"
+        },
+        "answer": "D",
+        "chinese_translation": "钢铁厂商之间的竞争由来已久，但过去竞争只在于选用哪家钢厂的钢材，而非要不要用钢。如今轻金属、混凝土、塑料都能替代钢材的原有用途，整个钢铁行业开始与______竞争。"
+    },
+    {
+        "id": 19,
+        "english_text": "In the past raincoats were made of water-repellent materials whose solid composition allowed no ventilation. For this reason, raincoats were uncomfortable in hot weather. A porous material now has been invented in which the openings are too small to let water molecules through but large enough to allow ventilation for the wearer. Raincoats of this material provide both protection and ______.",
+        "options": {
+            "A": "comfort",
+            "B": "warmth",
+            "C": "dryness",
+            "D": "lightness"
+        },
+        "answer": "A",
+        "chinese_translation": "老式雨衣采用致密防水面料，完全不透气，炎热天气穿着十分难受。如今研发出多孔新材料：孔洞小到隔绝水分子，又能透气。用这种面料制作的雨衣兼具防水与______。"
+    },
+    {
+        "id": 20,
+        "english_text": "In 1830 Peter Cooper built a wood-burning steam locomotive now known as \"Tom Thumb\", because of its small size, Mr. Cooper accepted a challenge to race a horse-drawn car between Baltimore and Ellicott's Mills, Maryland. The locomotive could go faster than the horse-drawn car, but because of mechanical difficulties, Mr. Cooper ______.",
+        "options": {
+            "A": "lost the race",
+            "B": "repaired the engine",
+            "C": "won the race",
+            "D": "had no fuel"
+        },
+        "answer": "A",
+        "chinese_translation": "1830年彼得·库珀造出烧木柴的蒸汽机车“拇指汤姆”。因其体型小巧，库珀接受挑战，在马里兰州巴尔的摩至埃利科特磨坊路段与马车竞速。机车速度本优于马车，但中途机械故障，库珀______。"
+    },
+    {
+        "id": 21,
+        "english_text": "The world is indebted to China for the invention of porcelain. The potter's wheel has been in use in China for more than four thousand years, but for a long time the Chinese pottery was not as beautiful as that of the Greeks. Then, about a thousand years ago, the Chinese invented and perfected porcelain. Translucent porcelain vases and other articles of great beauty were brought to Europe in the seventeenth century. We recognize our indebtedness to China by calling our fine porcelain dishes ______.",
+        "options": {
+            "A": "porcelain",
+            "B": "Oriental",
+            "C": "china",
+            "D": "transparent"
+        },
+        "answer": "C",
+        "chinese_translation": "全世界都要感谢中国发明瓷器。中国四千多年前就使用陶轮制陶，但早期陶器不如希腊陶器精美。约一千年前，中国人发明并完善制瓷工艺。17世纪晶莹精美的瓷器传入欧洲。为纪念中国，我们将精致瓷盘称作______。"
+    },
+    {
+        "id": 22,
+        "english_text": "U.S. government documents and records of permanent value are kept in the National Archives, a building in Washington, D.C. The Declaration of Independence, the Constitution of the United States, and the Bill of Rights are on display in Exhibition Hall at the National Archives. They are sealed in glass and bronze cases filled with inert helium gas. At a moment's notice, the documents can be lowered by an electric elevator into a large shockproof and fireproof vault. Every precaution has been taken to ______.",
+        "options": {
+            "A": "exhibit these documents",
+            "B": "copy these documents accurately",
+            "C": "protect these documents",
+            "D": "respect these documents"
+        },
+        "answer": "C",
+        "chinese_translation": "美国具有永久保存价值的政府档案存放于华盛顿国家档案馆。《独立宣言》《美国宪法》《权利法案》陈列在展厅，封存于充满惰性氦气的青铜玻璃展柜。遇紧急情况，电动升降机会将文件送入大型防震防火金库。所有防护措施都是为了______。"
+    },
+    {
+        "id": 23,
+        "english_text": "Combustible materials must combine with oxygen and reach their kindling temperature before they will burn. Knowing this, one is able to prevent fires or to put them out either by cutting off the supply of oxygen or by bringing down the temperature below the kindling point. Water is an excellent fire preventive and extinguisher for certain types of fires because it ______.",
+        "options": {
+            "A": "can be heated or cooled",
+            "B": "will combine with oxygen",
+            "C": "boils so slowly",
+            "D": "will smother and cool"
+        },
+        "answer": "D",
+        "chinese_translation": "可燃物燃烧需要氧气且达到燃点。掌握这个原理就能防火灭火：隔绝氧气或降温至燃点以下。水是优质灭火剂，因为它能______。"
+    },
+    {
+        "id": 24,
+        "english_text": "A high-speed motion picture camera can take pictures per second at a rate close to infinity. An event that occurs too rapidly to be observed with the unaided eye can be recorded with such a camera. Then the event can be seen in detail when the motion picture is shown at _____.",
+        "options": {
+            "A": "the local cinema",
+            "B": "a very slow rate of speed",
+            "C": "some later time",
+            "D": "a rate of 100,000 pictures a minute"
+        },
+        "answer": "B",
+        "chinese_translation": "高速摄影机每秒可拍摄海量画面。人眼无法看清的极速过程可以被它记录，之后以______播放，就能看清细节。"
+    },
+    {
+        "id": 25,
+        "english_text": "Stainless steel is an alloy of iron and chromium, or of iron, chromium, and nickel. It is practically free of the problems of rust and ordinary corrosion. It looks much like silver, but is not nearly so expensive. Because of its low cost, resistance to tarnish, and its beauty, stainless steel has become very popular for ______.",
+        "options": {
+            "A": "tableware",
+            "B": "copper tubing",
+            "C": "lightweight luggage",
+            "D": "expensive necklaces"
+        },
+        "answer": "A",
+        "chinese_translation": "不锈钢是铁铬合金或铁铬镍合金，几乎不会生锈腐蚀。外观近似银，但价格低廉。凭借物美价廉、不易氧化的特点，不锈钢广泛用于制作______。"
+    },
+    {
+        "id": 26,
+        "english_text": "Forty persons working seven years fashioned a beautiful handmade lace garment. Lace-making machines can produce the lace for a beautiful garment in a few hours at a fraction of the cost of handmade lace. This makes it possible for more people to have ______.",
+        "options": {
+            "A": "a handmade garment",
+            "B": "an expensive product",
+            "C": "lace garments",
+            "D": "nothing valuable"
+        },
+        "answer": "C",
+        "chinese_translation": "一件精美手工蕾丝服饰需要四十人耗时七年完成。蕾丝机器几小时就能产出同款面料，成本仅手工的零头。这让更多人能够拥有______。"
+    },
+    {
+        "id": 27,
+        "english_text": "A specially treated glass fabric that is able to withstand terrific heat is now available. Only a few layers of this fabric can afford protection and still allow bodily movement. Suits of this material are used by ______.",
+        "options": {
+            "A": "fire fighters",
+            "B": "lifeguards",
+            "C": "deep-sea divers",
+            "D": "arctic explorers"
+        },
+        "answer": "A",
+        "chinese_translation": "如今有一种特殊处理玻璃纤维耐高温面料，薄薄几层即可隔热且不阻碍活动。这种面料制成的防护服供______使用。"
+    },
+    {
+        "id": 28,
+        "english_text": "Mercury freezes at a higher temperature than alcohol does. In extremely cold climates, thermometers are filled with ______.",
+        "options": {
+            "A": "alcohol",
+            "B": "glass",
+            "C": "mercury",
+            "D": "metal"
+        },
+        "answer": "A",
+        "chinese_translation": "水银的凝固点高于酒精。极寒地区的温度计内部填充______。"
+    },
+    {
+        "id": 29,
+        "english_text": "Many of the regions where timbers-producing forests grow are places of heavy rainfall. The freshly cut trees contain too much moisture for first quality lumber. The lumber is heated in kilns, which are carefully controlled so that the lumber comes out having the proper ______.",
+        "options": {
+            "A": "strength",
+            "B": "dryness",
+            "C": "age",
+            "D": "thickness"
+        },
+        "answer": "B",
+        "chinese_translation": "优质木材林区多降雨，刚砍伐的原木含水量过高，无法加工成优质板材。木材会送入精密控温窑炉烘烤，使其达到合适的______。"
+    },
+    {
+        "id": 30,
+        "english_text": "Many deep-sea divers are lowered and raised by a crew on the surface and receive their oxygen supply through tubes to the surface. Skin-divers use an independent system called scuba, self-contained underwater breathing apparatus. Open-circuit scuba equipment allows bubbles of air to come to the surface. Navy skin-divers use a closed or semi-closed circuit apparatus. With this type of apparatus, the enemy cannot detect the diver's presence because ______.",
+        "options": {
+            "A": "no bubbles escape to the surface",
+            "B": "the diver is down too deep",
+            "C": "the apparatus blends with the sea",
+            "D": "there is not boat in sight"
+        },
+        "answer": "A",
+        "chinese_translation": "许多深海潜水员依靠水面船只升降，通过管线供氧。浮潜者使用独立水下呼吸器（水肺），开放式设备会产生气泡浮上海面。海军潜水员使用闭环/半闭环设备，敌人无法发现潜水员，因为______。"
+    },
+    {
+        "id": 31,
+        "english_text": "In Japan, the making of samurai swords is a highly developed art. The swords are fashioned entirely by hand. Since no one would use an imperfect swords, there are no “seconds” among samurai swords. Each new sword is carefully tested by its maker; and if it fails to meet the required standard, it is ______.",
+        "options": {
+            "A": "given away",
+            "B": "immediately destroyed",
+            "C": "priced down",
+            "D": "used by the sword-maker"
+        },
+        "answer": "B",
+        "chinese_translation": "日本武士刀锻造是一门精湛传统工艺，全程手工打造。有瑕疵的刀具无人使用，武士刀不存在二等品。每把新刀都会经过工匠严格测试，达不到标准就会被______。"
+    },
+    {
+        "id": 32,
+        "english_text": "Alchemists were people who tried to find ways to turn inexpensive metals into gold and thereby become rich. The alchemist did not know that some metals change into other metals all by themselves. Radium, for example, changes into lead - an inexpensive metal. Even if the alchemists had known about this change, they probably would not have been concerned, for they were interested in ______.",
+        "options": {
+            "A": "changing gold to another metal",
+            "B": "becoming wealthy",
+            "C": "maintaining secrecy about their discoveries",
+            "D": "using those metals that others had changed to gold"
+        },
+        "answer": "B",
+        "chinese_translation": "炼金术士试图把廉价金属转化为黄金以致富。他们不知道部分金属会自发衰变，例如镭会衰变成廉价的铅。即便知晓衰变现象，炼金术士也不会在意，因为他们一心想要______。"
+    },
+    {
+        "id": 33,
+        "english_text": "Calcination is a process of heating certain solid materials to temperature high enough to remove volatile substances, or substances that evaporate readily. For example, the calcination of limestone involves heating the stone to a point high enough to expel unwanted carbon dioxide and to leave commercially desirable lime. Calcination, therefore, is sometimes referred to as process of ______.",
+        "options": {
+            "A": "deterioration",
+            "B": "oxidation",
+            "C": "purification",
+            "D": "replacement"
+        },
+        "answer": "C",
+        "chinese_translation": "煅烧是将固体高温加热，去除易挥发杂质的工艺。例如石灰石煅烧会排出二氧化碳，产出商用石灰。因此煅烧也被称作______工艺。"
+    },
+    {
+        "id": 34,
+        "english_text": "Zinc can be melted down to form a coating substance. This metallic element also has the valuable characteristic of resisting rust. These two qualities make zinc a good substance to use for ______.",
+        "options": {
+            "A": "medicinal purposes",
+            "B": "cleansing metals",
+            "C": "protecting other metals",
+            "D": "treating dead wood"
+        },
+        "answer": "C",
+        "chinese_translation": "锌可熔融制成镀层，且具备防锈特性。这两大优势让锌适合用来______。"
+    },
+    {
+        "id": 35,
+        "english_text": "The first underground railway was built in London in 1863 and was powered by steam locomotives. Underground railways are now powered by electricity, and many cities in all parts of the world have some kind of underground transport. The most extensive systems are in London, Paris, Moscow, and New York City. Because of the speed and low fare on these system, many city workers ______.",
+        "options": {
+            "A": "drive them",
+            "B": "build them",
+            "C": "avoid them",
+            "D": "use them"
+        },
+        "answer": "D",
+        "chinese_translation": "世界首条地铁1863年建于伦敦，最初靠蒸汽机车牵引。如今地铁全部电气化，全球诸多城市都建有地下轨道交通，伦敦、巴黎、莫斯科、纽约路网规模最大。地铁快捷价廉，许多上班族都会______。"
+    },
+    {
+        "id": 36,
+        "english_text": "Acetylene, an invisible gas, produces a flame whose light penetrates fog and darkness remarkable well. This property, along with the capacity of the acetylene generator to operate without attention for long periods of time, makes the gas valuable for use in ______.",
+        "options": {
+            "A": "blowtorches",
+            "B": "industrial heating",
+            "C": "welding",
+            "D": "lighthouses"
+        },
+        "answer": "D",
+        "chinese_translation": "乙炔是无色气体，火焰穿透力极强，可穿透浓雾与黑暗。加上乙炔发生器能长时间无人值守工作，这种气体非常适合用于______。"
+    },
+    {
+        "id": 37,
+        "english_text": "A simple compass can be made by floating a magnetized needle on a splinter of wood in water. The needle will turn and come to rest in a north–south direction nearly on the line from the North to the South Pole. The earliest record of the use of this device for guiding navigators is from the Mediterranean area in the twelfth century, although the magnetic phenomenon had been known for more than a thousand years. The mariner's compass was developed rapidly, and Christopher Columbus was able to use a compass very similar to our ______.",
+        "options": {
+            "A": "celestial navigation",
+            "B": "modern compass",
+            "C": "modern navigation",
+            "D": "crude compass"
+        },
+        "answer": "B",
+        "chinese_translation": "简易指南针只需将磁化磁针浮在木片上置于水中，磁针会自动指向南北两极。早在千年前人类就知晓磁现象，12世纪地中海地区最早记录航海用指南针。航海指南针技术快速发展，哥伦布使用的指南针已经和我们如今的______十分接近。"
+    },
+    {
+        "id": 38,
+        "english_text": "A manikin made of plastic and metal has been placed in a mechanical seat and subjected to a simulated car collision. The manikin is wired electronically to report the results of the crash. This equipment has aided in the production of better protective devices to minimize the bad effects of accidents. You may some day owe your life to ______.",
+        "options": {
+            "A": "a signal",
+            "B": "an automobile",
+            "C": "an accident",
+            "D": "a dummy"
+        },
+        "answer": "D",
+        "chinese_translation": "塑料金属材质的假人固定在机械座椅上，模拟汽车碰撞测试。假人内置电子线路记录撞击数据，这套设备助力研发防护装备，降低事故伤害。未来你或许会因______保住性命。"
+    },
+    {
+        "id": 39,
+        "english_text": "Years ago, before the invention of railway, the telegraph, the telephone, planes, and other means of carrying messages, from one place to another, fire signals and drum signals were used for fast transmission of messages. It is said that African drummers could send rather detailed information as far as 2000 kilometers in a day by relaying the drum messages from ______.",
+        "options": {
+            "A": "any direction",
+            "B": "rulers to subjects",
+            "C": "runner to runner",
+            "D": "village to village"
+        },
+        "answer": "D",
+        "chinese_translation": "铁路、电报、电话、飞机等通讯工具诞生前，人类依靠火光、鼓声快速传递消息。非洲部落鼓手能通过鼓声接力，一天之内将详细信息传递两千公里，鼓声从______依次传递。"
+    },
+    {
+        "id": 40,
+        "english_text": "In 1785, the French aeronaut, P. Blanchard successfully used a parachute to drop a dog in a basket to the ground from a balloon high in the air. In 1793, Blanchard himself used a parachute to jump from a balloon. His first attempt was not successful — he broke his leg. Others made several attempts, some successful, some not, before parachute jumping came to be common and ______.",
+        "options": {
+            "A": "dangerous",
+            "B": "safe",
+            "C": "martial",
+            "D": "expensive"
+        },
+        "answer": "B",
+        "chinese_translation": "1785年法国航空家布兰夏尔用降落伞把载有小狗的篮子从高空气球安全投放地面。1793年他亲自跳伞，初次尝试失败摔断腿。后人不断试验，跳伞运动才普及且变得______。"
+    },
+    {
+        "id": 41,
+        "english_text": "Game fish cannot live in lakes that become filled with mud and choked with weeds. In order to restore such lakes to their original free state, a new type of dredge has been developed. This huge dredge, which costs less than earlier dredging methods, chews up the weeds, sucks up the bottom mud and muck into a floating pipe, and discharges the debris on the shore. This dredge is called the world's largest vacuum cleaner since, like a household vacuum cleaner, its operating principle is ______.",
+        "options": {
+            "A": "electrical",
+            "B": "choking",
+            "C": "restoring",
+            "D": "suction"
+        },
+        "answer": "D",
+        "chinese_translation": "淤泥杂草淤塞的湖泊无法生存观赏鱼类。为恢复湖泊原貌，新型疏浚船问世。这款大型设备成本低于传统清淤设备，粉碎水草、抽吸湖底淤泥，通过浮管排至岸边。它被称作巨型吸尘器，因为工作原理同为______。"
+    },
+    {
+        "id": 42,
+        "english_text": "Often, as soon as object is invented by one person, others quickly start making improvements and change in the object. Alexander Graham Bell invented the telephone, but so many changes have been made in it since it was invented that ______.",
+        "options": {
+            "A": "we really cannot say that Bell invented it.",
+            "B": "more people now can afford to have one in their homes",
+            "C": "one would scarcely recognize the original as being a telephone",
+            "D": "\"telephone\" is no longer a proper name for the instrument"
+        },
+        "answer": "C",
+        "chinese_translation": "一项发明问世后，很快会有人改良迭代。贝尔发明了电话，但经过无数次改造，如今的设备让人几乎______。"
+    },
+    {
+        "id": 43,
+        "english_text": "The earliest dyes used were natural dyes made from plants or animals. Sometimes the substances for making the dyes had to be brought from great distances and were therefore very expensive. Most dyes now are chemically prepared and are much less expensive. Even low-cost fabrics may now be obtained in ______.",
+        "options": {
+            "A": "beautiful shades and tints",
+            "B": "natural and synthetic fibers",
+            "C": "a large price range",
+            "D": "only certain shops"
+        },
+        "answer": "A",
+        "chinese_translation": "最早染料取自动植物天然原料，部分原料需长途运输，价格高昂。如今多数染料人工合成，成本低廉，平价面料也能染出______。"
+    },
+    {
+        "id": 44,
+        "english_text": "Nowadays, we have machines for making many thing that people used to make by hand. Making things by hand is now popular as a hobby rather than from necessity. Examples of these handicrafts are weaving, bookbinding, knitting, block printing, lace making, and basket weaving. These and other crafts are so widely enjoyed that special shops carry a variety of supplies for handcrafters. These shops are called ______.",
+        "options": {
+            "A": "variety shops",
+            "B": "supermarkets",
+            "C": "hobby shops",
+            "D": "chain stores"
+        },
+        "answer": "C",
+        "chinese_translation": "如今大量手工制品由机器量产，手工制作不再是谋生手段，而是爱好。编织、装订、针织、木刻印刷、蕾丝、竹编都属于手作。爱好者群体庞大，专门售卖手工材料的店铺称作______。"
+    },
+    {
+        "id": 45,
+        "english_text": "The papermaking process spread rather slowly in Europe, but the fourteenth century paper had become common. The few books that were made in Europe before 1450 were written by hand. The printing press was invented in the fifteenth century, and the number of books printed by 1500 was over eight million. The tremendous increase in bookmaking, however, could not have taken place if paper had not been ______.",
+        "options": {
+            "A": "handwritten",
+            "B": "white",
+            "C": "available",
+            "D": "unknown"
+        },
+        "answer": "C",
+        "chinese_translation": "造纸术传入欧洲进展缓慢，14世纪纸张才普及。1450年前欧洲书籍均为手抄本。15世纪印刷机发明，1500年印刷书籍超八百万册。书籍产量暴涨的前提是纸张能够______。"
+    },
+    {
+        "id": 46,
+        "english_text": "Microfilming of records and file material results in great saving of space. The film is tiny, and the contents of an entire book can be put on a very short piece of film. A special film reader makes it easy to enlarge the image of the film so that it can be read easily. Copies of rare books and manuscript can be supplied on microfilm at very low cost. The microfilming process not only saves space; it also saves ______.",
+        "options": {
+            "A": "cameras",
+            "B": "readers",
+            "C": "libraries",
+            "D": "money"
+        },
+        "answer": "D",
+        "chinese_translation": "档案缩微胶片极大节省存储空间，薄薄一段胶片可收录整本书内容。专用阅读器放大胶片影像方便阅读，珍稀古籍手稿可低成本制作缩微副本。缩微存档不仅省空间，还节约______。"
+    },
+    {
+        "id": 47,
+        "english_text": "There are many chemicals that are called invisible inks. An example is lead acetate solution whose invisible marks turn dark when treated with hydrogen sulfide. Letters written with lemon juice cannot be read until they are warmed. Then the writing becomes brown. These inks are known also as ______.",
+        "options": {
+            "A": "poison inks",
+            "B": "printing inks",
+            "C": "secret inks",
+            "D": "permanent inks"
+        },
+        "answer": "C",
+        "chinese_translation": "许多化学试剂属于隐形墨水：醋酸铅书写后无色，遇硫化氢变黑；柠檬汁书写字迹加热后显棕褐色。这类墨水统称______。"
+    },
+    {
+        "id": 48,
+        "english_text": "Before printing was invented, books had to be copied by hand. The copyists were called scribes, and their work was very slow. A wealthy family in Florence employed almost fifty scribes to copy books for its private library. These scribes could produce only about a hundred books a year. Books were only for the ______.",
+        "options": {
+            "A": "rich",
+            "B": "scribes",
+            "C": "teachers",
+            "D": "poor"
+        },
+        "answer": "A",
+        "chinese_translation": "印刷术诞生前书籍只能手抄，抄写员工作效率极低。佛罗伦萨一户富豪雇佣近五十名抄写员为私人藏书室抄书，一年仅能产出百本。书籍仅供______使用。"
+    },
+    {
+        "id": 49,
+        "english_text": "Early in the 1940s a process was discovered that greatly increased the resistance of paper to disintegration when wet. This innovation was constantly refined until wet-strength paper products served such widespread uses as flooring, bathmats, facial tissues, woven or knitted paper fabric for upholstery materials, and many other uses. But perhaps the most popular use, both past and present, to which paper had been put is the making of government-printed rectangular sheets called ______.",
+        "options": {
+            "A": "money",
+            "B": "trading stamps",
+            "C": "invoices",
+            "D": "circulars"
+        },
+        "answer": "A",
+        "chinese_translation": "20世纪40年代初，耐水纸张工艺问世，经改良后防水纸广泛用于地板垫、浴室脚垫、面巾纸、纺织软装面料。但从古至今纸张最普及的用途，是印制官方矩形纸质______。"
+    },
+    {
+        "id": 50,
+        "english_text": "Signaling by sound is an old practice. Primitive tribes gave warnings and other signals by means of drums. Certain vehicles, such as some police cars, fire engines and ambulances, use a siren to warn other cars to clear the way for them. Ships travelling through fog use sound signals to prevent ______.",
+        "options": {
+            "A": "grounding",
+            "B": "piracy",
+            "C": "speed",
+            "D": "collisions"
+        },
+        "answer": "D",
+        "chinese_translation": "声音传讯由来已久，原始部落靠鼓声示警。警车、消防车、救护车鸣笛提醒车辆避让，雾中航行的船舶鸣笛避免______。"
+    },
+    {
+        "id": 51,
+        "english_text": "One of the earliest practical applications of wireless telegraphy was the sending of messages by ships in distress. Other ships were able to go to the aid of sinking ships and save many ______.",
+        "options": {
+            "A": "kilometers",
+            "B": "messages",
+            "C": "lives",
+            "D": "sails"
+        },
+        "answer": "C",
+        "chinese_translation": "无线电报最早的实用场景之一是船舶遇险求救，其他船只收到信号后赶来救援，挽救无数______。"
+    },
+    {
+        "id": 52,
+        "english_text": "A very secure form of communication is furnished by wires, but it requires time to set up the wires, and they can get out of order. Telephone lines involve a great deal of maintenance. The wires are often buried in the ground so that there will be ______.",
+        "options": {
+            "A": "more wire",
+            "B": "less interruption to service",
+            "C": "fewer bad storm",
+            "D": "more open skylines"
+        },
+        "answer": "B",
+        "chinese_translation": "有线通讯保密性强，但布线耗时且线路易故障，电话线维护成本高。线缆常埋入地下，以此______。"
+    },
+    {
+        "id": 53,
+        "english_text": "The letter SOS are the international signal of distress that was adopted by the International Radiotelegraphic Convention of 1612. SOS is a code signal only adopted because it is easy to transmit and to recognize. It is three dots, three dashes, and three dots. Officially, there is no phrase, such as “save our ship”, for which the letters stand. Ships, troops, or planes use an SOS only ______.",
+        "options": {
+            "A": "at sea",
+            "B": "for practice",
+            "C": "near land",
+            "D": "in emergencies"
+        },
+        "answer": "D",
+        "chinese_translation": "SOS是国际无线电公约规定的通用求救信号，选用它只因收发识别简单，由三短三长三短信号组成，并非“拯救船只”的缩写。船舶、军队、飞机仅在______时发送SOS。"
+    },
+    {
+        "id": 54,
+        "english_text": "At one time, planes often flew into violent storms, which the pilots could not see until it was too late. Today's commercial airliners are equipped with radar devices that detect a storm ahead and locate its exact position .With this information, the pilot can avoid the storm by ______.",
+        "options": {
+            "A": "increasing speed",
+            "B": "flying on instruments",
+            "C": "radioing the tower",
+            "D": "changing course"
+        },
+        "answer": "D",
+        "chinese_translation": "过去飞机常误入强风暴，飞行员发现时已来不及避险。如今民航客机搭载雷达，提前探测风暴位置，飞行员可______避开恶劣天气。"
+    },
+    {
+        "id": 55,
+        "english_text": "The preparations for sending an animal into a place were very elaborate. Such a project was not attempted until the scientists were sure that they had taken care of every detail and that the risk to the animal in flight was ______.",
+        "options": {
+            "A": "feared",
+            "B": "provided",
+            "C": "minimal",
+            "D": "concerned"
+        },
+        "answer": "C",
+        "chinese_translation": "送动物进入太空的筹备工作极其繁琐。科学家确认所有细节完善、动物飞行风险______后，才会启动项目。"
+    },
+    {
+        "id": 56,
+        "english_text": "A series of microwave towers made transcontinental television possible by relaying signals from tower to tower. Television cannot be sent across the ocean in this way. It has been calculated that to relay microwave signals across the Atlantic Ocean would require a tower 280 kilometers high in mid-ocean. This is impossible, and the alternative is to use electronic satellites instead of ______.",
+        "options": {
+            "A": "signals",
+            "B": "orbits",
+            "C": "broadcasters",
+            "D": "towers"
+        },
+        "answer": "D",
+        "chinese_translation": "微波塔接力转播实现跨大陆电视信号传输，但这套方案无法跨洋。计算显示，大西洋中央需要一座280千米高塔才能中转微波，工程无法实现，替代方案是用人造卫星替代______。"
+    },
+    {
+        "id": 57,
+        "english_text": "Some of the first balloons contained hot air rather than gas. Such balloons rose because the outside air was heavier than the expanded hot air inside them. When the air within them cooled, these balloons ______.",
+        "options": {
+            "A": "rose higher",
+            "B": "came down",
+            "C": "exploded",
+            "D": "expanded"
+        },
+        "answer": "B",
+        "chinese_translation": "早期热气球依靠热空气升空，外部冷空气密度大于球内热空气。球内空气冷却后，气球会______。"
+    },
+    {
+        "id": 58,
+        "english_text": "A kite is held in the air when the push of the air on the underside of the kite is greater than the push of the air on the upper side. The difference in push is controlled by the wind. An aircraft stays in the air for the same reason, except that it has to keep moving rapidly to maintain this difference in air pressure above and below its wings. A kite flies because of the wind; a plane flies because of its  ______.",
+        "options": {
+            "A": "mass",
+            "B": "direction",
+            "C": "motion",
+            "D": "pilot"
+        },
+        "answer": "C",
+        "chinese_translation": "风筝下方气流压力大于上方，因此浮空，压差由风力提供。飞机浮空原理相同，但必须持续高速飞行维持机翼上下压差。风筝靠风力飞行，飞机依靠自身______。"
+    },
+    {
+        "id": 59,
+        "english_text": "An experimental jet plane was designed to fly at speeds of over 3000 kilometers per hour and altitudes as high as about 27000 meters. At this speed, the temperature of the plane's surface would rise to 315 degrees Celsius. If the plane were not built both inside and outside to withstand this drastic change in temperature, the plane and its crew would ______.",
+        "options": {
+            "A": "bail out",
+            "B": "freeze solid",
+            "C": "fly at night",
+            "D": "burn to a crisp"
+        },
+        "answer": "D",
+        "chinese_translation": "一款试验喷气飞机设计时速超3000公里，飞行高度27000米。该速度下机身表面温度可达315摄氏度。若机身内外无法承受极端高温，飞机与机组人员会______。"
+    },
+    {
+        "id": 60,
+        "english_text": "Wood is a readily available and beautiful building material that is preferred by many for home construction. Fire insurance rates on wooden houses are higher than on brick houses or houses made of some other materials. One chemical company advertises a wood treated with noncombustible chemicals. At temperatures below the ignition point of wood, the chemicals react to produce carbon dioxide and water, which choke flames and prevent the spread of fire. In a sense, the treated wood has a ______.",
+        "options": {
+            "A": "low cost per unit",
+            "B": "built-in fire extinguisher",
+            "C": "beauty greater than wood",
+            "D": "number of construction uses"
+        },
+        "answer": "B",
+        "chinese_translation": "木材易得美观，很多人建房偏爱木料，但木屋火灾保险费率高于砖房。某化工企业推出阻燃药剂处理木材：未达到燃点时药剂分解出水与二氧化碳，隔绝火焰阻止火势蔓延。某种意义上，这种木材自带______。"
+    },
+    {
+        "id": 61,
+        "english_text": "Long bridges are often built with arches in the middles. The roofs of tunnels are rounded. The shells of walnuts are difficult to crack, and barrels are stronger than boxes. Many things are strengthened because they are constructed using ______.",
+        "options": {
+            "A": "lines",
+            "B": "stone",
+            "C": "curves",
+            "D": "steel"
+        },
+        "answer": "C",
+        "chinese_translation": "长桥中部常设计拱券，隧道顶部为弧形，核桃壳坚硬，木桶比方箱牢固。许多物体依靠______结构提升强度。"
+    },
+    {
+        "id": 62,
+        "english_text": "For years engineers had dreamed of building a suspension bridge spanning the entrance to New York Harbor. In 1964 that dream was realized as the record-breaking span of 1298 meters neared completion. The engineer who designed the bridge was almost sorry because now engineers would not have that bridge to dream about. But engineers were already planning for bridges with spans of ______.",
+        "options": {
+            "A": "649 meters",
+            "B": "1000 meters",
+            "C": "2500 meters",
+            "D": "unlimited length"
+        },
+        "answer": "C",
+        "chinese_translation": "多年来工程师梦想建造横跨纽约港入口的悬索桥。1964年这座1298米跨径大桥竣工，打破纪录。设计师略带遗憾，工程师们失去了这个梦想，但他们已经开始规划跨径达______的新桥。"
+    },
+    {
+        "id": 63,
+        "english_text": "A piece of paper exposed to direct sunlight does not burn because the sun’s rays are not hot enough, but if the sun’s rays are focused on a point on the paper, the paper will catch fire. This fact has been used to design solar stoves that are able to boil water in twenty minutes. Solar cookers are used in countries where ______",
+        "options": {
+            "A": "food is scarce",
+            "B": "fuel is scarce",
+            "C": "fuel is plentiful",
+            "D": "food is plentiful"
+        },
+        "answer": "B",
+        "chinese_translation": "阳光直射纸张不会引燃，温度不足；但光线汇聚一点就能点燃纸张。基于此原理研发太阳能灶，二十分钟可烧开一壶水。燃料______的国家广泛使用太阳能炊具。"
+    },
+    {
+        "id": 64,
+        "english_text": "One common source of light in the 18th century was smoky oil lamps with solid round wicks. They smoked because the core of the round wick could not get enough air to burn completely. Flat wicks were tried, but produced less light as well as less smoke. The invention of the hollow round wick solved both problems by producing plenty of light but eliminating the ______.",
+        "options": {
+            "A": "smoke",
+            "B": "wick",
+            "C": "oil",
+            "D": "heat"
+        },
+        "answer": "A",
+        "chinese_translation": "18世纪主流照明是实心圆灯芯油灯，燃烧不充分产生大量黑烟。扁平灯芯烟雾减少，但亮度不足。空心圆灯芯问世后两全其美，亮度充足且消除______。"
+    },
+    {
+        "id": 65,
+        "english_text": "Tying knots is an important skill for the logger, the sailor, and the cowhand. All three must be sure that the knots they tie are easy to tie and untie and most important, that they are ______.",
+        "options": {
+            "A": "looped",
+            "B": "secure",
+            "C": "nylon",
+            "D": "practical"
+        },
+        "answer": "B",
+        "chinese_translation": "伐木工人、水手、牧牛人都必须掌握打结技巧。绳结要易系易解，更关键的是必须______。"
+    },
+    {
+        "id": 66,
+        "english_text": "Perhaps very primitive people made a sort of torch by sticking a wick into a dried fat fish or bird. The Old Testament mentions candles. Candles made of animal fat have been in use for about two thousand years, and until recently they were made by hand, a slow process. Modern candles made of mineral oils are used for decorations, but they also remind us of our struggle for ______.",
+        "options": {
+            "A": "light",
+            "B": "beauty",
+            "C": "history",
+            "D": "freedom"
+        },
+        "answer": "A",
+        "chinese_translation": "原始人类或许会把灯芯塞进风干肥鱼、禽鸟做成火把。《旧约》记载蜡烛，动物油脂蜡烛沿用两千年，过去全靠手工慢制。现代矿物油蜡烛多用于装饰，也提醒人类曾经为获取______不断探索。"
+    },
+    {
+        "id": 67,
+        "english_text": "Contact lenses are plastic eyepieces that are worn on the eyeball and cover the pupil. They usually cannot be seen, and many people prefer them to ordinary glasses for this reason. Certain defects in the shape of the cornea of the eye cannot be corrected by ordinary lenses but can be corrected by contact lenses, which are shaped to fit the cornea. Contact lenses do not frost in cold weather. Many athletes who cannot risk injury to their eyes from a blow to ordinary lenses wear contact lenses, Because of all the advantages, contact lenses are ______.",
+        "options": {
+            "A": "too expensive for most people",
+            "B": "used mainly by actresses",
+            "C": "easy to put on and to take off",
+            "D": "very popular"
+        },
+        "answer": "D",
+        "chinese_translation": "隐形眼镜是贴合眼球覆盖瞳孔的塑料镜片，外观隐形，很多人偏爱它。部分角膜形态缺陷普通眼镜无法矫正，定制贴合角膜的隐形眼镜可以解决；低温不会起雾；运动员避免镜框撞击眼部。多重优势让隐形眼镜十分______。"
+    },
+    {
+        "id": 68,
+        "english_text": "Air resists the motion of objects passing through it. Plants and cars are streamlined so that they can pass through the air with ______.",
+        "options": {
+            "A": "no resistance",
+            "B": "less speed",
+            "C": "less resistance",
+            "D": "more effort"
+        },
+        "answer": "C",
+        "chinese_translation": "空气会阻碍穿行物体。飞机、汽车采用流线型设计，以此______空气阻力。"
+    },
+    {
+        "id": 69,
+        "english_text": "Since buildings with steel or ferroconcrete frames can move up and down as one body, they receive little damage from an earthquake. Similarly, the ancient Greeks built their comparatively light temples on massive platforms of masonry set on swampy ground. During an earthquake, the platform rocked as a whole, and the temple ______.",
+        "options": {
+            "A": "was damaged",
+            "B": "stayed",
+            "C": "sank in the swamp",
+            "D": "was destroyed"
+        },
+        "answer": "B",
+        "chinese_translation": "钢/钢筋混凝土框架建筑整体可小幅位移，地震受损轻微。古希腊人将轻质神庙建造在沼泽地基巨型石砌基座上，地震时基座整体晃动，神庙得以______。"
+    },
+    {
+        "id": 70,
+        "english_text": "There are a number of nuclear power plants now built or under construction by the government and by investor-owned power companies. Although most of the electricity used in the world is generated in steam or hydroelectric power plants, nuclear plants will help to meet increasing demands for ______.",
+        "options": {
+            "A": "electrical appliances",
+            "B": "safe investment",
+            "C": "weapons research",
+            "D": "electric power"
+        },
+        "answer": "D",
+        "chinese_translation": "各国政府与民营电力企业已建成、在建多座核电站。全球大部分电力来自火电、水电，但核电站将助力满足持续增长的______需求。"
+    },
+    {
+        "id": 71,
+        "english_text": "Power plants that generate electricity by means of atomic energy are in operation in several countries. Scientists hope to solve many of the problems in the use of atomic energy, and many scientists now believe that atomic energy will be the most important source of electric power ______.",
+        "options": {
+            "A": "in the future",
+            "B": "when it is tried",
+            "C": "in the laboratory",
+            "D": "in the army"
+        },
+        "answer": "A",
+        "chinese_translation": "多国已有核电站投入运营。科学家致力于攻克核能利用难题，多数科研人员认为核能将成为______最核心电力来源。"
+    },
+    {
+        "id": 72,
+        "english_text": "The shorter a pendulum is, the faster it swings. Most pendulum clocks have a setscrew by which one may adjust the length of the pendulum when the clock is not keeping accurate time. If the clock is running too fast, the pendulum is swing too fast and it should be ______.",
+        "options": {
+            "A": "shortened",
+            "B": "stopped",
+            "C": "lengthened",
+            "D": "replaced"
+        },
+        "answer": "C",
+        "chinese_translation": "钟摆越短摆动越快。摆钟配有调节螺丝，走时不准时可调整摆长。时钟走得过快，说明摆摆动频率太高，需要______摆长。"
+    },
+    {
+        "id": 73,
+        "english_text": "Nuclear physics has given us encouraging glimpses into infinitesimal structures of matter. Progress is being made in studying the mysteries of the living cell. Scientists are learning how to manipulate molecular particles to produce new drugs, materials, and plastics. The tremendous energy of the sun is being brought within our reach. There is scarcely a source of physical power that is not within the ultimate possibility of ______.",
+        "options": {
+            "A": "our imagination",
+            "B": "our own destruction",
+            "C": "human control",
+            "D": "space exploration"
+        },
+        "answer": "C",
+        "chinese_translation": "核物理让人类窥见微观物质结构；细胞奥秘研究不断突破；人类掌握分子改造技术，制造新药、新材料、新型塑料；太阳能巨大能量逐步可控。几乎所有自然能源，最终都有望被人类______。"
+    },
+    {
+        "id": 74,
+        "english_text": "A ball can be moved more easily than a cube of the same material and volume at rest on the same surface. This is so partly because the ball has less of its area resting on the surface and therefore creates less friction to inhibit its movement. The same principle applies to the movement of dry sand on a seashore. The grains of a sand dune are generally spherical and hence the position of the dune ______.",
+        "options": {
+            "A": "disappears",
+            "B": "shifts easily",
+            "C": "never changes",
+            "D": "resists movements"
+        },
+        "answer": "B",
+        "chinese_translation": "相同材质、相同体积的球体比立方体更容易在平面滑动，原因是球体接触面积小，摩擦力更低。海岸干沙同理：沙丘沙粒多为球形，因此沙丘的位置______。"
+    },
+    {
+        "id": 75,
+        "english_text": "The rates of expansion and contraction as a result of temperature changes are not the same for solids and for liquids. Consequently, degrees of temperature registered on a thermometer made of glass, containing a liquid, are slightly ______.",
+        "options": {
+            "A": "invariable",
+            "B": "readable",
+            "C": "exaggerated",
+            "D": "inaccurate"
+        },
+        "answer": "D",
+        "chinese_translation": "固体与液体热胀冷缩系数不同。因此玻璃外壳、内部填充液体的温度计示数会存在轻微______。"
+    },
+    {
+        "id": 76,
+        "english_text": "The fall line is the edge of a plateau region where several rivers descend from the upper level to a plain below. The waterfalls along this line are a source of hydroelectric power used to run machinery in factories, The availability of waterpower makes the fall line an advantageous location for ______.",
+        "options": {
+            "A": "waterfalls",
+            "B": "industrial cities",
+            "C": "inland waterways",
+            "D": "vacation retreats"
+        },
+        "answer": "B",
+        "chinese_translation": "落差线是高原边缘，多条河流从高地跌落平原形成瀑布。沿线水能可发电驱动工厂设备，充沛水能让落差线适合建设______。"
+    },
+    {
+        "id": 77,
+        "english_text": "A dust explosion occurs when a large amount of dust mixed with air catches fire. Around paper mills, threshing machines, and corn mines, enough dust gathers to make dust explosions a hazard, especially when there is a nearby source of heat. Most metals that do not ordinarily burn will catch fire when they are finely ground. Many substances that do not burn easily when in large pieces will explode quickly when in the form of ______.",
+        "options": {
+            "A": "coal",
+            "B": "dust",
+            "C": "metals",
+            "D": "heat"
+        },
+        "answer": "B",
+        "chinese_translation": "粉尘与空气混合遇明火会发生粉尘爆炸。造纸厂、脱粒设备、谷物矿场粉尘堆积，存在爆炸隐患，附近热源极易引爆。常态下不易燃烧的金属研磨成粉末后可燃；大块难以引燃的物质，制成______后极易爆炸。"
+    },
+    {
+        "id": 78,
+        "english_text": "Low temperatures cause outdoor telephone lines to contract and become taut. High temperatures cause them to expand. In the summer, telephone lines often ______.",
+        "options": {
+            "A": "break",
+            "B": "sweat",
+            "C": "hum",
+            "D": "sag"
+        },
+        "answer": "D",
+        "chinese_translation": "低温使户外电话线收缩紧绷，高温则让线缆膨胀。夏季电话线通常会______。"
+    },
+    {
+        "id": 79,
+        "english_text": "Solar panels convert sunlight into electrical energy. They work best in bright, direct sunshine. Cloudy weather reduces their power output. Many remote villages without grid power rely on solar panels to supply ______ for daily life.",
+        "options": {
+            "A": "fuel",
+            "B": "electricity",
+            "C": "water",
+            "D": "heat"
+        },
+        "answer": "B",
+        "chinese_translation": "太阳能板将光能转化为电能，强光直射下发电效率最高，阴天发电量下降。许多无电网覆盖的偏远村庄依靠太阳能板供给日常生活______。"
+    },
+    {
+        "id": 80,
+        "english_text": "Robots are widely used in automobile factories to assemble car parts. They repeat the same movements accurately for thousands of hours without fatigue. Human workers often make mistakes after long hours of repetitive work. Therefore, factories use robots to improve production quality and ______.",
+        "options": {
+            "A": "raise wages",
+            "B": "cut costs",
+            "C": "reduce land",
+            "D": "increase noise"
+        },
+        "answer": "B",
+        "chinese_translation": "汽车工厂大量使用机器人组装零部件，可数千小时精准重复作业，不会疲劳。人工长时间重复劳作易出错。因此工厂引入机器人提升产品质量并______。"
+    }
+]
