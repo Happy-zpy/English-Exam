@@ -459,6 +459,118 @@
             font-weight: 600;
         }
 
+        /* 题目导航面板样式 */
+        .nav-panel-btn {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+            background: #f0f0f0;
+            color: #555;
+        }
+
+        .nav-panel-btn:hover {
+            background: #e0e0e0;
+        }
+
+        .nav-panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .nav-panel.show {
+            display: flex;
+        }
+
+        .nav-panel-content {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .nav-panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .nav-panel-title {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        .nav-panel-close {
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #888;
+        }
+
+        .nav-panel-close:hover {
+            color: #333;
+        }
+
+        .question-nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+            gap: 10px;
+        }
+
+        .question-nav-item {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid #e0e0e0;
+            background: white;
+        }
+
+        .question-nav-item:hover {
+            border-color: #667eea;
+            background: #f0f2ff;
+        }
+
+        .question-nav-item.current {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .question-nav-item.answered-correct {
+            border-color: #10b981;
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .question-nav-item.answered-wrong {
+            border-color: #ef4444;
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
         @media (max-width: 600px) {
             .header h1 {
                 font-size: 1.8em;
@@ -499,6 +611,17 @@
                 <p>正在加载题库...</p>
             </div>
         </div>
+
+        <!-- 题目导航面板 -->
+        <div class="nav-panel" id="question-nav-panel" onclick="if(event.target === this) hideQuestionNav()">
+            <div class="nav-panel-content">
+                <div class="nav-panel-header">
+                    <span class="nav-panel-title">📋 题目导航</span>
+                    <button class="nav-panel-close" onclick="hideQuestionNav()">×</button>
+                </div>
+                <div class="question-nav-grid" id="question-nav-grid"></div>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -508,6 +631,7 @@
         let currentMode = 'practice';
         let wrongQuestions = [];
         let userAnswers = {};
+        let questionResults = {}; // 记录每道题的正确/错误状态
         let bankProgress = {};
         let isRandomMode = false;
         let questionOrder = [];
@@ -746,6 +870,7 @@
             currentQuestionIndex = 0;
             currentMode = 'practice';
             userAnswers = {};
+            questionResults = {};
 
             if (isRandomMode) {
                 questionOrder = shuffleArray(questionBanks[bankIndex].questions.map(function(_, i) { return i; }));
@@ -760,6 +885,7 @@
             currentMode = 'wrong';
             currentQuestionIndex = 0;
             userAnswers = {};
+            questionResults = {};
             questionOrder = wrongQuestions.map(function(_, i) { return i; });
             renderQuestion();
         }
@@ -853,7 +979,10 @@
             html += '    <button class="back-btn" onclick="renderBankSelector()">← 返回题库</button>';
             html += '    <div class="question-header">';
             html += '        <span class="question-number">第 ' + (currentQuestionIndex + 1) + ' / ' + questions.length + ' 题</span>';
-            html += '        <span style="color: #888; font-size: 0.9em;">' + bankTitle + '</span>';
+            html += '        <div style="display: flex; gap: 10px; align-items: center;">';
+            html += '            <button class="nav-panel-btn" onclick="showQuestionNav()">📋 题目导航</button>';
+            html += '            <span style="color: #888; font-size: 0.9em;">' + bankTitle + '</span>';
+            html += '        </div>';
             html += '    </div>';
             html += questionContent;
             html += '    <div class="options">' + optionsHtml + '</div>';
@@ -910,6 +1039,9 @@
             var correctAnswer = q.answer || '';
             var userAnswerIdx = userAnswers[currentQuestionIndex];
             var isCorrect = userAnswerIdx !== undefined && options[userAnswerIdx] === correctAnswer;
+
+            // 记录题目结果
+            questionResults[currentQuestionIndex] = isCorrect ? 'correct' : 'wrong';
 
             var optionElements = document.querySelectorAll('.option');
             for (var i = 0; i < optionElements.length; i++) {
@@ -1093,6 +1225,7 @@
         function restartPractice() {
             currentQuestionIndex = 0;
             userAnswers = {};
+            questionResults = {};
 
             if (currentMode === 'practice' && isRandomMode) {
                 questionOrder = shuffleArray(questionBanks[currentBankIndex].questions.map(function(_, i) { return i; }));
@@ -1126,6 +1259,68 @@
             }
             document.getElementById('tab-banks').style.display = 'none';
             document.getElementById('tab-wrong').style.display = 'block';
+        }
+
+        // 题目导航功能
+        function showQuestionNav() {
+            var navPanel = document.getElementById('question-nav-panel');
+            if (navPanel) {
+                navPanel.classList.add('show');
+                renderQuestionNavGrid();
+            }
+        }
+
+        function hideQuestionNav() {
+            var navPanel = document.getElementById('question-nav-panel');
+            if (navPanel) {
+                navPanel.classList.remove('show');
+            }
+        }
+
+        function goToQuestion(index) {
+            currentQuestionIndex = index;
+            hideQuestionNav();
+            renderQuestion();
+        }
+
+        function getQuestionNavStatus(index) {
+            // 直接从 questionResults 获取状态
+            if (questionResults[index] === 'correct') {
+                return 'correct';
+            } else if (questionResults[index] === 'wrong') {
+                return 'wrong';
+            }
+            return 'unanswered';
+        }
+
+        function renderQuestionNavGrid() {
+            var questions = getCurrentQuestions();
+            if (!questions || questions.length === 0) {
+                return;
+            }
+            
+            var navGrid = document.getElementById('question-nav-grid');
+            if (!navGrid) {
+                return;
+            }
+            
+            var html = '';
+            for (var i = 0; i < questions.length; i++) {
+                var status = getQuestionNavStatus(i);
+                var itemClass = 'question-nav-item';
+                
+                if (i === currentQuestionIndex) {
+                    itemClass += ' current';
+                } else if (status === 'correct') {
+                    itemClass += ' answered-correct';
+                } else if (status === 'wrong') {
+                    itemClass += ' answered-wrong';
+                }
+                
+                html += '<div class="' + itemClass + '" onclick="goToQuestion(' + i + ')">' + (i + 1) + '</div>';
+            }
+            
+            navGrid.innerHTML = html;
         }
 
         init();
