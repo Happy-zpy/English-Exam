@@ -937,26 +937,26 @@
     },
     {
         "id": 79,
-        "english_text": "Solar panels convert sunlight into electrical energy. They work best in bright, direct sunshine. Cloudy weather reduces their power output. Many remote villages without grid power rely on solar panels to supply ______ for daily life.",
+        "english_text": "For almost as long as people have worn clothes, they have been interested in using bright dyes to make their clothes beautiful. The earliest dyes available were derived from plants and animals. Indigo, a blue dye, was made from a plant. A thousand years before the Christian era, in the ancient Phoenician city of Tyre, a purple dye called Tyrian purple was made from a Mediterranean shellfish. The dye was so prized that its manufacture and export made Tyre ______.",
         "options": {
-            "A": "fuel",
-            "B": "electricity",
-            "C": "water",
-            "D": "heat"
+            "A": "old",
+            "B": "isolated",
+            "C": "rich",
+            "D": "Asian"
         },
-        "answer": "B",
-        "chinese_translation": "太阳能板将光能转化为电能，强光直射下发电效率最高，阴天发电量下降。许多无电网覆盖的偏远村庄依靠太阳能板供给日常生活______。"
+        "answer": "C",
+        "chinese_translation": "几乎自从人们开始穿衣服起，他们就一直对使用鲜艳的染料让衣服变得漂亮很感兴趣。最早的染料是从植物和动物中提取的。靛蓝这种蓝色染料是从一种植物中提取的。公元前一千年，在古腓尼基的推罗城，一种叫做推罗紫的紫色染料是从地中海的一种贝类中提取出来的。这种染料极其珍贵，以至于它的制造和出口使得推罗变得______。"
     },
     {
         "id": 80,
-        "english_text": "Robots are widely used in automobile factories to assemble car parts. They repeat the same movements accurately for thousands of hours without fatigue. Human workers often make mistakes after long hours of repetitive work. Therefore, factories use robots to improve production quality and ______.",
+        "english_text": "Magnesium, a very useful metal, is abundant in the earth. The greatest source of magnesium, however, is not the earth but the oceans. Processes have been developed to economically extract magnesium from seawater. This makes the valuable metal readily available to countries that border the oceans. Magnesium is available to most countries either from the sea or from the ______.",
         "options": {
-            "A": "raise wages",
-            "B": "cut costs",
-            "C": "reduce land",
-            "D": "increase noise"
+            "A": "oceans",
+            "B": "land",
+            "C": "rivers",
+            "D": "mountains"
         },
         "answer": "B",
-        "chinese_translation": "汽车工厂大量使用机器人组装零部件，可数千小时精准重复作业，不会疲劳。人工长时间重复劳作易出错。因此工厂引入机器人提升产品质量并______。"
+        "chinese_translation": "镁是一种非常有用的金属，在陆地（地壳）中储量丰富。然而，镁最大的来源不是陆地，而是海洋。人们已经开发出了从海水中经济地提取镁的工艺。这使得沿海国家能够很容易地获得这种宝贵的金属。对大多数国家来说，镁要么来自海洋，要么来自______。"
     }
 ]
