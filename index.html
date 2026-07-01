@@ -418,6 +418,11 @@
             color: #166534;
         }
 
+        .tag-bank-3 {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
         .loading {
             text-align: center;
             padding: 40px;
@@ -657,10 +662,11 @@
 
         async function init() {
             try {
-                const [data1, data2, data3] = await Promise.all([
+                const [data1, data2, data3, data4] = await Promise.all([
                     loadJSON('data.json'),
                     loadJSON('tech_80_english.json'),
-                    loadJSON('vocab.json')
+                    loadJSON('vocab.json'),
+                    loadJSON('科技表达.json')
                 ]);
 
                 if (data1 && data1.questions && Array.isArray(data1.questions)) {
@@ -767,6 +773,86 @@
                         questions: vocabQuestions
                     });
                 }
+
+                if (data4 && Array.isArray(data4)) {
+                    var allTechExpressions = [];
+                    for (var g = 0; g < data4.length; g++) {
+                        if (data4[g].vocab_list && Array.isArray(data4[g].vocab_list)) {
+                            for (var v = 0; v < data4[g].vocab_list.length; v++) {
+                                var vocabItem = data4[g].vocab_list[v];
+                                allTechExpressions.push({
+                                    english: vocabItem.english || '',
+                                    chinese: vocabItem.chinese || ''
+                                });
+                            }
+                        }
+                    }
+
+                    var techQuestions = [];
+                    for (var tIdx = 0; tIdx < allTechExpressions.length; tIdx++) {
+                        var correctItem = allTechExpressions[tIdx];
+                        var availableItems = allTechExpressions.filter(function(item, idx) { return idx !== tIdx; });
+
+                        var chineseDistractors = [];
+                        for (var cd = 0; cd < 3 && availableItems.length > 0; cd++) {
+                            var randomCIdx = Math.floor(Math.random() * availableItems.length);
+                            chineseDistractors.push(availableItems[randomCIdx].chinese);
+                            availableItems.splice(randomCIdx, 1);
+                        }
+
+                        var chineseOptions = [correctItem.chinese].concat(chineseDistractors);
+                        for (var co = chineseOptions.length - 1; co > 0; co--) {
+                            var cj = Math.floor(Math.random() * (co + 1));
+                            var cTemp = chineseOptions[co];
+                            chineseOptions[co] = chineseOptions[cj];
+                            chineseOptions[cj] = cTemp;
+                        }
+
+                        techQuestions.push({
+                            english: correctItem.english,
+                            chinese: correctItem.chinese,
+                            question: correctItem.english,
+                            options: chineseOptions,
+                            answer: correctItem.chinese,
+                            id: 'bank3_' + tIdx + '_c2e',
+                            bankIndex: 3,
+                            type: 'tech'
+                        });
+
+                        var englishAvailable = allTechExpressions.filter(function(item, idx) { return idx !== tIdx; });
+                        var englishDistractors = [];
+                        for (var ed = 0; ed < 3 && englishAvailable.length > 0; ed++) {
+                            var randomEIdx = Math.floor(Math.random() * englishAvailable.length);
+                            englishDistractors.push(englishAvailable[randomEIdx].english);
+                            englishAvailable.splice(randomEIdx, 1);
+                        }
+
+                        var englishOptions = [correctItem.english].concat(englishDistractors);
+                        for (var eo = englishOptions.length - 1; eo > 0; eo--) {
+                            var ej = Math.floor(Math.random() * (eo + 1));
+                            var eTemp = englishOptions[eo];
+                            englishOptions[eo] = englishOptions[ej];
+                            englishOptions[ej] = eTemp;
+                        }
+
+                        techQuestions.push({
+                            english: correctItem.english,
+                            chinese: correctItem.chinese,
+                            question: correctItem.chinese,
+                            options: englishOptions,
+                            answer: correctItem.english,
+                            id: 'bank3_' + tIdx + '_e2c',
+                            bankIndex: 3,
+                            type: 'tech'
+                        });
+                    }
+
+                    questionBanks.push({
+                        title: '科技英语表达题库',
+                        type: 'tech',
+                        questions: techQuestions
+                    });
+                }
             } catch (error) {
                 console.error('初始化错误:', error);
             }
@@ -845,7 +931,7 @@
 
                 html += '            <div class="bank-card" onclick="startPractice(' + i + ')">';
                 html += '                <h3>' + bank.title + '</h3>';
-                html += '                <p>' + (bank.type === 'word' ? '单词释义选择题' : bank.type === 'vocab' ? '词汇中文释义题' : '阅读理解填空题') + '</p>';
+                html += '                <p>' + (bank.type === 'word' ? '单词释义选择题' : bank.type === 'vocab' ? '词汇英文释义题' : bank.type === 'tech' ? '中英互译选择题' : '阅读理解填空题') + '</p>';
                 html += '                <div class="bank-stats">';
                 html += '                    <span>共 ' + total + ' 题</span>';
                 html += '                    <span>已做 ' + progress.answered + ' 题</span>';
@@ -1024,6 +1110,10 @@
             } else if (q.type === 'vocab') {
                 questionContent = '<div class="question-text" style="text-align: center;">📖 ' + q.question + '</div>';
                 questionContent += '<div style="text-align: center; margin-top: 10px; color: #888; font-size: 0.9em;">请选择正确的单词</div>';
+            } else if (q.type === 'tech') {
+                var isChineseToEnglish = q.question === q.chinese;
+                questionContent = '<div class="question-word">' + q.question + '</div>';
+                questionContent += '<div style="text-align: center; margin-top: 10px; color: #888; font-size: 0.9em;">请选择' + (isChineseToEnglish ? '正确的英文表达' : '正确的中文表达') + '</div>';
             } else {
                 questionContent = '<div class="question-text">' + q.question + '</div>';
                 questionContent += '<div class="chinese-translation">💡 ' + q.chinese_translation + '</div>';
@@ -1167,6 +1257,9 @@
             resultExplanation.innerHTML = '<p>正确答案：<strong>' + correctAnswer + '</strong></p>';
             if (q.type === 'vocab' && q.cn_translation) {
                 resultExplanation.innerHTML += '<p style="margin-top: 10px;">中文释义：<strong>' + q.cn_translation + '</strong></p>';
+            }
+            if (q.type === 'tech' && q.english && q.chinese) {
+                resultExplanation.innerHTML += '<p style="margin-top: 10px;">完整翻译：<strong>' + q.english + ' = ' + q.chinese + '</strong></p>';
             }
             if (resultPanel) {
                 resultPanel.classList.add('show');

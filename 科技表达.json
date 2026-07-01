@@ -1,0 +1,856 @@
+[
+    {
+        "group_id": 1,
+        "vocab_list": [
+            {
+                "english": "electric power capacity",
+                "chinese": "电力容量"
+            },
+            {
+                "english": "large-scale power grid",
+                "chinese": "大规模电网"
+            },
+            {
+                "english": "electric-powered engine",
+                "chinese": "电动发动机"
+            },
+            {
+                "english": "water treatment and distribution",
+                "chinese": "水处理与分配"
+            },
+            {
+                "english": "water supply and distribution",
+                "chinese": "给配水"
+            },
+            {
+                "english": "quantum effect",
+                "chinese": "量子效应"
+            },
+            {
+                "english": "radio wave",
+                "chinese": "无线电波"
+            },
+            {
+                "english": "communication technology",
+                "chinese": "通信技术"
+            },
+            {
+                "english": "economic stagnation",
+                "chinese": "经济停滞"
+            },
+            {
+                "english": "cooling technology",
+                "chinese": "冷却技术"
+            },
+            {
+                "english": "design elements",
+                "chinese": "设计元素"
+            },
+            {
+                "english": "picture-making devices",
+                "chinese": "成像装置"
+            },
+            {
+                "english": "engineering innovation",
+                "chinese": "工程创新"
+            },
+            {
+                "english": "average life expectancy",
+                "chinese": "平均寿命"
+            },
+            {
+                "english": "petroleum processing technology",
+                "chinese": "石油加工技术"
+            },
+            {
+                "english": "fiber optics",
+                "chinese": "光导纤维"
+            },
+            {
+                "english": "nuclear energy/power",
+                "chinese": "核能"
+            },
+            {
+                "english": "high performance materials",
+                "chinese": "高性能材料"
+            },
+            {
+                "english": "technological achievement",
+                "chinese": "技术成就"
+            },
+            {
+                "english": "nano-product",
+                "chinese": "纳米产品"
+            }
+        ]
+    },
+    {
+        "group_id": 2,
+        "vocab_list": [
+            {
+                "english": "a stream of science",
+                "chinese": "科学潮流"
+            },
+            {
+                "english": "real-world problem",
+                "chinese": "现实世界问题"
+            },
+            {
+                "english": "particle accelerator",
+                "chinese": "粒子加速器"
+            },
+            {
+                "english": "physical structure",
+                "chinese": "物理结构"
+            },
+            {
+                "english": "rechargeable battery",
+                "chinese": "充电电池"
+            },
+            {
+                "english": "modern industry",
+                "chinese": "现代工业"
+            },
+            {
+                "english": "crude oil",
+                "chinese": "原油"
+            },
+            {
+                "english": "renewable energy",
+                "chinese": "可再生能源"
+            },
+            {
+                "english": "hierarchical dispute",
+                "chinese": "等级之争"
+            },
+            {
+                "english": "multiple theory",
+                "chinese": "多元理论"
+            }
+        ]
+    },
+    {
+        "group_id": 3,
+        "vocab_list": [
+            {
+                "english": "production process",
+                "chinese": "生产过程"
+            },
+            {
+                "english": "advanced analytics",
+                "chinese": "高级分析"
+            },
+            {
+                "english": "mathematical tools",
+                "chinese": "数学工具"
+            },
+            {
+                "english": "statistical assessment",
+                "chinese": "统计评估"
+            },
+            {
+                "english": "central database",
+                "chinese": "中央数据库"
+            },
+            {
+                "english": "project team",
+                "chinese": "项目团队"
+            },
+            {
+                "english": "statistical analysis",
+                "chinese": "统计分析"
+            },
+            {
+                "english": "neural-network technique",
+                "chinese": "神经网络技术"
+            },
+            {
+                "english": "raw materials",
+                "chinese": "原材料"
+            },
+            {
+                "english": "overall yield",
+                "chinese": "整体产量"
+            },
+            {
+                "english": "process control",
+                "chinese": "过程控制"
+            },
+            {
+                "english": "data analysts",
+                "chinese": "数据分析师"
+            },
+            {
+                "english": "scientific application",
+                "chinese": "科学应用"
+            },
+            {
+                "english": "manufacturing environment",
+                "chinese": "制造环境"
+            },
+            {
+                "english": "quantitative assessment",
+                "chinese": "定量评估"
+            }
+        ]
+    },
+    {
+        "group_id": 4,
+        "vocab_list": [
+            {
+                "english": "established technology",
+                "chinese": "成熟技术"
+            },
+            {
+                "english": "machine learning",
+                "chinese": "机器学习"
+            },
+            {
+                "english": "analytic model",
+                "chinese": "分析模型"
+            },
+            {
+                "english": "deep learning",
+                "chinese": "深度学习"
+            },
+            {
+                "english": "edge observation",
+                "chinese": "边缘观察"
+            },
+            {
+                "english": "extended reality",
+                "chinese": "扩展现实"
+            },
+            {
+                "english": "behavioral feedback",
+                "chinese": "行为反馈"
+            },
+            {
+                "english": "data integration",
+                "chinese": "数据集成"
+            },
+            {
+                "english": "data modelling",
+                "chinese": "数据建模"
+            },
+            {
+                "english": "strategic advantage",
+                "chinese": "战略优势"
+            }
+        ]
+    },
+    {
+        "group_id": 5,
+        "vocab_list": [
+            {
+                "english": "extended reality",
+                "chinese": "扩展现实"
+            },
+            {
+                "english": "virtual reality",
+                "chinese": "虚拟现实"
+            },
+            {
+                "english": "augmented reality",
+                "chinese": "增强现实"
+            },
+            {
+                "english": "mixed reality",
+                "chinese": "混合现实"
+            },
+            {
+                "english": "computer-simulated reality",
+                "chinese": "计算机模拟现实"
+            },
+            {
+                "english": "virtual world",
+                "chinese": "虚拟世界"
+            },
+            {
+                "english": "digital graphics",
+                "chinese": "数字图像"
+            },
+            {
+                "english": "digital objects",
+                "chinese": "数字对象"
+            },
+            {
+                "english": "physical space",
+                "chinese": "物理空间"
+            },
+            {
+                "english": "third-party perspective",
+                "chinese": "第三方视角"
+            },
+            {
+                "english": "umbrella term",
+                "chinese": "总称，概括性术语"
+            },
+            {
+                "english": "real environment",
+                "chinese": "真实环境"
+            },
+            {
+                "english": "virtual environment",
+                "chinese": "虚拟环境"
+            },
+            {
+                "english": "fundamental shift",
+                "chinese": "根本性转变"
+            },
+            {
+                "english": "immersive experience",
+                "chinese": "身临其境的体验，沉浸性体验"
+            },
+            {
+                "english": "hands-on practice",
+                "chinese": "操作实习，动手操作"
+            },
+            {
+                "english": "interior designer",
+                "chinese": "室内设计师"
+            },
+            {
+                "english": "seamlessly access data",
+                "chinese": "无缝访问数据"
+            },
+            {
+                "english": "cyber attacks",
+                "chinese": "网络攻击"
+            },
+            {
+                "english": "high cost of implementation",
+                "chinese": "高昂的实施成本"
+            }
+        ]
+    },
+    {
+        "group_id": 6,
+        "vocab_list": [
+            {
+                "english": "augmented reality",
+                "chinese": "增强现实"
+            },
+            {
+                "english": "immersive experiences",
+                "chinese": "沉浸式体验"
+            },
+            {
+                "english": "venture capital",
+                "chinese": "风险投资"
+            },
+            {
+                "english": "the same time period in the previous year",
+                "chinese": "去年同期"
+            },
+            {
+                "english": "real-time information",
+                "chinese": "实时信息"
+            },
+            {
+                "english": "product design",
+                "chinese": "产品设计"
+            },
+            {
+                "english": "retention rate",
+                "chinese": "留存率"
+            },
+            {
+                "english": "virtual showroom",
+                "chinese": "虚拟展厅"
+            },
+            {
+                "english": "talent pool",
+                "chinese": "人才库"
+            },
+            {
+                "english": "cutting-edge technology",
+                "chinese": "尖端科技"
+            }
+        ]
+    },
+    {
+        "group_id": 7,
+        "vocab_list": [
+            {
+                "english": "data exchange",
+                "chinese": "数据交换"
+            },
+            {
+                "english": "social media",
+                "chinese": "社交媒体"
+            },
+            {
+                "english": "communication network",
+                "chinese": "通信网络"
+            },
+            {
+                "english": "digital processing",
+                "chinese": "数字处理"
+            },
+            {
+                "english": "new ecosystem",
+                "chinese": "新生态系统"
+            },
+            {
+                "english": "value chain",
+                "chinese": "价值链"
+            },
+            {
+                "english": "object identification",
+                "chinese": "对象识别"
+            },
+            {
+                "english": "data sharing",
+                "chinese": "数据共享"
+            },
+            {
+                "english": "data security",
+                "chinese": "数据安全"
+            },
+            {
+                "english": "embedded system",
+                "chinese": "嵌入式系统"
+            },
+            {
+                "english": "big data analytics",
+                "chinese": "大数据分析"
+            },
+            {
+                "english": "decision making",
+                "chinese": "决策"
+            },
+            {
+                "english": "specific function",
+                "chinese": "特定功能"
+            },
+            {
+                "english": "business model",
+                "chinese": "业务模式，商业模式"
+            },
+            {
+                "english": "smart object",
+                "chinese": "智能对象"
+            }
+        ]
+    },
+    {
+        "group_id": 8,
+        "vocab_list": [
+            {
+                "english": "production operation",
+                "chinese": "生产作业"
+            },
+            {
+                "english": "manufacturing industry",
+                "chinese": "制造业"
+            },
+            {
+                "english": "mobile network",
+                "chinese": "移动网络"
+            },
+            {
+                "english": "low latency",
+                "chinese": "低延迟"
+            },
+            {
+                "english": "smart grid",
+                "chinese": "智能电网"
+            },
+            {
+                "english": "wearable device",
+                "chinese": "可穿戴设备"
+            },
+            {
+                "english": "loading time",
+                "chinese": "加载时间"
+            },
+            {
+                "english": "remote monitoring",
+                "chinese": "远程监控"
+            },
+            {
+                "english": "cloud computing",
+                "chinese": "云计算"
+            },
+            {
+                "english": "central server",
+                "chinese": "中央服务器"
+            }
+        ]
+    },
+    {
+        "group_id": 9,
+        "vocab_list": [
+            {
+                "english": "technological progress",
+                "chinese": "技术的进步"
+            },
+            {
+                "english": "slow accumulation",
+                "chinese": "缓慢积累"
+            },
+            {
+                "english": "strong AI",
+                "chinese": "强人工智能"
+            },
+            {
+                "english": "general AI",
+                "chinese": "一般人工智能"
+            },
+            {
+                "english": "artificial general intelligence (AGI)",
+                "chinese": "通用人工智能"
+            },
+            {
+                "english": "superintelligence",
+                "chinese": "超级智能"
+            },
+            {
+                "english": "weak AI",
+                "chinese": "弱人工智能"
+            },
+            {
+                "english": "narrow AI",
+                "chinese": "狭义人工智能"
+            },
+            {
+                "english": "machine-learning model",
+                "chinese": "机器学习模型"
+            },
+            {
+                "english": "video games",
+                "chinese": "视频游戏，电子游戏"
+            },
+            {
+                "english": "think tank",
+                "chinese": "智库"
+            },
+            {
+                "english": "accurate prediction",
+                "chinese": "准确的预测"
+            },
+            {
+                "english": "computer vision",
+                "chinese": "计算机视觉"
+            },
+            {
+                "english": "transfer learning",
+                "chinese": "迁移学习"
+            },
+            {
+                "english": "physical world",
+                "chinese": "物质世界，物理世界"
+            },
+            {
+                "english": "scientific debate",
+                "chinese": "科学辩论"
+            },
+            {
+                "english": "special mark",
+                "chinese": "特殊标志"
+            },
+            {
+                "english": "faith and divinity",
+                "chinese": "信仰与神性"
+            },
+            {
+                "english": "self-driving technology",
+                "chinese": "自动驾驶技术"
+            }
+        ]
+    },
+    {
+        "group_id": 10,
+        "vocab_list": [
+            {
+                "english": "winning strategy",
+                "chinese": "制胜战略"
+            },
+            {
+                "english": "additive manufacturing",
+                "chinese": "增材制造"
+            },
+            {
+                "english": "production process",
+                "chinese": "生产流程"
+            },
+            {
+                "english": "deep-learning program",
+                "chinese": "深度学习程序"
+            },
+            {
+                "english": "creative output",
+                "chinese": "创意输出"
+            },
+            {
+                "english": "computer-generated",
+                "chinese": "计算机生成的"
+            },
+            {
+                "english": "visual artist",
+                "chinese": "视觉艺术家"
+            },
+            {
+                "english": "recommendation algorithm",
+                "chinese": "推荐算法"
+            },
+            {
+                "english": "abstract thinking",
+                "chinese": "抽象思维"
+            },
+            {
+                "english": "episodic memory",
+                "chinese": "情节记忆"
+            }
+        ]
+    },
+    {
+        "group_id": 11,
+        "vocab_list": [
+            {
+                "english": "industrial revolution",
+                "chinese": "工业革命"
+            },
+            {
+                "english": "mass production",
+                "chinese": "大规模生产"
+            },
+            {
+                "english": "assembly lines",
+                "chinese": "装配流水线"
+            },
+            {
+                "english": "smart and autonomous system",
+                "chinese": "智能自主系统"
+            },
+            {
+                "english": "marketing buzzword",
+                "chinese": "营销热词"
+            },
+            {
+                "english": "cyber-physical system",
+                "chinese": "信息物理系统"
+            },
+            {
+                "english": "the Internet of Things",
+                "chinese": "物联网"
+            },
+            {
+                "english": "smart factory",
+                "chinese": "智能工厂"
+            },
+            {
+                "english": "supply chain",
+                "chinese": "供应链"
+            },
+            {
+                "english": "manufacturing priority",
+                "chinese": "生产/制造优先级"
+            },
+            {
+                "english": "autonomous equipment",
+                "chinese": "自主设备"
+            },
+            {
+                "english": "shipping container",
+                "chinese": "集装箱"
+            },
+            {
+                "english": "online retailer",
+                "chinese": "在线零售商"
+            },
+            {
+                "english": "additive manufacturing",
+                "chinese": "增材制造"
+            },
+            {
+                "english": "internal operation",
+                "chinese": "内部运营"
+            }
+        ]
+    },
+    {
+        "group_id": 12,
+        "vocab_list": [
+            {
+                "english": "inventory tracking",
+                "chinese": "库存跟踪"
+            },
+            {
+                "english": "production downtime",
+                "chinese": "生产停工时间"
+            },
+            {
+                "english": "optimization decision",
+                "chinese": "优化决策"
+            },
+            {
+                "english": "supply chain",
+                "chinese": "供应链"
+            },
+            {
+                "english": "operational technology",
+                "chinese": "操作技术"
+            },
+            {
+                "english": "real-time decision",
+                "chinese": "实时决策"
+            },
+            {
+                "english": "smart sensor",
+                "chinese": "智能传感器"
+            },
+            {
+                "english": "data visualization",
+                "chinese": "数据可视化"
+            },
+            {
+                "english": "asset efficiency",
+                "chinese": "资产效率"
+            },
+            {
+                "english": "scrap rate",
+                "chinese": "报废率"
+            }
+        ]
+    },
+    {
+        "group_id": 13,
+        "vocab_list": [
+            {
+                "english": "smart grid",
+                "chinese": "智能电网"
+            },
+            {
+                "english": "transmission lines",
+                "chinese": "输电线路"
+            },
+            {
+                "english": "power plant",
+                "chinese": "发电厂"
+            },
+            {
+                "english": "electric generating units",
+                "chinese": "发电机组"
+            },
+            {
+                "english": "digital and computerized equipment",
+                "chinese": "数字计算机设备"
+            },
+            {
+                "english": "two-way communication",
+                "chinese": "双向通信"
+            },
+            {
+                "english": "information sharing",
+                "chinese": "信息共享"
+            },
+            {
+                "english": "power disturbances",
+                "chinese": "电力扰动"
+            },
+            {
+                "english": "operations and management costs",
+                "chinese": "运行管理成本"
+            },
+            {
+                "english": "peak demand",
+                "chinese": "高峰需求"
+            },
+            {
+                "english": "renewable energy systems",
+                "chinese": "可再生能源系统"
+            },
+            {
+                "english": "power generation systems",
+                "chinese": "发电系统"
+            },
+            {
+                "english": "electricity disruption",
+                "chinese": "电力中断"
+            },
+            {
+                "english": "domino effect",
+                "chinese": "多米诺骨牌效应"
+            },
+            {
+                "english": "electric power system",
+                "chinese": "电力系统"
+            },
+            {
+                "english": "two-way interactive capacity",
+                "chinese": "双向交互能力"
+            },
+            {
+                "english": "power outage",
+                "chinese": "停电"
+            },
+            {
+                "english": "large-scale blackouts",
+                "chinese": "大面积停电"
+            },
+            {
+                "english": "energy infrastructure",
+                "chinese": "能源基础设施"
+            },
+            {
+                "english": "national security",
+                "chinese": "国家安全"
+            },
+            {
+                "english": "monthly statement",
+                "chinese": "每月报表"
+            },
+            {
+                "english": "real-time pricing",
+                "chinese": "实时定价"
+            }
+        ]
+    },
+    {
+        "group_id": 14,
+        "vocab_list": [
+            {
+                "english": "energy transition / transformation / shift",
+                "chinese": "能源转型"
+            },
+            {
+                "english": "fossil fuel",
+                "chinese": "化石燃料"
+            },
+            {
+                "english": "biomass energy",
+                "chinese": "生物质能"
+            },
+            {
+                "english": "clean energy power generation",
+                "chinese": "清洁能源发电"
+            },
+            {
+                "english": "emerging economies",
+                "chinese": "新兴经济体"
+            },
+            {
+                "english": "capacity addition",
+                "chinese": "产能的增加"
+            },
+            {
+                "english": "electricity mix",
+                "chinese": "电力组合，电力结构"
+            },
+            {
+                "english": "hydrocarbon reserves",
+                "chinese": "油气储量"
+            },
+            {
+                "english": "energy-fueled conflicts",
+                "chinese": "能源引发的冲突"
+            },
+            {
+                "english": "coal industry / sector",
+                "chinese": "煤炭行业"
+            }
+        ]
+    }
+]
