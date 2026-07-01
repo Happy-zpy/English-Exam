@@ -413,6 +413,11 @@
             color: #9d174d;
         }
 
+        .tag-bank-2 {
+            background: #dcfce7;
+            color: #166534;
+        }
+
         .loading {
             text-align: center;
             padding: 40px;
@@ -652,9 +657,10 @@
 
         async function init() {
             try {
-                const [data1, data2] = await Promise.all([
+                const [data1, data2, data3] = await Promise.all([
                     loadJSON('data.json'),
-                    loadJSON('tech_80_english.json')
+                    loadJSON('tech_80_english.json'),
+                    loadJSON('vocab.json')
                 ]);
 
                 if (data1 && data1.questions && Array.isArray(data1.questions)) {
@@ -704,6 +710,60 @@
                                 type: 'reading'
                             };
                         })
+                    });
+                }
+
+                if (data3 && Array.isArray(data3)) {
+                    var allVocabWords = [];
+                    for (var t = 0; t < data3.length; t++) {
+                        if (data3[t].words && Array.isArray(data3[t].words)) {
+                            for (var w = 0; w < data3[t].words.length; w++) {
+                                var wordItem = data3[t].words[w];
+                                allVocabWords.push({
+                                    word: wordItem.word || '',
+                                    definition: wordItem.definition || '',
+                                    cn_translation: wordItem.cn_translation || ''
+                                });
+                            }
+                        }
+                    }
+
+                    var vocabQuestions = [];
+                    for (var qIdx = 0; qIdx < allVocabWords.length; qIdx++) {
+                        var correctWord = allVocabWords[qIdx];
+                        var distractors = [];
+                        var availableWords = allVocabWords.filter(function(w, idx) { return idx !== qIdx; });
+
+                        for (var d = 0; d < 3 && availableWords.length > 0; d++) {
+                            var randomIdx = Math.floor(Math.random() * availableWords.length);
+                            distractors.push(availableWords[randomIdx].cn_translation);
+                            availableWords.splice(randomIdx, 1);
+                        }
+
+                        var options = [correctWord.cn_translation].concat(distractors);
+                        for (var o = options.length - 1; o > 0; o--) {
+                            var j = Math.floor(Math.random() * (o + 1));
+                            var temp = options[o];
+                            options[o] = options[j];
+                            options[j] = temp;
+                        }
+
+                        vocabQuestions.push({
+                            word: correctWord.word,
+                            definition: correctWord.definition,
+                            question: '请选择单词 "' + correctWord.word + '" 的正确中文释义',
+                            options: options,
+                            answer: correctWord.cn_translation,
+                            id: 'bank2_' + qIdx,
+                            bankIndex: 2,
+                            type: 'vocab'
+                        });
+                    }
+
+                    questionBanks.push({
+                        title: '科技英语词汇题库',
+                        type: 'vocab',
+                        questions: vocabQuestions
                     });
                 }
             } catch (error) {
@@ -784,7 +844,7 @@
 
                 html += '            <div class="bank-card" onclick="startPractice(' + i + ')">';
                 html += '                <h3>' + bank.title + '</h3>';
-                html += '                <p>' + (bank.type === 'word' ? '单词释义选择题' : '阅读理解填空题') + '</p>';
+                html += '                <p>' + (bank.type === 'word' ? '单词释义选择题' : bank.type === 'vocab' ? '词汇中文释义题' : '阅读理解填空题') + '</p>';
                 html += '                <div class="bank-stats">';
                 html += '                    <span>共 ' + total + ' 题</span>';
                 html += '                    <span>已做 ' + progress.answered + ' 题</span>';
@@ -960,6 +1020,10 @@
             if (isWordType) {
                 questionContent = '<div class="question-word">' + q.word + '</div>';
                 questionContent += '<div class="question-text" style="text-align: center;">' + q.question + '</div>';
+            } else if (q.type === 'vocab') {
+                questionContent = '<div class="question-word">' + q.word + '</div>';
+                questionContent += '<div class="question-text" style="text-align: center;">' + q.question + '</div>';
+                questionContent += '<div class="chinese-translation">📖 英文释义: ' + q.definition + '</div>';
             } else {
                 questionContent = '<div class="question-text">' + q.question + '</div>';
                 questionContent += '<div class="chinese-translation">💡 ' + q.chinese_translation + '</div>';

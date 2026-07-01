@@ -1,0 +1,317 @@
+[
+    {
+        "task": "Task 1",
+        "words": [
+            {
+                "word": "mechanism",
+                "definition": "the methods, procedures, or processes involved in the way something works or is done",
+                "cn_translation": "机制；事物运行所涉及的方法与流程"
+            },
+            {
+                "word": "stagnation",
+                "definition": "a situation in which there is no progress or development",
+                "cn_translation": "停滞；发展停滞不前的状态"
+            },
+            {
+                "word": "byproduct",
+                "definition": "something not intended or planned that happens as a result of another situation something that you do",
+                "cn_translation": "副产品；意外衍生出的产物"
+            },
+            {
+                "word": "diagnosis",
+                "definition": "the identifying of the nature or cause of something, especially a problem or fault",
+                "cn_translation": "诊断；判定问题或故障的根源"
+            },
+            {
+                "word": "fixture",
+                "definition": "an object with a fixed position and function",
+                "cn_translation": "固定装置；位置与功能固定的器件"
+            },
+            {
+                "word": "renewable",
+                "definition": "capable of being renewed",
+                "cn_translation": "可再生的；可以循环再生"
+            },
+            {
+                "word": "accessible",
+                "definition": "able to be obtained, used, or experienced without difficulty",
+                "cn_translation": "易获取的；便于使用的"
+            },
+            {
+                "word": "prime",
+                "definition": "of the greatest importance or the highest rank",
+                "cn_translation": "首要的；等级最高的"
+            }
+        ]
+    },
+    {
+        "task": "Task 2",
+        "words": [
+            {
+                "word": "variable",
+                "definition": "a parameter of an engineering design criterion whose value may fluctuate over a wide range",
+                "cn_translation": "变量；数值可大范围波动的参数"
+            },
+            {
+                "word": "ingredient",
+                "definition": "an element required for a situation, relationship, or plan",
+                "cn_translation": "要素；构成计划的必要条件"
+            },
+            {
+                "word": "implement",
+                "definition": "to put something into effect or action",
+                "cn_translation": "实施；将方案付诸行动"
+            },
+            {
+                "word": "prompt",
+                "definition": "to cause something to happen",
+                "cn_translation": "促使；引发某事发生"
+            },
+            {
+                "word": "ground",
+                "definition": "to base ideas, arguments, or beliefs on something",
+                "cn_translation": "以……为依据；立论基于事实"
+            },
+            {
+                "word": "identical",
+                "definition": "exactly the same as or equal to something else, or alike in every respect",
+                "cn_translation": "完全一致的；各方面都一模一样"
+            },
+            {
+                "word": "optimize",
+                "definition": "to make something function at its best or most effective, or use something to its best advantage",
+                "cn_translation": "优化；使效能达到最佳状态"
+            },
+            {
+                "word": "batch",
+                "definition": "the amount of material prepared or needed for, or produced in one operation",
+                "cn_translation": "批次；单次操作产出的物料量"
+            }
+        ]
+    },
+    {
+        "task": "Task 3",
+        "words": [
+            {
+                "word": "avenue",
+                "definition": "a possible way of achieving something",
+                "cn_translation": "途径；达成目标的方式"
+            },
+            {
+                "word": "component",
+                "definition": "one of several parts that together make up a whole machine, system, etc.",
+                "cn_translation": "组件；构成整体的零部件"
+            },
+            {
+                "word": "virtual",
+                "definition": "temporarily simulated or extended by computer software",
+                "cn_translation": "虚拟的；由软件模拟生成"
+            },
+            {
+                "word": "interactive",
+                "definition": "(of a computer program or system) interacting with a human user, often in a conversational way, to obtain data or commands and to give immediate results or updated information",
+                "cn_translation": "交互式的；人机实时交互"
+            },
+            {
+                "word": "tablet",
+                "definition": "a small computer that is easy to carry, with a large touch screen and sometimes without a physical keyboard",
+                "cn_translation": "平板电脑；大屏触控便携设备"
+            },
+            {
+                "word": "seamless",
+                "definition": "done or made so smoothly that you cannot tell where one thing stops and another begins",
+                "cn_translation": "无缝衔接的；过渡顺滑无断点"
+            },
+            {
+                "word": "immersive",
+                "definition": "noting or relating to digital technology or images that actively engage one’s senses and may create an altered mental state",
+                "cn_translation": "沉浸式的；充分调动感官体验"
+            },
+            {
+                "word": "streamline",
+                "definition": "to make something such as a business and an organization work more simply and effectively",
+                "cn_translation": "精简流程；提升组织运行效率"
+            }
+        ]
+    },
+    {
+        "task": "Task 4",
+        "words": [
+            {
+                "word": "interface",
+                "definition": "the way in which you see the information from a computer program on a screen, or how you type information into the program",
+                "cn_translation": "界面；人机信息交互窗口"
+            },
+            {
+                "word": "discipline",
+                "definition": "a branch of knowledge",
+                "cn_translation": "学科；知识门类"
+            },
+            {
+                "word": "embedded",
+                "definition": "fixed or incorporated, as into a surrounding mass",
+                "cn_translation": "嵌入式的；内嵌到主体内部"
+            },
+            {
+                "word": "trade-off",
+                "definition": "a situation in which you balance two opposing situations or qualities",
+                "cn_translation": "权衡取舍；利弊平衡"
+            },
+            {
+                "word": "in parallel",
+                "definition": "together with and at the same time as something else",
+                "cn_translation": "并行；同步执行"
+            },
+            {
+                "word": "wearable",
+                "definition": "something that can be worn that contains computer technology or can connect to the Internet",
+                "cn_translation": "可穿戴设备；穿戴式智能硬件"
+            },
+            {
+                "word": "logistics",
+                "definition": "the practical arrangements that are needed in order to make a plan that involves a lot of people and equipment successful",
+                "cn_translation": "后勤物流；统筹物资与人员安排"
+            },
+            {
+                "word": "programmable",
+                "definition": "able to accept instructions that control how it operates or functions",
+                "cn_translation": "可编程的；可接收指令修改运行逻辑"
+            }
+        ]
+    },
+    {
+        "task": "Task 5",
+        "words": [
+            {
+                "word": "accelerate",
+                "definition": "to happen faster than usual or sooner than you expect",
+                "cn_translation": "加速；进程提前变快"
+            },
+            {
+                "word": "synonym",
+                "definition": "a word with the same meaning as another word in the same language",
+                "cn_translation": "同义词；语义完全相同的词汇"
+            },
+            {
+                "word": "phase",
+                "definition": "one of the stages of a process of development or change",
+                "cn_translation": "阶段；发展过程中的一个时期"
+            },
+            {
+                "word": "analogy",
+                "definition": "a comparison between things that have similar features, often used to help explain a principle or idea",
+                "cn_translation": "类比；用相似事物来阐释原理"
+            },
+            {
+                "word": "indicator",
+                "definition": "a thing, especially a trend or fact, that indicates the state or level of something",
+                "cn_translation": "指标；反映现状的风向标"
+            },
+            {
+                "word": "annihilate",
+                "definition": "to destroy somebody or something completely",
+                "cn_translation": "彻底消灭；完全摧毁"
+            },
+            {
+                "word": "metaphysical",
+                "definition": "relating to the part of philosophy that is about understanding existence and knowledge",
+                "cn_translation": "形而上学的；研究存在与认知的哲学范畴"
+            },
+            {
+                "word": "accountability",
+                "definition": "the fact of being responsible for what you do and able to give a satisfactory reason for it",
+                "cn_translation": "问责制；为自身行为承担责任"
+            }
+        ]
+    },
+    {
+        "task": "Task 6",
+        "words": [
+            {
+                "word": "digitization",
+                "definition": "the process of changing from analog to digital form",
+                "cn_translation": "数字化；从模拟信号转为数字信号"
+            },
+            {
+                "word": "autonomous",
+                "definition": "having the ability to work and make decisions by yourself without any help from anyone else",
+                "cn_translation": "自主的；独立决策运行"
+            },
+            {
+                "word": "dismiss",
+                "definition": "to refuse to consider someone or something seriously because you think they are not important",
+                "cn_translation": "不予理会；轻视而不加以考量"
+            },
+            {
+                "word": "disruptive",
+                "definition": "causing problems, noise, etc. so that something cannot continue normally",
+                "cn_translation": "具有破坏性的；扰乱正常秩序"
+            },
+            {
+                "word": "accommodate",
+                "definition": "to get used to a new situation",
+                "cn_translation": "适应；顺应新环境"
+            },
+            {
+                "word": "modify",
+                "definition": "to change something slightly, usually in order to improve it",
+                "cn_translation": "微调修改；小幅改动优化"
+            },
+            {
+                "word": "budget",
+                "definition": "the money that is available to a person or an organization and a plan of how it will be spent over a period of time",
+                "cn_translation": "预算；资金额度与开支规划"
+            },
+            {
+                "word": "upskill",
+                "definition": "to improve the aptitude for work of (a person) by additional training",
+                "cn_translation": "技能提升；通过培训增强职业能力"
+            }
+        ]
+    },
+    {
+        "task": "Task 7",
+        "words": [
+            {
+                "word": "address",
+                "definition": "to deal with",
+                "cn_translation": "处理；应对问题"
+            },
+            {
+                "word": "come on line",
+                "definition": "to come into use or service",
+                "cn_translation": "上线；投入运行使用"
+            },
+            {
+                "word": "resiliency",
+                "definition": "the ability to return to its original state after being disturbed",
+                "cn_translation": "韧性；受干扰后恢复原状的能力"
+            },
+            {
+                "word": "utility",
+                "definition": "a service provided for the public, for example, an electricity, water or gas supply",
+                "cn_translation": "公用事业；水电燃气等公共服务"
+            },
+            {
+                "word": "large-scale",
+                "definition": "happening over a very wide area or involving a lot of people or things",
+                "cn_translation": "大规模的；覆盖范围广、参与人数多"
+            },
+            {
+                "word": "resume",
+                "definition": "to continue after an interruption",
+                "cn_translation": "恢复；中断之后继续开展"
+            },
+            {
+                "word": "take advantage of",
+                "definition": "to make good use of",
+                "cn_translation": "充分利用；用好有利条件"
+            },
+            {
+                "word": "patchwork",
+                "definition": "a thing that is made up of many different pieces or parts",
+                "cn_translation": "拼凑物；由零散部件拼接而成"
+            }
+        ]
+    }
+]
