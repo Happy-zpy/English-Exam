@@ -736,11 +736,11 @@
 
                         for (var d = 0; d < 3 && availableWords.length > 0; d++) {
                             var randomIdx = Math.floor(Math.random() * availableWords.length);
-                            distractors.push(availableWords[randomIdx].cn_translation);
+                            distractors.push(availableWords[randomIdx].word);
                             availableWords.splice(randomIdx, 1);
                         }
 
-                        var options = [correctWord.cn_translation].concat(distractors);
+                        var options = [correctWord.word].concat(distractors);
                         for (var o = options.length - 1; o > 0; o--) {
                             var j = Math.floor(Math.random() * (o + 1));
                             var temp = options[o];
@@ -751,9 +751,10 @@
                         vocabQuestions.push({
                             word: correctWord.word,
                             definition: correctWord.definition,
-                            question: '请选择单词 "' + correctWord.word + '" 的正确中文释义',
+                            cn_translation: correctWord.cn_translation,
+                            question: correctWord.definition,
                             options: options,
-                            answer: correctWord.cn_translation,
+                            answer: correctWord.word,
                             id: 'bank2_' + qIdx,
                             bankIndex: 2,
                             type: 'vocab'
@@ -1021,9 +1022,8 @@
                 questionContent = '<div class="question-word">' + q.word + '</div>';
                 questionContent += '<div class="question-text" style="text-align: center;">' + q.question + '</div>';
             } else if (q.type === 'vocab') {
-                questionContent = '<div class="question-word">' + q.word + '</div>';
-                questionContent += '<div class="question-text" style="text-align: center;">' + q.question + '</div>';
-                questionContent += '<div class="chinese-translation">📖 英文释义: ' + q.definition + '</div>';
+                questionContent = '<div class="question-text" style="text-align: center;">📖 ' + q.question + '</div>';
+                questionContent += '<div style="text-align: center; margin-top: 10px; color: #888; font-size: 0.9em;">请选择正确的单词</div>';
             } else {
                 questionContent = '<div class="question-text">' + q.question + '</div>';
                 questionContent += '<div class="chinese-translation">💡 ' + q.chinese_translation + '</div>';
@@ -1165,6 +1165,9 @@
             }
 
             resultExplanation.innerHTML = '<p>正确答案：<strong>' + correctAnswer + '</strong></p>';
+            if (q.type === 'vocab' && q.cn_translation) {
+                resultExplanation.innerHTML += '<p style="margin-top: 10px;">中文释义：<strong>' + q.cn_translation + '</strong></p>';
+            }
             if (resultPanel) {
                 resultPanel.classList.add('show');
             }
