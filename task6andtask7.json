@@ -73,78 +73,78 @@
         }
     },
     {
-        "unit_index": 2,
-        "unit": "Unit5",
-        "task6": {
-            "task_id": 6,
-            "task_name": "短语填空练习",
-            "phrase_pool": [
-                "speak to",
-                "come to an end",
-                "interact with",
-                "figure out",
-                "bring into being"
-            ],
-            "questions": [
-                {
-                    "sentence": "You'd better take some ______ your medicine.",
-                    "answer": "more of",
-                    "analysis": "more of 表示“更多的……”，后接名词，此处直接填入原形，符合some修饰搭配。",
-                    "chinese_translation": "你最好多吃点药。"
-                },
-                {
-                    "sentence": "There's quite ______ books in the study.",
-                    "answer": "a collection of",
-                    "analysis": "a collection of 意为“一批、一系列、藏书”，固定短语，直接使用原形。",
-                    "chinese_translation": "书房里有不少藏书。"
-                },
-                {
-                    "sentence": "A good architect ______ the building's surroundings.",
-                    "answer": "takes into account",
-                    "analysis": "take into account 意为“考虑到”；主语a good architect是单数，一般现在时动词变为takes into account。",
-                    "chinese_translation": "优秀的建筑师须考虑到建筑物的周围环境。"
-                },
-                {
-                    "sentence": "I will keep blogging because it offers me a way to ______ readers.",
-                    "answer": "engage with",
-                    "analysis": "engage with 表示“与……互动、沟通”；不定式to后接短语原形。",
-                    "chinese_translation": "我将继续写博客，因为它为我提供了一种与读者互动的方式。"
-                },
-                {
-                    "sentence": "It is a great honour to be invited to ______ in this educational tour.",
-                    "answer": "take part",
-                    "analysis": "take part in 固定搭配，意为“参加”；不定式to后用短语原形。",
-                    "chinese_translation": "很荣幸被邀请参加这次教育之旅。"
-                }
-            ]
-        },
-        "task7": {
-            "task_id": 7,
-            "task_name": "英文段落句子英译汉",
-            "sentences": [
-                {
-                    "english": "With the passing of big data, we move forward in tending to the health and care of the era of big data’s progeny, including the era of multi-cloud, era of machine learning, and the era of real-time and ubiquitous context. (Para. 1)",
-                    "chinese_translation": "随着大数据时代落幕，我们开始聚焦大数据衍生技术时代的运维保障，涵盖多云、机器学习、全域实时场景等领域。"
-                },
-                {
-                    "english": "Machine learning requires much of the same work needed to create clean data for analytics, but also requires additional mathematical, business, and ethical context to create lasting and long-term value. (Para. 3)",
-                    "chinese_translation": "机器学习需要完成数据分析所需的海量数据清洗工作，同时还需要数学、业务、伦理多维度支撑体系，以实现可持续长期价值。"
-                },
-                {
-                    "english": "Integration of data from operations and business systems, as well as from suppliers and customers, enables a holistic view of upstream and downstream supply chain processes, driving greater overall supply network efficiency. (Para. 4)",
-                    "chinese_translation": "整合生产运营、业务系统以及上下游供应商、客户的数据，能够完整梳理全链路供应链流程，全面提升供应网络整体效率。"
-                },
-                {
-                    "english": "With the era of big data coming to an end, we now can focus less on the mechanics of collecting large volumes of data and more on the myriad challenges of processing, analyzing, and interacting with massive amounts of data in real-time. (Para. 5)",
-                    "chinese_translation": "大数据时代走向尾声后，我们无需再重点钻研海量数据采集机制，转而应对海量数据实时处理、分析、交互的各类复杂难题。"
-                },
-                {
-                    "english": "The most important consideration here is to use data that does not serve the business well due to small sample size, lack of data sources, poorly defined data, poorly contextualized data, or inaccurate algorithm and classification assumptions. (Para. 8)",
-                    "chinese_translation": "此处核心注意事项：规避因样本量不足、数据源缺失、数据定义模糊、场景适配差、算法分类假设失真而无法支撑业务的数据。"
-                }
-            ]
-        }
+    "unit_index": 2,
+    "unit": "Unit5",
+    "task6": {
+        "task_id": 6,
+        "task_name": "短语填空练习",
+        "phrase_pool": [
+            "speak to",
+            "come to an end",
+            "interact with",
+            "figure out",
+            "bring into being"
+        ],
+        "questions": [
+            {
+                "sentence": "1. Hemoglobin is a protein consisting of multiple molecules, and such a molecule can ______ a non-protein compound called heme.",
+                "answer": "interact with",
+                "analysis": "短语interact with意为“与……相互作用、相互反应”；情态动词can后接动词短语原形，无需变形。",
+                "chinese_translation": "血红蛋白是由多种分子构成的蛋白质，这类分子可以与一种名为血红素的非蛋白质化合物发生相互作用。"
+            },
+            {
+                "sentence": "2. If the Chinese economy is slowing even more than acknowledged, all this support for the euro could ______.",
+                "answer": "come to an end",
+                "analysis": "come to an end固定短语，含义为“宣告结束、终止”；情态动词could后使用短语原形。",
+                "chinese_translation": "倘若中国经济放缓幅度超出外界预估，当前所有对欧元的支撑力度都可能消失殆尽。"
+            },
+            {
+                "sentence": "3. This new concept may ______ a new branch of science—engineering meteorology, and a new industry—meteorology engineering.",
+                "answer": "bring into being",
+                "analysis": "bring into being表示“使产生、催生、创立”；情态may后接动词短语原形。",
+                "chinese_translation": "这一新概念或将催生一门全新学科——工程气象学，以及配套新兴产业——气象工程产业。"
+            },
+            {
+                "sentence": "4. How can a conflicted guy in a bat suit and a villain with a cracked, painted-on clown smile ______ the essentials of the human condition?",
+                "answer": "speak to",
+                "analysis": "speak to此处引申义为“诠释、道出、反映”；情态can后用短语原形。",
+                "chinese_translation": "一个内心挣扎、身着蝙蝠战衣的人与一个画着开裂小丑笑脸的反派，要如何道出人性的本质？"
+            },
+            {
+                "sentence": "5. Dr. Berman and his colleagues are now trying to ______ exactly what elements of natural environments trigger the cognitive benefits.",
+                "answer": "figure out",
+                "analysis": "figure out意为“弄清楚、找出、探明”；固定搭配try to do，不定式to后接短语原形。",
+                "chinese_translation": "伯曼博士及其团队目前正试图探明，自然环境中究竟是哪些要素能够带来认知层面的增益效果。"
+            }
+        ]
     },
+    "task7": {
+        "task_id": 7,
+        "task_name": "英文段落句子英译汉",
+        "sentences": [
+            {
+                "english": "With the passing of big data, we move forward in tending to the health and care of the era of big data’s progeny, including the era of multi-cloud, era of machine learning, and the era of real-time and ubiquitous context. (Para. 1)",
+                "chinese_translation": "随着大数据时代落幕，我们开始聚焦大数据衍生技术时代的运维保障，涵盖多云、机器学习、全域实时场景等领域。"
+            },
+            {
+                "english": "Machine learning requires much of the same work needed to create clean data for analytics, but also requires additional mathematical, business, and ethical context to create lasting and long-term value. (Para. 3)",
+                "chinese_translation": "机器学习需要完成数据分析所需的海量数据清洗工作，同时还需要数学、业务、伦理多维度支撑体系，以实现可持续长期价值。"
+            },
+            {
+                "english": "Integration of data from operations and business systems, as well as from suppliers and customers, enables a holistic view of upstream and downstream supply chain processes, driving greater overall supply network efficiency. (Para. 4)",
+                "chinese_translation": "整合生产运营、业务系统以及上下游供应商、客户的数据，能够完整梳理全链路供应链流程，全面提升供应网络整体效率。"
+            },
+            {
+                "english": "With the era of big data coming to an end, we now can focus less on the mechanics of collecting large volumes of data and more on the myriad challenges of processing, analyzing, and interacting with massive amounts of data in real-time. (Para. 5)",
+                "chinese_translation": "大数据时代走向尾声后，我们无需再重点钻研海量数据采集机制，转而应对海量数据实时处理、分析、交互的各类复杂难题。"
+            },
+            {
+                "english": "The most important consideration here is to use data that does not serve the business well due to small sample size, lack of data sources, poorly defined data, poorly contextualized data, or inaccurate algorithm and classification assumptions. (Para. 8)",
+                "chinese_translation": "此处核心注意事项：规避因样本量不足、数据源缺失、数据定义模糊、场景适配差、算法分类假设失真而无法支撑业务的数据。"
+            }
+        ]
+    }
+},
     {
         "unit_index": 3,
         "unit": "Unit6 XR",
@@ -439,75 +439,77 @@
     },
     {
         "unit_index": 7,
-        "unit": "IoT通信单元",
+        "unit": "Unit5 Intelligentizing the World",
         "task6": {
             "task_id": 6,
-            "task_name": "短语填空",
+            "task_name": "短语填空练习",
             "phrase_pool": [
-                "in place",
-                "play out",
-                "call for",
-                "pose a threat to",
-                "as such"
+                "take into account",
+                "take part",
+                "engage with",
+                "more of",
+                "a collection of"
             ],
-            "items": [
+            "questions": [
                 {
-                    "blank_sentence": "GSM operators ______ reallocation of 800MHz band to more efficiently use the spectrum and increase revenue from the upcoming auction.",
-                    "correct_answer": "call for",
-                    "grammar_analysis": "call for 意为“要求、呼吁”；主语operators为复数，一般现在时使用原形短语。",
-                    "chinese_translation": "GSM运营商要求重新分配800兆赫兹频段，以更有效地利用频段，并在即将到来的拍卖中增加收入。"
+                    "sentence": "1. You'd better take some ______ your medicine.",
+                    "answer": "more of",
+                    "analysis": "固定搭配 more of 表示“更多的……”，some 修饰该短语，置于名词前，情态 had better 后直接使用原形短语。",
+                    "chinese_translation": "你最好多吃点药。"
                 },
                 {
-                    "blank_sentence": "As broad as the definition of IoT are the cybersecurity challenges that ______ anything and everyone connected.",
-                    "correct_answer": "pose a threat to",
-                    "grammar_analysis": "pose a threat to 表示“对……构成威胁”；先行词challenges是复数，从句谓语用原形。",
-                    "chinese_translation": "与物联网的定义一样宽泛的是网络安全挑战，它对任何联网的事物和每个人都构成威胁。"
+                    "sentence": "2. There's quite ______ books in the study.",
+                    "answer": "a collection of",
+                    "analysis": "a collection of 意为“一批、藏书、一系列”，quite 修饰该名词短语，无需变形。",
+                    "chinese_translation": "书房里有不少藏书。"
                 },
                 {
-                    "blank_sentence": "In this incident technology has proved already ______ to track bomb hoaxers.",
-                    "correct_answer": "in place",
-                    "grammar_analysis": "in place 固定短语，含义为“准备就绪、到位”，无变形，作主语补足语。",
-                    "chinese_translation": "在这次事件中，追踪炸弹恶作剧者的技术已经得到了证实。"
+                    "sentence": "3. A good architect ______ the building's surroundings.",
+                    "answer": "takes into account",
+                    "analysis": "take into account 表示“考虑到”；主语 a good architect 是单数第三人称，一般现在时动词 take 变为 takes。",
+                    "chinese_translation": "优秀的建筑师须考虑到建筑物的周围环境。"
                 },
                 {
-                    "blank_sentence": "The government is the main contributor and, ______ controls the project.",
-                    "correct_answer": "as such",
-                    "grammar_analysis": "as such 副词短语，意为“照此、因此”，用于句中作插入语，无需变形。",
-                    "chinese_translation": "政府是主要的贡献者，照此理应控制项目。"
+                    "sentence": "4. I will keep blogging because it offers me a way to ______ readers.",
+                    "answer": "engage with",
+                    "analysis": "engage with 含义为“与……互动、交流”；不定式 to 后接动词短语原形。",
+                    "chinese_translation": "我将继续写博客，因为它为我提供了一种与读者互动的方式。"
                 },
                 {
-                    "blank_sentence": "We can see technology disruption ______ in a number of industries like computing where the mainframe gave way to the PC that gave way to the smartphone.",
-                    "correct_answer": "play out",
-                    "grammar_analysis": "play out 表示“上演、发生、显现”；固定搭配 see sth. do，不定式省略to，用短语原形。",
-                    "chinese_translation": "我们可以看到，技术颠覆在很多行业都在上演，比如计算机行业，大型机让位给了个人电脑，而个人电脑又让位给了智能手机。"
+                    "sentence": "5. It is a great honour to be invited to ______ in this educational tour.",
+                    "answer": "take part",
+                    "analysis": "take part in 是固定搭配，意为“参加”；不定式 to 后使用短语原形。",
+                    "chinese_translation": "很荣幸被邀请参加这次教育之旅。"
                 }
             ]
         },
         "task7": {
             "task_id": 7,
-            "task_name": "英译汉句子翻译",
-            "items": [
+            "task_name": "英文段落句子英译汉",
+            "sentences": [
                 {
-                    "english_sentence": "One of the greatest challenges that the energy transition presents is for fossil fuel-producing countries, many of which are countries that have run their economies on these resources in the past, to adopt a new, diversified, economic model. (Para. 4)",
-                    "chinese_translation": "能源转型带来的最大挑战之一，是化石燃料出产国需要采用全新的多元化经济模式；其中许多国家过去一直依靠化石资源支撑本国经济。"
+                    "english": "1. Although AlphaGo has been described as years ahead of its time, AI is rapidly sweeping into our everyday lives and its advancement has begun to transform and aid creative processes, as well as challenge what we believe to be “creative thinking”. (Para. 3)",
+                    "chinese_translation": "虽然阿尔法围棋可以说是领先了这个时代很多年，但是人工智能正在迅速进入我们的日常生活，它的进步已经开始改变和辅助创作过程，同时也在挑战我们所认为的“创造性思维”。"
                 },
                 {
-                    "english_sentence": "If you think of the possibilities that a fast-moving energy transition has for the prices of fossil fuel resources, and the impact it could have on countries like Nigeria, Angola, Gabon and others that are highly dependent on these resources, then unless they have ambitious strategies of economic diversification, they could face some severe challenges in the near future. (Para. 7)",
-                    "chinese_translation": "快速推进的能源转型会改变化石燃料资源价格，这将深刻影响尼日利亚、安哥拉、加蓬等高度依赖化石资源的国家。除非这些国家推出宏大的经济多元化发展战略，否则短期内将面临严峻考验。"
+                    "english": "2. We lose our ability to take these decisions efficiently and consistently as the number of possible solutions increases. (Para. 5)",
+                    "chinese_translation": "随着备选解决方案的增多，我们无法做出有效一致的决定。"
                 },
                 {
-                    "english_sentence": "You have leaders in this field, like Morocco, which is coming from a 90 per cent energy import dependency to a target of having 52 per cent renewables in their electricity mix by 2030—which is an extraordinary achievement. (Para. 12)",
-                    "chinese_translation": "摩洛哥是该领域的标杆国家：该国过去90%能源依赖进口，如今定下目标，到2030年可再生能源发电量占比达到52%，这是一项非凡成就。"
+                    "english": "3. AI is a solution to this issue and is enabling designers such as Cam and Desyllas to construct better designs by accelerating their thought processes and increasing their creative options. (Para. 6)",
+                    "chinese_translation": "人工智能解决了这个问题，它帮助像卡姆和德西拉斯这样的设计师加快思考过程，丰富创意方案，从而制作出更好的设计。"
                 },
                 {
-                    "english_sentence": "Renewables have the added potential to mitigate against wider socio-economic stresses and shocks that can lead to conflict too: by improving access to energy to the 1 billion people who are energy-poor, by creating jobs, reducing local pollution, promoting sustainable development and alleviating competition over scarce natural resources. (Para. 18)",
-                    "chinese_translation": "可再生能源还具备缓解大范围社会经济压力与冲击的潜力，而这类压力冲突往往会引发矛盾。它能为十亿能源贫困人群普及能源供给、创造就业岗位、减少区域污染、推动可持续发展，并缓解稀缺自然资源争夺问题。"
+                    "english": "4. By using AI to automate the production process, Ai Build reduces material usage and labour costs whilst creating complex designs that were once impossible to devise and build. (Para. 6)",
+                    "chinese_translation": "Ai Build使用人工智能实现生产过程自动化，从而减少了材料消耗，节约了劳动力，降低了成本，创造出了曾经无法想象也无法实现的复杂设计作品。"
                 },
                 {
-                    "english_sentence": "But then if you think about how technology is beginning to reshape the global economy, if we move rapidly into the renewable energy-based electrification of the economy—where major sectors like mobility become increasingly electric—then you could see the whole supply chain of conventional vehicles that employs millions of people around the world, with hundreds of billions of dollars of investment, very quickly begin to experience significant challenges. (Para. 22)",
-                    "chinese_translation": "但技术正逐步重塑全球经济。若全球快速迈向以可再生能源为基础的电气化经济，交通等核心产业全面电动化，那么全球吸纳数百万劳动力、承载数千亿投资的传统汽车全产业链，很快就会遭遇巨大冲击。"
+                    "english": "5. Yet, AI used in creative practice today is self-controlled, meaning that it works within a controlled environment and is programmed to do what its creators tell it. (Para. 14)",
+                    "chinese_translation": "然而人工智能在今时今日的创作实践中却是自我约束的，这表示人工智能是在一个受控的环境中工作，按照人们设定好的程序运行。"
                 }
             ]
         }
+ 
     }
+
 ]
