@@ -1,855 +1,3487 @@
 [
     {
-        "group_id": 1,
-        "vocab_list": [
+        "unit": "Unit1 Passage B",
+        "questions": [
             {
-                "english": "electric power capacity",
-                "chinese": "电力容量"
+                "q_id": 1,
+                "question": "a stream of science",
+                "options": {
+                    "A": "科学潮流",
+                    "B": "科技趋势",
+                    "C": "科技流量",
+                    "D": "科学主流"
+                },
+                "correct": "A"
             },
             {
-                "english": "large-scale power grid",
-                "chinese": "大规模电网"
+                "q_id": 2,
+                "question": "real-world problem",
+                "options": {
+                    "A": "世界现实性问题",
+                    "B": "全球性现实问题",
+                    "C": "虚拟世界问题",
+                    "D": "现实世界问题"
+                },
+                "correct": "D"
             },
             {
-                "english": "electric-powered engine",
-                "chinese": "电动发动机"
+                "q_id": 3,
+                "question": "particle accelerator",
+                "options": {
+                    "A": "粒子对撞机",
+                    "B": "粒子加湿器",
+                    "C": "粒子加速器",
+                    "D": "粒子计数器"
+                },
+                "correct": "C"
             },
             {
-                "english": "water treatment and distribution",
-                "chinese": "水处理与分配"
+                "q_id": 4,
+                "question": "physical structure",
+                "options": {
+                    "A": "化学结构",
+                    "B": "物理结构",
+                    "C": "身体结构",
+                    "D": "材料结构"
+                },
+                "correct": "B"
             },
             {
-                "english": "water supply and distribution",
-                "chinese": "给配水"
+                "q_id": 5,
+                "question": "rechargeable battery",
+                "options": {
+                    "A": "续航电池",
+                    "B": "充电电池",
+                    "C": "蓄电池",
+                    "D": "电池充电器"
+                },
+                "correct": "A"
             },
             {
-                "english": "quantum effect",
-                "chinese": "量子效应"
+                "q_id": 6,
+                "question": "modern industry",
+                "options": {
+                    "A": "时髦行业",
+                    "B": "现代化产业",
+                    "C": "现代工业",
+                    "D": "时兴产业"
+                },
+                "correct": "C"
             },
             {
-                "english": "radio wave",
-                "chinese": "无线电波"
+                "q_id": 7,
+                "question": "crude oil",
+                "options": {
+                    "A": "石油",
+                    "B": "原油",
+                    "C": "沥青",
+                    "D": "柏油"
+                },
+                "correct": "B"
             },
             {
-                "english": "communication technology",
-                "chinese": "通信技术"
+                "q_id": 8,
+                "question": "renewable energy",
+                "options": {
+                    "A": "可替代能源",
+                    "B": "可利用能源",
+                    "C": "可回收能源",
+                    "D": "可再生能源"
+                },
+                "correct": "D"
             },
             {
-                "english": "economic stagnation",
-                "chinese": "经济停滞"
+                "q_id": 9,
+                "question": "hierarchical dispute",
+                "options": {
+                    "A": "分级制度",
+                    "B": "阶级斗争",
+                    "C": "等级之争",
+                    "D": "分层模型"
+                },
+                "correct": "C"
             },
             {
-                "english": "cooling technology",
-                "chinese": "冷却技术"
+                "q_id": 10,
+                "question": "multiple theory",
+                "options": {
+                    "A": "多样理论",
+                    "B": "多元理论",
+                    "C": "多项定理",
+                    "D": "多维定理"
+                },
+                "correct": "B"
             },
             {
-                "english": "design elements",
-                "chinese": "设计元素"
+                "q_id": 11,
+                "question": "科学潮流",
+                "options": {
+                    "A": "a flow of science",
+                    "B": "a fashion of science",
+                    "C": "current science trend",
+                    "D": "a stream of science"
+                },
+                "correct": "D"
             },
             {
-                "english": "picture-making devices",
-                "chinese": "成像装置"
+                "q_id": 12,
+                "question": "现实世界问题",
+                "options": {
+                    "A": "world realistic problem",
+                    "B": "real-world problem",
+                    "C": "virtual world problem",
+                    "D": "global reality problem"
+                },
+                "correct": "B"
             },
             {
-                "english": "engineering innovation",
-                "chinese": "工程创新"
+                "q_id": 13,
+                "question": "粒子加速器",
+                "options": {
+                    "A": "particle accelerator",
+                    "B": "partide speedometer",
+                    "C": "particle speeder",
+                    "D": "particle speed indicator"
+                },
+                "correct": "A"
             },
             {
-                "english": "average life expectancy",
-                "chinese": "平均寿命"
+                "q_id": 14,
+                "question": "物理结构",
+                "options": {
+                    "A": "physical species",
+                    "B": "physical property",
+                    "C": "physical structure",
+                    "D": "physical matter"
+                },
+                "correct": "C"
             },
             {
-                "english": "petroleum processing technology",
-                "chinese": "石油加工技术"
+                "q_id": 15,
+                "question": "充电电池",
+                "options": {
+                    "A": "rechargeable batery",
+                    "B": "chargeable battery",
+                    "C": "",
+                    "D": "fully-charged battery"
+                },
+                "correct": "A"
             },
             {
-                "english": "fiber optics",
-                "chinese": "光导纤维"
+                "q_id": 16,
+                "question": "现代工业",
+                "options": {
+                    "A": "current industry",
+                    "B": "industrial modernization",
+                    "C": "modern industrialization",
+                    "D": "modern industry"
+                },
+                "correct": "D"
             },
             {
-                "english": "nuclear energy/power",
-                "chinese": "核能"
+                "q_id": 17,
+                "question": "原油",
+                "options": {
+                    "A": "raw fuel",
+                    "B": "raw gasoline",
+                    "C": "crude oil",
+                    "D": "crude tar"
+                },
+                "correct": "C"
             },
             {
-                "english": "high performance materials",
-                "chinese": "高性能材料"
+                "q_id": 18,
+                "question": "可再生能源",
+                "options": {
+                    "A": "reproducible energy",
+                    "B": "renewable energy",
+                    "C": "replicated energy",
+                    "D": "restorable energy"
+                },
+                "correct": "B"
             },
             {
-                "english": "technological achievement",
-                "chinese": "技术成就"
+                "q_id": 19,
+                "question": "等级之争",
+                "options": {
+                    "A": "class conflict",
+                    "B": "class struggle",
+                    "C": "hierarchical battle",
+                    "D": "hierarchical dispute"
+                },
+                "correct": "D"
             },
             {
-                "english": "nano-product",
-                "chinese": "纳米产品"
+                "q_id": 20,
+                "question": "多元理论",
+                "options": {
+                    "A": "multiple theory",
+                    "B": "multiple theorem",
+                    "C": "diversified theorem",
+                    "D": ""
+                },
+                "correct": "A"
             }
         ]
     },
     {
-        "group_id": 2,
-        "vocab_list": [
+        "unit": "Unit2 Passage A",
+        "questions": [
             {
-                "english": "a stream of science",
-                "chinese": "科学潮流"
+                "q_id": 1,
+                "question": "manufacturing environment",
+                "options": {
+                    "A": "制造环境",
+                    "B": "循环环境",
+                    "C": "监测环境",
+                    "D": "应用环境"
+                },
+                "correct": "A"
             },
             {
-                "english": "real-world problem",
-                "chinese": "现实世界问题"
+                "q_id": 2,
+                "question": "数据分析师",
+                "options": {
+                    "A": "data processor",
+                    "B": "data analysis",
+                    "C": "data manager",
+                    "D": "data analysts"
+                },
+                "correct": "D"
             },
             {
-                "english": "particle accelerator",
-                "chinese": "粒子加速器"
+                "q_id": 3,
+                "question": "overall yield",
+                "options": {
+                    "A": "整体产量",
+                    "B": "长期产量",
+                    "C": "全部生产",
+                    "D": "总生产力"
+                },
+                "correct": "A"
             },
             {
-                "english": "physical structure",
-                "chinese": "物理结构"
+                "q_id": 4,
+                "question": "overall yield",
+                "options": {
+                    "A": "计算产量",
+                    "B": "局部产量",
+                    "C": "整体产量",
+                    "D": "损耗产量"
+                },
+                "correct": "C"
             },
             {
-                "english": "rechargeable battery",
-                "chinese": "充电电池"
+                "q_id": 5,
+                "question": "statistical analysis",
+                "options": {
+                    "A": "",
+                    "B": "回归分析",
+                    "C": "定性分析",
+                    "D": "统计分析"
+                },
+                "correct": "D"
             },
             {
-                "english": "modern industry",
-                "chinese": "现代工业"
+                "q_id": 6,
+                "question": "统计分析",
+                "options": {
+                    "A": "statistical analysis",
+                    "B": "static analysis",
+                    "C": "regression analysis",
+                    "D": "correlation analysis"
+                },
+                "correct": "A"
             },
             {
-                "english": "crude oil",
-                "chinese": "原油"
+                "q_id": 7,
+                "question": "过程控制",
+                "options": {
+                    "A": "quality control",
+                    "B": "remote control",
+                    "C": "progress control",
+                    "D": "process control"
+                },
+                "correct": "D"
             },
             {
-                "english": "renewable energy",
-                "chinese": "可再生能源"
+                "q_id": 8,
+                "question": "process control",
+                "options": {
+                    "A": "顺序控制",
+                    "B": "过程控制",
+                    "C": "流量控制",
+                    "D": "定量控制"
+                },
+                "correct": "B"
             },
             {
-                "english": "hierarchical dispute",
-                "chinese": "等级之争"
+                "q_id": 9,
+                "question": "scientific application",
+                "options": {
+                    "A": "科学研究",
+                    "B": "科学应用",
+                    "C": "科学开发",
+                    "D": "科学管理"
+                },
+                "correct": "B"
             },
             {
-                "english": "multiple theory",
-                "chinese": "多元理论"
+                "q_id": 10,
+                "question": "神经网络技术",
+                "options": {
+                    "A": "network neurology",
+                    "B": "neural-network technique",
+                    "C": "technological neural network",
+                    "D": "neuron digital technique"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 11,
+                "question": "raw materials",
+                "options": {
+                    "A": "原材料",
+                    "B": "原油材料",
+                    "C": "初始化数据",
+                    "D": "原始物料"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 12,
+                "question": "project team",
+                "options": {
+                    "A": "管理团队",
+                    "B": "项目团队",
+                    "C": "科研团队",
+                    "D": "研究团队"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 13,
+                "question": "scientific application",
+                "options": {
+                    "A": "科学管理",
+                    "B": "科研申请",
+                    "C": "科研开发",
+                    "D": "科学应用"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 14,
+                "question": "项目团队",
+                "options": {
+                    "A": "project team",
+                    "B": "program team",
+                    "C": "projection team",
+                    "D": "research team"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 15,
+                "question": "中央数据库",
+                "options": {
+                    "A": "central database",
+                    "B": "mid-data library",
+                    "C": "",
+                    "D": "neutral database"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 16,
+                "question": "statistical assessment",
+                "options": {
+                    "A": "统计评估",
+                    "B": "统计测试",
+                    "C": "数据统计",
+                    "D": "数据检测"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 17,
+                "question": "neural-network technique",
+                "options": {
+                    "A": "内存技术设备",
+                    "B": "循环网络技术",
+                    "C": "神经网络技术",
+                    "D": "多层网络技术"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 18,
+                "question": "raw materials",
+                "options": {
+                    "A": "原材料",
+                    "B": "成品物料",
+                    "C": "原生质",
+                    "D": "生的食料"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 19,
+                "question": "quantitative assessment",
+                "options": {
+                    "A": "价值评估",
+                    "B": "定量评估",
+                    "C": "实体评估",
+                    "D": "定性评估"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 20,
+                "question": "central database",
+                "options": {
+                    "A": "中央服务器",
+                    "B": "中央处理器",
+                    "C": "中央数据库",
+                    "D": ""
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 21,
+                "question": "高级分析",
+                "options": {
+                    "A": "preliminary analytics",
+                    "B": "advanced analytics",
+                    "C": "senior analytics",
+                    "D": "superior analytics"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 22,
+                "question": "production process",
+                "options": {
+                    "A": "生产过程",
+                    "B": "运输过程",
+                    "C": "销售过程",
+                    "D": "装配过程"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 23,
+                "question": "定量评估",
+                "options": {
+                    "A": "qualitative assessment",
+                    "B": "qualitative analysis",
+                    "C": "quantitative analysis",
+                    "D": "quantitative assessment"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 24,
+                "question": "统计评估",
+                "options": {
+                    "A": "statistical assessment",
+                    "B": "dynamic statistics",
+                    "C": "statistical diagnosis",
+                    "D": "statistical analysis"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 25,
+                "question": "advanced analytics",
+                "options": {
+                    "A": "高级分析",
+                    "B": "多元分析",
+                    "C": "统计分析",
+                    "D": "整体分析"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 26,
+                "question": "mathematical tools",
+                "options": {
+                    "A": "代数工具",
+                    "B": "算术工具",
+                    "C": "数学工具",
+                    "D": "几何工具"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 27,
+                "question": "生产过程",
+                "options": {
+                    "A": "assembly process",
+                    "B": "production process",
+                    "C": "product process",
+                    "D": "construction process"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 28,
+                "question": "数学工具",
+                "options": {
+                    "A": "mathematical tools",
+                    "B": "algebra tools",
+                    "C": "arithmetic tools",
+                    "D": "geometry tools"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 29,
+                "question": "data analysts",
+                "options": {
+                    "A": "数据分析师",
+                    "B": "系统分析",
+                    "C": "系统分析师",
+                    "D": "数据分析"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 30,
+                "question": "制造环境",
+                "options": {
+                    "A": "manufacturing foreground",
+                    "B": "manufacturing background",
+                    "C": "manufacturing environment",
+                    "D": "manufacturing configuration"
+                },
+                "correct": "C"
             }
         ]
     },
     {
-        "group_id": 3,
-        "vocab_list": [
+        "unit": "Unit2 Passage B",
+        "questions": [
             {
-                "english": "production process",
-                "chinese": "生产过程"
+                "q_id": 1,
+                "question": "战略优势",
+                "options": {
+                    "A": "geographical advantage",
+                    "B": "military advantage",
+                    "C": "strategic advantage",
+                    "D": "tactical advantage"
+                },
+                "correct": "C"
             },
             {
-                "english": "advanced analytics",
-                "chinese": "高级分析"
+                "q_id": 2,
+                "question": "data integration",
+                "options": {
+                    "A": "数据混合",
+                    "B": "数据集成",
+                    "C": "数据反馈",
+                    "D": "数据采集"
+                },
+                "correct": "B"
             },
             {
-                "english": "mathematical tools",
-                "chinese": "数学工具"
+                "q_id": 3,
+                "question": "数据建模",
+                "options": {
+                    "A": "data integration",
+                    "B": "data modelling",
+                    "C": "data analytics",
+                    "D": "data collection"
+                },
+                "correct": "B"
             },
             {
-                "english": "statistical assessment",
-                "chinese": "统计评估"
+                "q_id": 4,
+                "question": "established technology",
+                "options": {
+                    "A": "革新技术",
+                    "B": "成熟技术",
+                    "C": "开发技术",
+                    "D": "引进技术"
+                },
+                "correct": "B"
             },
             {
-                "english": "central database",
-                "chinese": "中央数据库"
+                "q_id": 5,
+                "question": "strategic advantage",
+                "options": {
+                    "A": "",
+                    "B": "战略优势",
+                    "C": "技术优势",
+                    "D": "战略特点"
+                },
+                "correct": "B"
             },
             {
-                "english": "project team",
-                "chinese": "项目团队"
+                "q_id": 6,
+                "question": "analyic model",
+                "options": {
+                    "A": "分析模式",
+                    "B": "建立模型",
+                    "C": "分析模型",
+                    "D": "建立模式"
+                },
+                "correct": "C"
             },
             {
-                "english": "statistical analysis",
-                "chinese": "统计分析"
+                "q_id": 7,
+                "question": "行为反馈",
+                "options": {
+                    "A": "behavioral feedback",
+                    "B": "verbal feedback",
+                    "C": "neural feedback",
+                    "D": "conscious feedback"
+                },
+                "correct": "A"
             },
             {
-                "english": "neural-network technique",
-                "chinese": "神经网络技术"
+                "q_id": 8,
+                "question": "扩展现实",
+                "options": {
+                    "A": "mixed reality",
+                    "B": "virtual reality",
+                    "C": "extended reality",
+                    "D": "augmented reality"
+                },
+                "correct": "C"
             },
             {
-                "english": "raw materials",
-                "chinese": "原材料"
+                "q_id": 9,
+                "question": "petroleum processing technology",
+                "options": {
+                    "A": "石油加工技术",
+                    "B": "石油开采技术",
+                    "C": "石油运输技术",
+                    "D": "石油提炼技术"
+                },
+                "correct": "A"
             },
             {
-                "english": "overall yield",
-                "chinese": "整体产量"
+                "q_id": 10,
+                "question": "rechargeable battery",
+                "options": {
+                    "A": "续航电池",
+                    "B": "充电电池",
+                    "C": "蓄电池",
+                    "D": "电池充电器"
+                },
+                "correct": "B"
             },
             {
-                "english": "process control",
-                "chinese": "过程控制"
+                "q_id": 11,
+                "question": "data modelling",
+                "options": {
+                    "A": "数据建模",
+                    "B": "数据集成",
+                    "C": "数据模型",
+                    "D": "数据采集"
+                },
+                "correct": "A"
             },
             {
-                "english": "data analysts",
-                "chinese": "数据分析师"
+                "q_id": 12,
+                "question": "分析模型",
+                "options": {
+                    "A": "analysis mode",
+                    "B": "analysis model",
+                    "C": "analytic model",
+                    "D": "analytic mode"
+                },
+                "correct": "C"
             },
             {
-                "english": "scientific application",
-                "chinese": "科学应用"
+                "q_id": 13,
+                "question": "数据集成",
+                "options": {
+                    "A": "data feedback",
+                    "B": "data collection",
+                    "C": "data access",
+                    "D": "data integration"
+                },
+                "correct": "D"
             },
             {
-                "english": "manufacturing environment",
-                "chinese": "制造环境"
+                "q_id": 14,
+                "question": "成熟技术",
+                "options": {
+                    "A": "established technology",
+                    "B": "establishing technology",
+                    "C": "established skills",
+                    "D": "establishing skills"
+                },
+                "correct": "A"
             },
             {
-                "english": "quantitative assessment",
-                "chinese": "定量评估"
+                "q_id": 15,
+                "question": "extended reality",
+                "options": {
+                    "A": "增强现实",
+                    "B": "扩展现实",
+                    "C": "",
+                    "D": "虚拟现实"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 16,
+                "question": "edge observation",
+                "options": {
+                    "A": "同步观测",
+                    "B": "边缘观察",
+                    "C": "外部观察",
+                    "D": "内部观测"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 17,
+                "question": "behavioral feedback",
+                "options": {
+                    "A": "心理反馈",
+                    "B": "状态反馈",
+                    "C": "意识反馈",
+                    "D": "行为反馈"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 18,
+                "question": "边缘观察",
+                "options": {
+                    "A": "objective observation",
+                    "B": "deep observation",
+                    "C": "surface observation",
+                    "D": "edge observation"
+                },
+                "correct": "D"
             }
         ]
     },
     {
-        "group_id": 4,
-        "vocab_list": [
+        "unit": "Unit3 Passage A",
+        "questions": [
             {
-                "english": "established technology",
-                "chinese": "成熟技术"
+                "q_id": 1,
+                "question": "数字图像",
+                "options": {
+                    "A": "digital graphics",
+                    "B": "digital object",
+                    "C": "numerical graphics",
+                    "D": "numerical lines"
+                },
+                "correct": "A"
             },
             {
-                "english": "machine learning",
-                "chinese": "机器学习"
+                "q_id": 2,
+                "question": "hands-on practice",
+                "options": {
+                    "A": "专业实习",
+                    "B": "业务实践",
+                    "C": "操作实习",
+                    "D": "干预做法"
+                },
+                "correct": "C"
             },
             {
-                "english": "analytic model",
-                "chinese": "分析模型"
+                "q_id": 3,
+                "question": "real environment",
+                "options": {
+                    "A": "实际环境",
+                    "B": "真实环境",
+                    "C": "实时环境",
+                    "D": "虚拟环境"
+                },
+                "correct": "B"
             },
             {
-                "english": "deep learning",
-                "chinese": "深度学习"
+                "q_id": 4,
+                "question": "无缝访问数据",
+                "options": {
+                    "A": "seamlessly access data",
+                    "B": "unlimitedly access data",
+                    "C": "infinitely access data",
+                    "D": "periodically access data"
+                },
+                "correct": "A"
             },
             {
-                "english": "edge observation",
-                "chinese": "边缘观察"
+                "q_id": 5,
+                "question": "virtual reality",
+                "options": {
+                    "A": "",
+                    "B": "扩展现实",
+                    "C": "虚拟现实",
+                    "D": "增强现实"
+                },
+                "correct": "C"
             },
             {
-                "english": "extended reality",
-                "chinese": "扩展现实"
+                "q_id": 6,
+                "question": "虚拟现实",
+                "options": {
+                    "A": "extended reality",
+                    "B": "virtual reality",
+                    "C": "augmented reality",
+                    "D": "mixed reality"
+                },
+                "correct": "B"
             },
             {
-                "english": "behavioral feedback",
-                "chinese": "行为反馈"
+                "q_id": 7,
+                "question": "高昂的实施成本",
+                "options": {
+                    "A": "costly performance",
+                    "B": "expensive operation",
+                    "C": "high price of practice",
+                    "D": "high cost of implementation"
+                },
+                "correct": "D"
             },
             {
-                "english": "data integration",
-                "chinese": "数据集成"
+                "q_id": 8,
+                "question": "cyber attacks",
+                "options": {
+                    "A": "网络攻击",
+                    "B": "故障侵袭",
+                    "C": "局域侵袭",
+                    "D": "黑客攻击"
+                },
+                "correct": "A"
             },
             {
-                "english": "data modelling",
-                "chinese": "数据建模"
+                "q_id": 9,
+                "question": "extended reality",
+                "options": {
+                    "A": "扩展现实",
+                    "B": "增强现实",
+                    "C": "虚拟现实",
+                    "D": "混合现实"
+                },
+                "correct": "A"
             },
             {
-                "english": "strategic advantage",
-                "chinese": "战略优势"
+                "q_id": 10,
+                "question": "混合现实",
+                "options": {
+                    "A": "augmented reality",
+                    "B": "mixed reality",
+                    "C": "virtual reality",
+                    "D": "extended reality"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 11,
+                "question": "augmented reality",
+                "options": {
+                    "A": "虚拟现实",
+                    "B": "扩展现实",
+                    "C": "混合现实",
+                    "D": "增强现实"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 12,
+                "question": "computer-simulated reality",
+                "options": {
+                    "A": "计算机虚幻现实",
+                    "B": "计算机模拟现实",
+                    "C": "计算机引导现实",
+                    "D": "计算机增强现实"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 13,
+                "question": "虚拟环境",
+                "options": {
+                    "A": "down-to-earth environment",
+                    "B": "virtual environment",
+                    "C": "impractical environment",
+                    "D": "matter-of-fact environment"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 14,
+                "question": "网络攻击",
+                "options": {
+                    "A": "cyberintrusion",
+                    "B": "intranet strike",
+                    "C": "network invasion",
+                    "D": "cyber attacks"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 15,
+                "question": "umbrella term",
+                "options": {
+                    "A": "分支术语",
+                    "B": "分级条款",
+                    "C": "总称，概括性术语",
+                    "D": "学期分级"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 16,
+                "question": "fundamental shift",
+                "options": {
+                    "A": "基础性转向",
+                    "B": "根本性转变",
+                    "C": "永久性替代",
+                    "D": "通用性变换"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 17,
+                "question": "物理空间",
+                "options": {
+                    "A": "abstract space",
+                    "B": "phase space",
+                    "C": "physical space",
+                    "D": "cyberspace"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 18,
+                "question": "third-party perspective",
+                "options": {
+                    "A": "three-dimensional perspective",
+                    "B": "third-party perspective",
+                    "C": "tri-party perspective",
+                    "D": "three-party perspective"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 19,
+                "question": "physical space",
+                "options": {
+                    "A": "虚拟空间",
+                    "B": "物理空间",
+                    "C": "抽象空间",
+                    "D": "宇宙空间"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 20,
+                "question": "extended reality",
+                "options": {
+                    "A": "extend real-time",
+                    "B": "extended real-time",
+                    "C": "extended reality",
+                    "D": ""
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 21,
+                "question": "third-party perspective",
+                "options": {
+                    "A": "三方会谈",
+                    "B": "三方联合",
+                    "C": "第三方视角",
+                    "D": "三视图"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 22,
+                "question": "digital graphics",
+                "options": {
+                    "A": "数码成像",
+                    "B": "数字图像",
+                    "C": "数位显卡",
+                    "D": "数字对象"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 23,
+                "question": "fundamental shift",
+                "options": {
+                    "A": "thorough change",
+                    "B": "fundamental shift",
+                    "C": "basic variation",
+                    "D": "fundamental alternation"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 24,
+                "question": "interior designer",
+                "options": {
+                    "A": "高级设计师",
+                    "B": "室内设计师",
+                    "C": "造型设计师",
+                    "D": "网页设计师"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 25,
+                "question": "digital objects",
+                "options": {
+                    "A": "数字对象",
+                    "B": "数字图形",
+                    "C": "数码影像",
+                    "D": "数字化目标"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 26,
+                "question": "real environment",
+                "options": {
+                    "A": "matter-of-fact environment",
+                    "B": "real environment",
+                    "C": "down-to-earth environment",
+                    "D": "practical environment"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 27,
+                "question": "virtual world",
+                "options": {
+                    "A": "virtual world",
+                    "B": "unrealistic world",
+                    "C": "real world",
+                    "D": "actual world"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 28,
+                "question": "seamlessly access data",
+                "options": {
+                    "A": "随机存取数据",
+                    "B": "无限存取数据",
+                    "C": "即时访问数据",
+                    "D": "无缝访问数据"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 29,
+                "question": "augmented reality",
+                "options": {
+                    "A": "argumented reality",
+                    "B": "mixed reality",
+                    "C": "augmented reality",
+                    "D": "virtual reality"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 30,
+                "question": "digital objects",
+                "options": {
+                    "A": "number counterparts",
+                    "B": "numerical counterparts",
+                    "C": "digital subjects",
+                    "D": "digital objects"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 31,
+                "question": "hands-on practice",
+                "options": {
+                    "A": "operating practice",
+                    "B": "hands-on operation",
+                    "C": "operating internship",
+                    "D": "hands-on practice"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 32,
+                "question": "mixed reality",
+                "options": {
+                    "A": "扩展现实",
+                    "B": "增强现实",
+                    "C": "混合现实",
+                    "D": "虚拟现实"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 33,
+                "question": "umbrella term",
+                "options": {
+                    "A": "principal term",
+                    "B": "general term",
+                    "C": "high-order term",
+                    "D": "umbrella term"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 34,
+                "question": "high cost of implementation",
+                "options": {
+                    "A": "高昂的修复代价",
+                    "B": "高昂的实施成本",
+                    "C": "高昂的修复费用",
+                    "D": "高昂的转移费用"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 35,
+                "question": "interior designer",
+                "options": {
+                    "A": "interior designer",
+                    "B": "exterior designer",
+                    "C": "senior designer",
+                    "D": "inferior designer"
+                },
+                "correct": "A"
             }
         ]
     },
     {
-        "group_id": 5,
-        "vocab_list": [
+        "unit": "Unit3 Passage B",
+        "questions": [
             {
-                "english": "extended reality",
-                "chinese": "扩展现实"
+                "q_id": 1,
+                "question": "quantitative assessment",
+                "options": {
+                    "A": "价值评估",
+                    "B": "定量评估",
+                    "C": "实体评估",
+                    "D": "定性评估"
+                },
+                "correct": "B"
             },
             {
-                "english": "virtual reality",
-                "chinese": "虚拟现实"
+                "q_id": 2,
+                "question": "尖端科技",
+                "options": {
+                    "A": "fringe technology",
+                    "B": "established technology",
+                    "C": "frontier technology",
+                    "D": "cutting-edge technology"
+                },
+                "correct": "D"
             },
             {
-                "english": "augmented reality",
-                "chinese": "增强现实"
+                "q_id": 3,
+                "question": "留存率",
+                "options": {
+                    "A": "yield rate",
+                    "B": "vibration rate",
+                    "C": "retention rate",
+                    "D": "scrap rate"
+                },
+                "correct": "C"
             },
             {
-                "english": "mixed reality",
-                "chinese": "混合现实"
+                "q_id": 4,
+                "question": "augmented reality",
+                "options": {
+                    "A": "增强现实",
+                    "B": "混合现实",
+                    "C": "扩展显示",
+                    "D": "虚拟现实"
+                },
+                "correct": "A"
             },
             {
-                "english": "computer-simulated reality",
-                "chinese": "计算机模拟现实"
+                "q_id": 5,
+                "question": "产品设计",
+                "options": {
+                    "A": "",
+                    "B": "commodity plan",
+                    "C": "merchandise design",
+                    "D": "product design"
+                },
+                "correct": "D"
             },
             {
-                "english": "virtual world",
-                "chinese": "虚拟世界"
+                "q_id": 6,
+                "question": "风险投资",
+                "options": {
+                    "A": "joint venture",
+                    "B": "capital assets",
+                    "C": "venture capital",
+                    "D": "private investment"
+                },
+                "correct": "C"
             },
             {
-                "english": "digital graphics",
-                "chinese": "数字图像"
+                "q_id": 7,
+                "question": "immersive experience",
+                "options": {
+                    "A": "real-life experience",
+                    "B": "sensory experience",
+                    "C": "immersive experience",
+                    "D": "instant experience"
+                },
+                "correct": "C"
             },
             {
-                "english": "digital objects",
-                "chinese": "数字对象"
+                "q_id": 8,
+                "question": "immersive experience",
+                "options": {
+                    "A": "协调性体验",
+                    "B": "沉浸性体验",
+                    "C": "自发性体验",
+                    "D": "实践性经验"
+                },
+                "correct": "B"
             },
             {
-                "english": "physical space",
-                "chinese": "物理空间"
+                "q_id": 9,
+                "question": "实时信息",
+                "options": {
+                    "A": "on-time information",
+                    "B": "real-time information",
+                    "C": "in-time information",
+                    "D": "timely information"
+                },
+                "correct": "B"
             },
             {
-                "english": "third-party perspective",
-                "chinese": "第三方视角"
+                "q_id": 10,
+                "question": "augmented reality",
+                "options": {
+                    "A": "augmented reality",
+                    "B": "",
+                    "C": "argumented reality",
+                    "D": "strengthened reality"
+                },
+                "correct": "A"
             },
             {
-                "english": "umbrella term",
-                "chinese": "总称，概括性术语"
+                "q_id": 11,
+                "question": "real-time information",
+                "options": {
+                    "A": "虚假信息",
+                    "B": "真实信息",
+                    "C": "实时信息",
+                    "D": "及时信息"
+                },
+                "correct": "C"
             },
             {
-                "english": "real environment",
-                "chinese": "真实环境"
+                "q_id": 12,
+                "question": "人才库",
+                "options": {
+                    "A": "talent warehouse",
+                    "B": "talent stock",
+                    "C": "talent pool",
+                    "D": "talent tank"
+                },
+                "correct": "C"
             },
             {
-                "english": "virtual environment",
-                "chinese": "虚拟环境"
+                "q_id": 13,
+                "question": "umbrella term",
+                "options": {
+                    "A": "总称",
+                    "B": "学期分级",
+                    "C": "分级条款",
+                    "D": "分支术语"
+                },
+                "correct": "A"
             },
             {
-                "english": "fundamental shift",
-                "chinese": "根本性转变"
+                "q_id": 14,
+                "question": "fundamental shift",
+                "options": {
+                    "A": "基础性转向",
+                    "B": "通用性变换",
+                    "C": "根本性转变",
+                    "D": "永久性替代"
+                },
+                "correct": "C"
             },
             {
-                "english": "immersive experience",
-                "chinese": "身临其境的体验，沉浸性体验"
+                "q_id": 15,
+                "question": "cutting-edge technology",
+                "options": {
+                    "A": "边缘技术",
+                    "B": "尖端科技",
+                    "C": "",
+                    "D": "优势技术"
+                },
+                "correct": "B"
             },
             {
-                "english": "hands-on practice",
-                "chinese": "操作实习，动手操作"
+                "q_id": 16,
+                "question": "venture capital",
+                "options": {
+                    "A": "风险投资",
+                    "B": "商品资本",
+                    "C": "货币资本",
+                    "D": "生产资本"
+                },
+                "correct": "A"
             },
             {
-                "english": "interior designer",
-                "chinese": "室内设计师"
+                "q_id": 17,
+                "question": "virtual showroom",
+                "options": {
+                    "A": "文化展厅",
+                    "B": "虚拟展厅",
+                    "C": "智能展厅",
+                    "D": "视觉展厅"
+                },
+                "correct": "B"
             },
             {
-                "english": "seamlessly access data",
-                "chinese": "无缝访问数据"
-            },
-            {
-                "english": "cyber attacks",
-                "chinese": "网络攻击"
-            },
-            {
-                "english": "high cost of implementation",
-                "chinese": "高昂的实施成本"
+                "q_id": 18,
+                "question": "retention rate",
+                "options": {
+                    "A": "波动率",
+                    "B": "成品率",
+                    "C": "废品率",
+                    "D": "留存率"
+                },
+                "correct": "D"
             }
         ]
     },
     {
-        "group_id": 6,
-        "vocab_list": [
+        "unit": "Unit4 Passage A",
+        "questions": [
             {
-                "english": "augmented reality",
-                "chinese": "增强现实"
+                "q_id": 1,
+                "question": "data exchange",
+                "options": {
+                    "A": "数据更新",
+                    "B": "数据转换",
+                    "C": "数字交易",
+                    "D": "数据交换"
+                },
+                "correct": "D"
             },
             {
-                "english": "immersive experiences",
-                "chinese": "沉浸式体验"
+                "q_id": 2,
+                "question": "social media",
+                "options": {
+                    "A": "社交媒体",
+                    "B": "大众传媒",
+                    "C": "公共媒体",
+                    "D": "新闻媒介"
+                },
+                "correct": "A"
             },
             {
-                "english": "venture capital",
-                "chinese": "风险投资"
+                "q_id": 3,
+                "question": "communication network",
+                "options": {
+                    "A": "网络通信",
+                    "B": "通信系统",
+                    "C": "通信网络",
+                    "D": "社交网络"
+                },
+                "correct": "C"
             },
             {
-                "english": "the same time period in the previous year",
-                "chinese": "去年同期"
+                "q_id": 4,
+                "question": "digital processing",
+                "options": {
+                    "A": "数码冲印",
+                    "B": "数字处理",
+                    "C": "数字控制",
+                    "D": "数码转换"
+                },
+                "correct": "B"
             },
             {
-                "english": "real-time information",
-                "chinese": "实时信息"
+                "q_id": 5,
+                "question": "new ecosystem",
+                "options": {
+                    "A": "新生态系统",
+                    "B": "生态系统更新",
+                    "C": "可再生系统",
+                    "D": "新经济体系"
+                },
+                "correct": "A"
             },
             {
-                "english": "product design",
-                "chinese": "产品设计"
+                "q_id": 6,
+                "question": "value chain",
+                "options": {
+                    "A": "价格成本",
+                    "B": "价值成本",
+                    "C": "供应链",
+                    "D": "价值链"
+                },
+                "correct": "D"
             },
             {
-                "english": "retention rate",
-                "chinese": "留存率"
+                "q_id": 7,
+                "question": "object identification",
+                "options": {
+                    "A": "客体标识",
+                    "B": "对象识别",
+                    "C": "身份认同",
+                    "D": "目标认定"
+                },
+                "correct": "B"
             },
             {
-                "english": "virtual showroom",
-                "chinese": "虚拟展厅"
+                "q_id": 8,
+                "question": "data sharing",
+                "options": {
+                    "A": "数据处理",
+                    "B": "实时数据",
+                    "C": "数据共享",
+                    "D": "数据流"
+                },
+                "correct": "C"
             },
             {
-                "english": "talent pool",
-                "chinese": "人才库"
+                "q_id": 9,
+                "question": "specific function",
+                "options": {
+                    "A": "特定功能",
+                    "B": "特殊功能",
+                    "C": "特定函数",
+                    "D": "特殊作用"
+                },
+                "correct": "A"
             },
             {
-                "english": "cutting-edge technology",
-                "chinese": "尖端科技"
+                "q_id": 10,
+                "question": "business model",
+                "options": {
+                    "A": "商业模特",
+                    "B": "经营典范",
+                    "C": "商业模式",
+                    "D": "无"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 11,
+                "question": "smart object",
+                "options": {
+                    "A": "灵巧物件",
+                    "B": "智能对象",
+                    "C": "明智目标",
+                    "D": "智能主体"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 12,
+                "question": "数据交换",
+                "options": {
+                    "A": "data transfer",
+                    "B": "exchange data",
+                    "C": "data exchange",
+                    "D": "data transformation"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 13,
+                "question": "社交媒体",
+                "options": {
+                    "A": "social media",
+                    "B": "public media",
+                    "C": "communication media",
+                    "D": "socialized media"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 14,
+                "question": "通信网络",
+                "options": {
+                    "A": "web communication",
+                    "B": "communication network",
+                    "C": "communication media",
+                    "D": "communication system"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 15,
+                "question": "数字处理",
+                "options": {
+                    "A": "numerical process",
+                    "B": "digital treatment",
+                    "C": "无",
+                    "D": "digital processing"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 16,
+                "question": "新生态系统",
+                "options": {
+                    "A": "ecologica system",
+                    "B": "new ecosystem",
+                    "C": "economic neo-system",
+                    "D": "systematic neo-ecology"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 17,
+                "question": "价值链",
+                "options": {
+                    "A": "value chain",
+                    "B": "value cable",
+                    "C": "valid chain",
+                    "D": "valid cable"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 18,
+                "question": "对象识别",
+                "options": {
+                    "A": "object identity",
+                    "B": "subject identification",
+                    "C": "object identification",
+                    "D": "subject identity"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 19,
+                "question": "数据共享",
+                "options": {
+                    "A": "data processing",
+                    "B": "data collection",
+                    "C": "data distribution",
+                    "D": "data sharing"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 20,
+                "question": "数据安全",
+                "options": {
+                    "A": "data warranty",
+                    "B": "data security",
+                    "C": "data guarantee",
+                    "D": "无"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 21,
+                "question": "嵌入式系统",
+                "options": {
+                    "A": "input system",
+                    "B": "plug-in system",
+                    "C": "embedded system",
+                    "D": "inserted system"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 22,
+                "question": "大数据分析",
+                "options": {
+                    "A": "big data analytics",
+                    "B": "big data analogy",
+                    "C": "big data analysts",
+                    "D": "big data anatomy"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 23,
+                "question": "特定功能",
+                "options": {
+                    "A": "specialized function",
+                    "B": "special function",
+                    "C": "specified function",
+                    "D": "specific function"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 24,
+                "question": "业务模式,商业模式",
+                "options": {
+                    "A": "commercial style",
+                    "B": "entrepreneur model",
+                    "C": "business model",
+                    "D": "corporation mode"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 25,
+                "question": "智能对象",
+                "options": {
+                    "A": "smart object",
+                    "B": "intelligent target",
+                    "C": "smart subject",
+                    "D": "ingenious object"
+                },
+                "correct": "A"
             }
         ]
     },
     {
-        "group_id": 7,
-        "vocab_list": [
+        "unit": "Unit4 Passage B",
+        "questions": [
             {
-                "english": "data exchange",
-                "chinese": "数据交换"
+                "q_id": 1,
+                "question": "manufacturing industry",
+                "options": {
+                    "A": "制造成本",
+                    "B": "制造业",
+                    "C": "制造分工",
+                    "D": "生产分工"
+                },
+                "correct": "B"
             },
             {
-                "english": "social media",
-                "chinese": "社交媒体"
+                "q_id": 2,
+                "question": "low latency",
+                "options": {
+                    "A": "低成本",
+                    "B": "低密度",
+                    "C": "低延迟",
+                    "D": "低预期"
+                },
+                "correct": "C"
             },
             {
-                "english": "communication network",
-                "chinese": "通信网络"
+                "q_id": 3,
+                "question": "wearable device",
+                "options": {
+                    "A": "可穿戴设备",
+                    "B": "可变式装置",
+                    "C": "便携式仪器",
+                    "D": "易磨损设备"
+                },
+                "correct": "A"
             },
             {
-                "english": "digital processing",
-                "chinese": "数字处理"
+                "q_id": 4,
+                "question": "loading time",
+                "options": {
+                    "A": "登机时间",
+                    "B": "下载时间",
+                    "C": "运载时间",
+                    "D": "加载时间"
+                },
+                "correct": "D"
             },
             {
-                "english": "new ecosystem",
-                "chinese": "新生态系统"
+                "q_id": 5,
+                "question": "remote monitoring",
+                "options": {
+                    "A": "远程监控",
+                    "B": "实时监控",
+                    "C": "实时显示",
+                    "D": "远程遥控"
+                },
+                "correct": "A"
             },
             {
-                "english": "value chain",
-                "chinese": "价值链"
+                "q_id": 6,
+                "question": "生产作业",
+                "options": {
+                    "A": "product assignment",
+                    "B": "production operation",
+                    "C": "product operation",
+                    "D": "production assignment"
+                },
+                "correct": "B"
             },
             {
-                "english": "object identification",
-                "chinese": "对象识别"
+                "q_id": 7,
+                "question": "制造业",
+                "options": {
+                    "A": "manufacturing department",
+                    "B": "manufacturing enterprise",
+                    "C": "manufacturing section",
+                    "D": "manufacturing industry"
+                },
+                "correct": "D"
             },
             {
-                "english": "data sharing",
-                "chinese": "数据共享"
+                "q_id": 8,
+                "question": "智能电网",
+                "options": {
+                    "A": "electricity network",
+                    "B": "smart electricity",
+                    "C": "smart grid",
+                    "D": "power grid"
+                },
+                "correct": "C"
             },
             {
-                "english": "data security",
-                "chinese": "数据安全"
+                "q_id": 9,
+                "question": "可穿戴设备",
+                "options": {
+                    "A": "wearable device",
+                    "B": "portable device",
+                    "C": "movable equipment",
+                    "D": "fixed equipment"
+                },
+                "correct": "A"
             },
             {
-                "english": "embedded system",
-                "chinese": "嵌入式系统"
+                "q_id": 10,
+                "question": "加载时间",
+                "options": {
+                    "A": "saving time",
+                    "B": "无",
+                    "C": "loading time",
+                    "D": "boarding time"
+                },
+                "correct": "C"
             },
             {
-                "english": "big data analytics",
-                "chinese": "大数据分析"
+                "q_id": 11,
+                "question": "远程监控",
+                "options": {
+                    "A": "far-fung supervision",
+                    "B": "faraway monitoring",
+                    "C": "remote control",
+                    "D": "remote monitoring"
+                },
+                "correct": "D"
             },
             {
-                "english": "decision making",
-                "chinese": "决策"
-            },
-            {
-                "english": "specific function",
-                "chinese": "特定功能"
-            },
-            {
-                "english": "business model",
-                "chinese": "业务模式，商业模式"
-            },
-            {
-                "english": "smart object",
-                "chinese": "智能对象"
+                "q_id": 12,
+                "question": "中央服务器",
+                "options": {
+                    "A": "service center",
+                    "B": "central server",
+                    "C": "central service",
+                    "D": "mid-service center"
+                },
+                "correct": "B"
             }
         ]
     },
     {
-        "group_id": 8,
-        "vocab_list": [
+        "unit": "Unit5 Passage A",
+        "questions": [
             {
-                "english": "production operation",
-                "chinese": "生产作业"
+                "q_id": 1,
+                "question": "slow accumulation",
+                "options": {
+                    "A": "缓慢增长",
+                    "B": "缓慢增加",
+                    "C": "缓慢积累",
+                    "D": "缓慢沉淀"
+                },
+                "correct": "C"
             },
             {
-                "english": "manufacturing industry",
-                "chinese": "制造业"
+                "q_id": 2,
+                "question": "general AI",
+                "options": {
+                    "A": "强人工智能",
+                    "B": "通用人工智能",
+                    "C": "弱人工智能",
+                    "D": "一般人工智能"
+                },
+                "correct": "D"
             },
             {
-                "english": "mobile network",
-                "chinese": "移动网络"
+                "q_id": 3,
+                "question": "artificial general intelligence (AGI)",
+                "options": {
+                    "A": "一般人工智能",
+                    "B": "通用人工智能",
+                    "C": "人造人工智能",
+                    "D": "虚拟人工智能"
+                },
+                "correct": "B"
             },
             {
-                "english": "low latency",
-                "chinese": "低延迟"
+                "q_id": 4,
+                "question": "machine-learning model",
+                "options": {
+                    "A": "机器学习模型",
+                    "B": "深度学习模型",
+                    "C": "机器学习模式",
+                    "D": "深度学习模式"
+                },
+                "correct": "A"
             },
             {
-                "english": "smart grid",
-                "chinese": "智能电网"
+                "q_id": 5,
+                "question": "think tank",
+                "options": {
+                    "A": "无",
+                    "B": "智库",
+                    "C": "书库",
+                    "D": "人才库"
+                },
+                "correct": "B"
             },
             {
-                "english": "wearable device",
-                "chinese": "可穿戴设备"
+                "q_id": 6,
+                "question": "accurate prediction",
+                "options": {
+                    "A": "精确的预算",
+                    "B": "精准的预防",
+                    "C": "准确的估计",
+                    "D": "准确的预测"
+                },
+                "correct": "D"
             },
             {
-                "english": "loading time",
-                "chinese": "加载时间"
+                "q_id": 7,
+                "question": "computer vision",
+                "options": {
+                    "A": "计算机视觉",
+                    "B": "计算机图像",
+                    "C": "电脑版本",
+                    "D": "电脑显卡"
+                },
+                "correct": "A"
             },
             {
-                "english": "remote monitoring",
-                "chinese": "远程监控"
+                "q_id": 8,
+                "question": "transfer learning",
+                "options": {
+                    "A": "迁移知识",
+                    "B": "移动学习",
+                    "C": "迁移学习",
+                    "D": "传授知识"
+                },
+                "correct": "C"
             },
             {
-                "english": "cloud computing",
-                "chinese": "云计算"
+                "q_id": 9,
+                "question": "physical world",
+                "options": {
+                    "A": "意识世界",
+                    "B": "物质世界",
+                    "C": "自然界",
+                    "D": "真是世界"
+                },
+                "correct": "B"
             },
             {
-                "english": "central server",
-                "chinese": "中央服务器"
+                "q_id": 10,
+                "question": "scientific debate",
+                "options": {
+                    "A": "科学辩论",
+                    "B": "无",
+                    "C": "科学研究",
+                    "D": "科学真理"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 11,
+                "question": "special mark",
+                "options": {
+                    "A": "特别印记",
+                    "B": "特种制造",
+                    "C": "特定标识",
+                    "D": "特殊标志"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 12,
+                "question": "faith and divinity",
+                "options": {
+                    "A": "忠诚与神圣",
+                    "B": "信仰与神性",
+                    "C": "忠诚与神性",
+                    "D": "信仰与神圣"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 13,
+                "question": "技术的进步",
+                "options": {
+                    "A": "technological progress",
+                    "B": "technological progression",
+                    "C": "technological evolution",
+                    "D": "technologica regression"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 14,
+                "question": "缓慢积累",
+                "options": {
+                    "A": "slow accommodation",
+                    "B": "slow acceleration",
+                    "C": "slow addition",
+                    "D": "slow accumulation"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 15,
+                "question": "强人工智能",
+                "options": {
+                    "A": "weak AI",
+                    "B": "strong AI",
+                    "C": "无",
+                    "D": "strong inteligence"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 16,
+                "question": "一般人工智能",
+                "options": {
+                    "A": "narrow AI",
+                    "B": "strong AI",
+                    "C": "general AI",
+                    "D": "week AI"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 17,
+                "question": "通用人工智能",
+                "options": {
+                    "A": "virtual general intelligence",
+                    "B": "general intelligence",
+                    "C": "universal intelligence",
+                    "D": "artificial general intelligence"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 18,
+                "question": "超级智能",
+                "options": {
+                    "A": "super brain",
+                    "B": "superintelligence",
+                    "C": "superior intelligence",
+                    "D": "ultimate intelligence"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 19,
+                "question": "狭义人工智能",
+                "options": {
+                    "A": "narrow AI",
+                    "B": "strong AI",
+                    "C": "weak AI",
+                    "D": "artificial AI"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 20,
+                "question": "机器学习模型",
+                "options": {
+                    "A": "machine learning mode",
+                    "B": "deep-learning model",
+                    "C": "machine-learning model",
+                    "D": "无"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 21,
+                "question": "智库",
+                "options": {
+                    "A": "brain tank",
+                    "B": "think tank",
+                    "C": "talent pool",
+                    "D": "think pool"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 22,
+                "question": "准确的预测",
+                "options": {
+                    "A": "accurate prediction",
+                    "B": "accurate judgement",
+                    "C": "precise calculation",
+                    "D": "exact estimation"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 23,
+                "question": "计算机视觉",
+                "options": {
+                    "A": "computer visualization",
+                    "B": "computer version",
+                    "C": "computer visibility",
+                    "D": "computer vision"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 24,
+                "question": "迁移学习",
+                "options": {
+                    "A": "transport learning",
+                    "B": "transmit learning",
+                    "C": "transfer learning",
+                    "D": "transform learning"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 25,
+                "question": "物质世界",
+                "options": {
+                    "A": "physical world",
+                    "B": "physics world",
+                    "C": "real world",
+                    "D": "physical substance"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 26,
+                "question": "科学辩论",
+                "options": {
+                    "A": "science debate",
+                    "B": "scientific debate",
+                    "C": "scientific clash",
+                    "D": "science clash"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 27,
+                "question": "特殊标志",
+                "options": {
+                    "A": "particular sign",
+                    "B": "specific mark",
+                    "C": "special mark",
+                    "D": "extraordinary symbol"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 28,
+                "question": "自动驾驶技术",
+                "options": {
+                    "A": "auto-driving technology",
+                    "B": "auto-pilot technology",
+                    "C": "autonomous technology",
+                    "D": "self-driving technology"
+                },
+                "correct": "D"
             }
         ]
     },
     {
-        "group_id": 9,
-        "vocab_list": [
+        "unit": "Unit5 Passage B",
+        "questions": [
             {
-                "english": "technological progress",
-                "chinese": "技术的进步"
+                "q_id": 1,
+                "question": "additive manufacturing",
+                "options": {
+                    "A": "增加产量",
+                    "B": "扩大生产",
+                    "C": "增材制造",
+                    "D": "附加产值"
+                },
+                "correct": "C"
             },
             {
-                "english": "slow accumulation",
-                "chinese": "缓慢积累"
+                "q_id": 2,
+                "question": "production process",
+                "options": {
+                    "A": "生产流程",
+                    "B": "生产进程",
+                    "C": "产品加工",
+                    "D": "工艺处理"
+                },
+                "correct": "A"
             },
             {
-                "english": "strong AI",
-                "chinese": "强人工智能"
+                "q_id": 3,
+                "question": "deep-learning program",
+                "options": {
+                    "A": "深入学习编程",
+                    "B": "深化学习项目",
+                    "C": "深度学习计划",
+                    "D": "深度学习程序"
+                },
+                "correct": "D"
             },
             {
-                "english": "general AI",
-                "chinese": "一般人工智能"
+                "q_id": 4,
+                "question": "creative output",
+                "options": {
+                    "A": "创造输出",
+                    "B": "创意输出",
+                    "C": "创新输出",
+                    "D": "创建输出"
+                },
+                "correct": "B"
             },
             {
-                "english": "artificial general intelligence (AGI)",
-                "chinese": "通用人工智能"
+                "q_id": 5,
+                "question": "computer-generated",
+                "options": {
+                    "A": "无",
+                    "B": "制造计算机的",
+                    "C": "计算机生成的",
+                    "D": "新一代计算机的"
+                },
+                "correct": "C"
             },
             {
-                "english": "superintelligence",
-                "chinese": "超级智能"
+                "q_id": 6,
+                "question": "visual artist",
+                "options": {
+                    "A": "视觉艺术家",
+                    "B": "听觉艺术家",
+                    "C": "行为艺术家",
+                    "D": "抽象艺术家"
+                },
+                "correct": "A"
             },
             {
-                "english": "weak AI",
-                "chinese": "弱人工智能"
+                "q_id": 7,
+                "question": "recommendation algorithm",
+                "options": {
+                    "A": "循环算法",
+                    "B": "推荐算法",
+                    "C": "递归算法",
+                    "D": "迭代算法"
+                },
+                "correct": "B"
             },
             {
-                "english": "narrow AI",
-                "chinese": "狭义人工智能"
+                "q_id": 8,
+                "question": "abstract thinking",
+                "options": {
+                    "A": "形象思维",
+                    "B": "概括思维",
+                    "C": "具象思维",
+                    "D": "抽象思维"
+                },
+                "correct": "D"
             },
             {
-                "english": "machine-learning model",
-                "chinese": "机器学习模型"
+                "q_id": 9,
+                "question": "episodic memory",
+                "options": {
+                    "A": "情绪记忆",
+                    "B": "情景记忆",
+                    "C": "情节记忆",
+                    "D": "情形记忆"
+                },
+                "correct": "C"
             },
             {
-                "english": "video games",
-                "chinese": "视频游戏，电子游戏"
+                "q_id": 10,
+                "question": "制胜战略",
+                "options": {
+                    "A": "struggle strategy",
+                    "B": "无",
+                    "C": "victorious strategy",
+                    "D": "winning strategy"
+                },
+                "correct": "D"
             },
             {
-                "english": "think tank",
-                "chinese": "智库"
+                "q_id": 11,
+                "question": "增材制造",
+                "options": {
+                    "A": "additive manufacturing",
+                    "B": "increased production",
+                    "C": "addition manufacturing",
+                    "D": "decreased production"
+                },
+                "correct": "A"
             },
             {
-                "english": "accurate prediction",
-                "chinese": "准确的预测"
+                "q_id": 12,
+                "question": "生产流程",
+                "options": {
+                    "A": "operational procedure",
+                    "B": "production process",
+                    "C": "process flow",
+                    "D": "manufacturing operation"
+                },
+                "correct": "B"
             },
             {
-                "english": "computer vision",
-                "chinese": "计算机视觉"
+                "q_id": 13,
+                "question": "深度学习程序",
+                "options": {
+                    "A": "learning depth program",
+                    "B": "deep-learning program",
+                    "C": "machine learmning program",
+                    "D": "in-depth learning program"
+                },
+                "correct": "B"
             },
             {
-                "english": "transfer learning",
-                "chinese": "迁移学习"
+                "q_id": 14,
+                "question": "创意输出",
+                "options": {
+                    "A": "creative imagination",
+                    "B": "creative export",
+                    "C": "creative output",
+                    "D": "productive output"
+                },
+                "correct": "C"
             },
             {
-                "english": "physical world",
-                "chinese": "物质世界，物理世界"
+                "q_id": 15,
+                "question": "计算机生成的",
+                "options": {
+                    "A": "computer-generated",
+                    "B": "computer-generating",
+                    "C": "无",
+                    "D": "computer-generate"
+                },
+                "correct": "A"
             },
             {
-                "english": "scientific debate",
-                "chinese": "科学辩论"
+                "q_id": 16,
+                "question": "视觉艺术家",
+                "options": {
+                    "A": "vision art",
+                    "B": "visual artist",
+                    "C": "visual art",
+                    "D": "vision artist"
+                },
+                "correct": "B"
             },
             {
-                "english": "special mark",
-                "chinese": "特殊标志"
+                "q_id": 17,
+                "question": "推荐算法",
+                "options": {
+                    "A": "recommending algorithm",
+                    "B": "recommend algorithm",
+                    "C": "recommended algorithm",
+                    "D": "recommendation algorithm"
+                },
+                "correct": "D"
             },
             {
-                "english": "faith and divinity",
-                "chinese": "信仰与神性"
+                "q_id": 18,
+                "question": "抽象思维",
+                "options": {
+                    "A": "imagery thinking",
+                    "B": "concrete thinking",
+                    "C": "abstract thinking",
+                    "D": "absolute thinking"
+                },
+                "correct": "C"
             },
             {
-                "english": "self-driving technology",
-                "chinese": "自动驾驶技术"
+                "q_id": 19,
+                "question": "情节记忆",
+                "options": {
+                    "A": "complex memory",
+                    "B": "episodic memory",
+                    "C": "mental plot",
+                    "D": "memory storage"
+                },
+                "correct": "B"
             }
         ]
     },
     {
-        "group_id": 10,
-        "vocab_list": [
+        "unit": "Unit6 Passage A",
+        "questions": [
             {
-                "english": "winning strategy",
-                "chinese": "制胜战略"
+                "q_id": 1,
+                "question": "industrial revolution",
+                "options": {
+                    "A": "工业革命",
+                    "B": "行业革新",
+                    "C": "工业创新",
+                    "D": "产业巨变"
+                },
+                "correct": "A"
             },
             {
-                "english": "additive manufacturing",
-                "chinese": "增材制造"
+                "q_id": 2,
+                "question": "mass production",
+                "options": {
+                    "A": "集成产品",
+                    "B": "大规模生产",
+                    "C": "高质量制造",
+                    "D": "批发产品"
+                },
+                "correct": "B"
             },
             {
-                "english": "production process",
-                "chinese": "生产流程"
+                "q_id": 3,
+                "question": "assembly lines",
+                "options": {
+                    "A": "产品检测线",
+                    "B": "车间安全线",
+                    "C": "装配流水线",
+                    "D": "自动封装线"
+                },
+                "correct": "C"
             },
             {
-                "english": "deep-learning program",
-                "chinese": "深度学习程序"
+                "q_id": 4,
+                "question": "smart and autonomous system",
+                "options": {
+                    "A": "智慧控制系统",
+                    "B": "智能制动系统",
+                    "C": "智慧自动系统",
+                    "D": "智能自主系统"
+                },
+                "correct": "D"
             },
             {
-                "english": "creative output",
-                "chinese": "创意输出"
+                "q_id": 5,
+                "question": "marketing buzzword",
+                "options": {
+                    "A": "无",
+                    "B": "销售术语",
+                    "C": "市场用语",
+                    "D": "营销热词"
+                },
+                "correct": "D"
             },
             {
-                "english": "computer-generated",
-                "chinese": "计算机生成的"
+                "q_id": 6,
+                "question": "cyber-physical system",
+                "options": {
+                    "A": "信息管理系统",
+                    "B": "网络平台系统",
+                    "C": "信息物理系统",
+                    "D": "天体物理系统"
+                },
+                "correct": "C"
             },
             {
-                "english": "visual artist",
-                "chinese": "视觉艺术家"
+                "q_id": 7,
+                "question": "the Internet of Things",
+                "options": {
+                    "A": "万维网",
+                    "B": "物联网",
+                    "C": "互联网",
+                    "D": "物流网"
+                },
+                "correct": "B"
             },
             {
-                "english": "recommendation algorithm",
-                "chinese": "推荐算法"
+                "q_id": 8,
+                "question": "manufacturing priority",
+                "options": {
+                    "A": "制造优先级",
+                    "B": "制造专利权",
+                    "C": "优先通行权",
+                    "D": "生产控制级"
+                },
+                "correct": "A"
             },
             {
-                "english": "abstract thinking",
-                "chinese": "抽象思维"
+                "q_id": 9,
+                "question": "autonomous equipment",
+                "options": {
+                    "A": "自动装置",
+                    "B": "自主设备",
+                    "C": "自动设备",
+                    "D": "自启装置"
+                },
+                "correct": "B"
             },
             {
-                "english": "episodic memory",
-                "chinese": "情节记忆"
+                "q_id": 10,
+                "question": "shipping container",
+                "options": {
+                    "A": "转运箱",
+                    "B": "无",
+                    "C": "集装箱",
+                    "D": "包装箱"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 11,
+                "question": "online retailer",
+                "options": {
+                    "A": "在线代理商",
+                    "B": "在线批发商",
+                    "C": "在线服务商",
+                    "D": "在线零售商"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 12,
+                "question": "additive manufacturing",
+                "options": {
+                    "A": "增材制造",
+                    "B": "传统制造",
+                    "C": "加工制造",
+                    "D": "辅助制造"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 13,
+                "question": "internal operation",
+                "options": {
+                    "A": "国际交易",
+                    "B": "内部运营",
+                    "C": "内部交易",
+                    "D": "线上运营"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 14,
+                "question": "工业革命",
+                "options": {
+                    "A": "industrial revolution",
+                    "B": "industrious revolution",
+                    "C": "industrialized revolution",
+                    "D": "industry revolution"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 15,
+                "question": "大规模生产",
+                "options": {
+                    "A": "batch processing",
+                    "B": "mass production",
+                    "C": "无",
+                    "D": "manufactured product"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 16,
+                "question": "装配流水线",
+                "options": {
+                    "A": "assembler lines",
+                    "B": "assembled lines",
+                    "C": "assembly lines",
+                    "D": "assemble lines"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 17,
+                "question": "智能自主系统",
+                "options": {
+                    "A": "Intelligent control system",
+                    "B": "Intelligent braking system",
+                    "C": "smart automatic system",
+                    "D": "smart and autonomous system"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 18,
+                "question": "营销热词",
+                "options": {
+                    "A": "marketed buzzword",
+                    "B": "marketable buzzword",
+                    "C": "market buzzword",
+                    "D": "marketing buzzword"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 19,
+                "question": "信息物理系统",
+                "options": {
+                    "A": "information physical system",
+                    "B": "cyber-physically system",
+                    "C": "cyber-physical system",
+                    "D": "informational physical system"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 20,
+                "question": "物联网",
+                "options": {
+                    "A": "the Internet of Logistics",
+                    "B": "the Internet of Things",
+                    "C": "the Internet of Physics",
+                    "D": "无"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 21,
+                "question": "智能工厂",
+                "options": {
+                    "A": "smart factory",
+                    "B": "clever factory",
+                    "C": "smart workshop",
+                    "D": "intelligent workshop"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 22,
+                "question": "生产/制造优先级",
+                "options": {
+                    "A": "manufacturing advantage",
+                    "B": "manufacturing priority",
+                    "C": "manufacturing privilege",
+                    "D": "manufacturing prevalence"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 23,
+                "question": "自主设备",
+                "options": {
+                    "A": "autonomous equipment",
+                    "B": "automatic equipment",
+                    "C": "autonomic equipment",
+                    "D": "automated equipment"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 24,
+                "question": "集装箱",
+                "options": {
+                    "A": "safe deposit box",
+                    "B": "packing container",
+                    "C": "shipping container",
+                    "D": "shipping box"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 25,
+                "question": "在线零售商",
+                "options": {
+                    "A": "online dealer",
+                    "B": "online agent",
+                    "C": "online wholesaler",
+                    "D": "online retailer"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 26,
+                "question": "增材制造",
+                "options": {
+                    "A": "additive manufacturing",
+                    "B": "addiction manufacturing",
+                    "C": "plus manufacturing",
+                    "D": "addicted manufacturing"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 27,
+                "question": "内部运营",
+                "options": {
+                    "A": "internalized operation",
+                    "B": "internal operation",
+                    "C": "intemalize operating",
+                    "D": "intemalization operating"
+                },
+                "correct": "B"
             }
         ]
     },
     {
-        "group_id": 11,
-        "vocab_list": [
+        "unit": "Unit6 Passage B",
+        "questions": [
             {
-                "english": "industrial revolution",
-                "chinese": "工业革命"
+                "q_id": 1,
+                "question": "inventory tracking",
+                "options": {
+                    "A": "库存跟踪",
+                    "B": "存货足迹",
+                    "C": "财产清查",
+                    "D": "财产追踪"
+                },
+                "correct": "A"
             },
             {
-                "english": "mass production",
-                "chinese": "大规模生产"
+                "q_id": 2,
+                "question": "production downtime",
+                "options": {
+                    "A": "产品出厂时间",
+                    "B": "生产停工时间",
+                    "C": "生产复工期限",
+                    "D": "产品下线时间"
+                },
+                "correct": "B"
             },
             {
-                "english": "assembly lines",
-                "chinese": "装配流水线"
+                "q_id": 3,
+                "question": "optimization decision",
+                "options": {
+                    "A": "优先决策",
+                    "B": "乐观决定",
+                    "C": "悲观决定",
+                    "D": "优化决策"
+                },
+                "correct": "D"
             },
             {
-                "english": "smart and autonomous system",
-                "chinese": "智能自主系统"
+                "q_id": 4,
+                "question": "supply chain",
+                "options": {
+                    "A": "业务链",
+                    "B": "产业链",
+                    "C": "供应链",
+                    "D": "生产链"
+                },
+                "correct": "C"
             },
             {
-                "english": "marketing buzzword",
-                "chinese": "营销热词"
+                "q_id": 5,
+                "question": "operational technology",
+                "options": {
+                    "A": "无",
+                    "B": "操作技术",
+                    "C": "控制技术",
+                    "D": "医疗技术"
+                },
+                "correct": "B"
             },
             {
-                "english": "cyber-physical system",
-                "chinese": "信息物理系统"
+                "q_id": 6,
+                "question": "real-time decision",
+                "options": {
+                    "A": "实时决策",
+                    "B": "真实决策",
+                    "C": "现实决定",
+                    "D": "实际决定"
+                },
+                "correct": "A"
             },
             {
-                "english": "the Internet of Things",
-                "chinese": "物联网"
+                "q_id": 7,
+                "question": "smart sensor",
+                "options": {
+                    "A": "智能触发器",
+                    "B": "热敏感应器",
+                    "C": "光敏探测器",
+                    "D": "智能传感器"
+                },
+                "correct": "D"
             },
             {
-                "english": "smart factory",
-                "chinese": "智能工厂"
+                "q_id": 8,
+                "question": "data visualization",
+                "options": {
+                    "A": "数据直观化",
+                    "B": "数据透明化",
+                    "C": "数据可视化",
+                    "D": "数据专向化"
+                },
+                "correct": "C"
             },
             {
-                "english": "supply chain",
-                "chinese": "供应链"
+                "q_id": 9,
+                "question": "asset efficiency",
+                "options": {
+                    "A": "资产效率",
+                    "B": "资产效力",
+                    "C": "财产效能",
+                    "D": "财产收益"
+                },
+                "correct": "A"
             },
             {
-                "english": "manufacturing priority",
-                "chinese": "生产/制造优先级"
+                "q_id": 10,
+                "question": "scrap rate",
+                "options": {
+                    "A": "成品率",
+                    "B": "报废率",
+                    "C": "容错率",
+                    "D": "波动率"
+                },
+                "correct": "B"
             },
             {
-                "english": "autonomous equipment",
-                "chinese": "自主设备"
+                "q_id": 11,
+                "question": "库存跟踪",
+                "options": {
+                    "A": "inventory tracking",
+                    "B": "storage mapping",
+                    "C": "stock tracking",
+                    "D": "storage checking"
+                },
+                "correct": "A"
             },
             {
-                "english": "shipping container",
-                "chinese": "集装箱"
+                "q_id": 12,
+                "question": "生产停工时间",
+                "options": {
+                    "A": "production interval",
+                    "B": "production lockout",
+                    "C": "production interruption",
+                    "D": "production downtime"
+                },
+                "correct": "D"
             },
             {
-                "english": "online retailer",
-                "chinese": "在线零售商"
+                "q_id": 13,
+                "question": "优化决策",
+                "options": {
+                    "A": "final decision",
+                    "B": "better off decision",
+                    "C": "optimization decision",
+                    "D": "forward-thinking decision"
+                },
+                "correct": "C"
             },
             {
-                "english": "additive manufacturing",
-                "chinese": "增材制造"
+                "q_id": 14,
+                "question": "供应链",
+                "options": {
+                    "A": "production chain",
+                    "B": "supply chain",
+                    "C": "supplement chain",
+                    "D": "dealing chain"
+                },
+                "correct": "B"
             },
             {
-                "english": "internal operation",
-                "chinese": "内部运营"
+                "q_id": 15,
+                "question": "操作技术",
+                "options": {
+                    "A": "operational technology",
+                    "B": "control technology",
+                    "C": "无",
+                    "D": "practical technology"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 16,
+                "question": "实时决策",
+                "options": {
+                    "A": "timely decision",
+                    "B": "just-in-time decision",
+                    "C": "real-time decision",
+                    "D": "on-time decision"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 17,
+                "question": "数据可视化",
+                "options": {
+                    "A": "data recognition",
+                    "B": "data observation",
+                    "C": "data visibility",
+                    "D": "data visualization"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 18,
+                "question": "资产效率",
+                "options": {
+                    "A": "capital effectiveness",
+                    "B": "asset efficiency",
+                    "C": "asset efficacy",
+                    "D": "capital effect"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 19,
+                "question": "报废率",
+                "options": {
+                    "A": "scrap rate",
+                    "B": "yield rate",
+                    "C": "error rate",
+                    "D": "vibration rate"
+                },
+                "correct": "A"
             }
         ]
     },
     {
-        "group_id": 12,
-        "vocab_list": [
+        "unit": "Unit7 Passage A",
+        "questions": [
             {
-                "english": "inventory tracking",
-                "chinese": "库存跟踪"
+                "q_id": 1,
+                "question": "transmission lines",
+                "options": {
+                    "A": "传动链",
+                    "B": "输电线路",
+                    "C": "传播路线",
+                    "D": "变速线"
+                },
+                "correct": "B"
             },
             {
-                "english": "production downtime",
-                "chinese": "生产停工时间"
+                "q_id": 2,
+                "question": "power plant",
+                "options": {
+                    "A": "变电站",
+                    "B": "核电站",
+                    "C": "配电房",
+                    "D": "发电厂"
+                },
+                "correct": "D"
             },
             {
-                "english": "optimization decision",
-                "chinese": "优化决策"
+                "q_id": 3,
+                "question": "electric generating units",
+                "options": {
+                    "A": "发电机组",
+                    "B": "发动机组",
+                    "C": "发电机单位",
+                    "D": "发动机单位"
+                },
+                "correct": "A"
             },
             {
-                "english": "supply chain",
-                "chinese": "供应链"
+                "q_id": 4,
+                "question": "digital and computerized equipment",
+                "options": {
+                    "A": "计算机电子通信设备",
+                    "B": "数字电子科技装备",
+                    "C": "数字计算机设备",
+                    "D": "计算机电子程序设备"
+                },
+                "correct": "C"
             },
             {
-                "english": "operational technology",
-                "chinese": "操作技术"
+                "q_id": 5,
+                "question": "two-way communication",
+                "options": {
+                    "A": "无",
+                    "B": "并行通信",
+                    "C": "相互交流",
+                    "D": "双向通信"
+                },
+                "correct": "D"
             },
             {
-                "english": "real-time decision",
-                "chinese": "实时决策"
+                "q_id": 6,
+                "question": "information sharing",
+                "options": {
+                    "A": "信息泄露",
+                    "B": "信息共享",
+                    "C": "信息储存",
+                    "D": "信息交换"
+                },
+                "correct": "B"
             },
             {
-                "english": "smart sensor",
-                "chinese": "智能传感器"
+                "q_id": 7,
+                "question": "power disturbances",
+                "options": {
+                    "A": "电力故障",
+                    "B": "能源困境",
+                    "C": "电力扰动",
+                    "D": "电力中断"
+                },
+                "correct": "C"
             },
             {
-                "english": "data visualization",
-                "chinese": "数据可视化"
+                "q_id": 8,
+                "question": "operations and management costs",
+                "options": {
+                    "A": "运行管理成本",
+                    "B": "运营监控成本",
+                    "C": "执行监控成本",
+                    "D": "手术施行费用"
+                },
+                "correct": "A"
             },
             {
-                "english": "asset efficiency",
-                "chinese": "资产效率"
+                "q_id": 9,
+                "question": "peak demand",
+                "options": {
+                    "A": "需求量低",
+                    "B": "低谷需求",
+                    "C": "高度需求",
+                    "D": "高峰需求"
+                },
+                "correct": "D"
             },
             {
-                "english": "scrap rate",
-                "chinese": "报废率"
+                "q_id": 10,
+                "question": "renewable energy systems",
+                "options": {
+                    "A": "可持续能源系统",
+                    "B": "可再生能源系统",
+                    "C": "可再生能源中心",
+                    "D": "可持续能源中心"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 11,
+                "question": "power generation systems",
+                "options": {
+                    "A": "发电系统",
+                    "B": "输电系统",
+                    "C": "电力系统",
+                    "D": "能源系统"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 12,
+                "question": "electricity disruption",
+                "options": {
+                    "A": "电力中断",
+                    "B": "电力分配",
+                    "C": "电力传输",
+                    "D": "电力增容"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 13,
+                "question": "domino effect",
+                "options": {
+                    "A": "康普顿效应",
+                    "B": "德罗斯特效应",
+                    "C": "光电效应",
+                    "D": "多米诺骨牌效应"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 14,
+                "question": "electric power system",
+                "options": {
+                    "A": "电源系统",
+                    "B": "电力系统",
+                    "C": "电气系统",
+                    "D": "动力系统"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 15,
+                "question": "two-way interactive capacity",
+                "options": {
+                    "A": "双重交互能力",
+                    "B": "双向干预能力",
+                    "C": "双向交互能力",
+                    "D": "双重干预能力"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 16,
+                "question": "power outage",
+                "options": {
+                    "A": "停电",
+                    "B": "能源短缺",
+                    "C": "电力输出",
+                    "D": "动力缺失"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 17,
+                "question": "large-scale blackouts",
+                "options": {
+                    "A": "大规模恢复",
+                    "B": "大面积损坏",
+                    "C": "大规模发电",
+                    "D": "大面积停电"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 18,
+                "question": "energy infrastructure",
+                "options": {
+                    "A": "能源结构",
+                    "B": "能源基础设施",
+                    "C": "能源内循环",
+                    "D": "能源转型"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 19,
+                "question": "monthly statement",
+                "options": {
+                    "A": "每月表述",
+                    "B": "月度总结",
+                    "C": "每月状态",
+                    "D": "每月报表"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 20,
+                "question": "real-time pricing",
+                "options": {
+                    "A": "实时定价",
+                    "B": "真实定价",
+                    "C": "实时出价",
+                    "D": "无"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 21,
+                "question": "智能电网",
+                "options": {
+                    "A": "intelligent grid workflow",
+                    "B": "smart power distribution division",
+                    "C": "smart electricity",
+                    "D": "smart grid"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 22,
+                "question": "输电线路",
+                "options": {
+                    "A": "transmission lines",
+                    "B": "transfer lines",
+                    "C": "transformation lines",
+                    "D": "transition lines"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 23,
+                "question": "发电厂",
+                "options": {
+                    "A": "power sector",
+                    "B": "power section",
+                    "C": "power plant",
+                    "D": "power industry"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 24,
+                "question": "发电机组",
+                "options": {
+                    "A": "electric generating groups",
+                    "B": "electric generating units",
+                    "C": "electric generating components",
+                    "D": "electric generating segments"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 25,
+                "question": "数字计算机设备",
+                "options": {
+                    "A": "digital and computerized equipment",
+                    "B": "numerical computerized equipment",
+                    "C": "digital and laptop equipment",
+                    "D": "numerical laptop"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 26,
+                "question": "双向通信",
+                "options": {
+                    "A": "serial communication",
+                    "B": "P2P communication",
+                    "C": "parallel communication",
+                    "D": "two-way communication"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 27,
+                "question": "信息共享",
+                "options": {
+                    "A": "information leakage",
+                    "B": "information sharing",
+                    "C": "information storage",
+                    "D": "information exchange"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 28,
+                "question": "电力扰动",
+                "options": {
+                    "A": "energy density perturbations",
+                    "B": "unperturbed electricity",
+                    "C": "power disturbances",
+                    "D": "power conservation"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 29,
+                "question": "运行管理成本",
+                "options": {
+                    "A": "operations and management costs",
+                    "B": "running management costs",
+                    "C": "operational management costs",
+                    "D": "administration costs"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 30,
+                "question": "高峰需求",
+                "options": {
+                    "A": "top demand",
+                    "B": "peak demand",
+                    "C": "highest demand",
+                    "D": "utmost demand"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 31,
+                "question": "可再生能源系统",
+                "options": {
+                    "A": "restorable energy systems",
+                    "B": "reproducible energy systems",
+                    "C": "replicated energy systems",
+                    "D": "renewable energy systems"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 32,
+                "question": "发电系统",
+                "options": {
+                    "A": "powerful generation systems",
+                    "B": "power distribution system",
+                    "C": "power generation systems",
+                    "D": "powerful distribution system"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 33,
+                "question": "电力中断",
+                "options": {
+                    "A": "electric distribution",
+                    "B": "electricity disruption",
+                    "C": "electronic disturbance",
+                    "D": "electrical resistance"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 34,
+                "question": "电力系统",
+                "options": {
+                    "A": "electric powerful system",
+                    "B": "electronic system",
+                    "C": "electro-powered system",
+                    "D": "electric power system"
+                },
+                "correct": "D"
+            },
+            {
+                "q_id": 35,
+                "question": "双向交互能力",
+                "options": {
+                    "A": "bi-directional interactivity",
+                    "B": "two-side interactive capacity",
+                    "C": "two-way interactive capacity",
+                    "D": "mutual interactivity"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 36,
+                "question": "停电",
+                "options": {
+                    "A": "power outage",
+                    "B": "power-off",
+                    "C": "power-on",
+                    "D": "power shortage"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 37,
+                "question": "大面积停电",
+                "options": {
+                    "A": "widespread outage tracker",
+                    "B": "large-scale blackouts",
+                    "C": "large area cut",
+                    "D": "large-scale server outage"
+                },
+                "correct": "B"
+            },
+            {
+                "q_id": 38,
+                "question": "能源基础设施",
+                "options": {
+                    "A": "energy infrastructure",
+                    "B": "energy structure",
+                    "C": "energy supply",
+                    "D": "energy facilities"
+                },
+                "correct": "A"
+            },
+            {
+                "q_id": 39,
+                "question": "每月报表",
+                "options": {
+                    "A": "monthly table",
+                    "B": "monthly form",
+                    "C": "monthly statement",
+                    "D": "monthly list"
+                },
+                "correct": "C"
+            },
+            {
+                "q_id": 40,
+                "question": "实时定价",
+                "options": {
+                    "A": "immediate bid",
+                    "B": "real-time bid",
+                    "C": "immediate pricing",
+                    "D": "real-time pricing"
+                },
+                "correct": "D"
             }
         ]
     },
     {
-        "group_id": 13,
-        "vocab_list": [
+        "unit": "Unit7 Passage B",
+        "questions": [
             {
-                "english": "smart grid",
-                "chinese": "智能电网"
+                "q_id": 1,
+                "question": "energy transition",
+                "options": {
+                    "A": "能源升级",
+                    "B": "能源转化",
+                    "C": "能源优化",
+                    "D": "能源转型"
+                },
+                "correct": "D"
             },
             {
-                "english": "transmission lines",
-                "chinese": "输电线路"
+                "q_id": 2,
+                "question": "fossil fuel",
+                "options": {
+                    "A": "化石燃料",
+                    "B": "氢燃料",
+                    "C": "生物质燃料",
+                    "D": "固态燃料"
+                },
+                "correct": "A"
             },
             {
-                "english": "power plant",
-                "chinese": "发电厂"
+                "q_id": 3,
+                "question": "biomass energy",
+                "options": {
+                    "A": "生物量",
+                    "B": "矿物燃料",
+                    "C": "生物质能",
+                    "D": "有机矿产"
+                },
+                "correct": "C"
             },
             {
-                "english": "electric generating units",
-                "chinese": "发电机组"
+                "q_id": 4,
+                "question": "emerging economies",
+                "options": {
+                    "A": "联合经济体",
+                    "B": "新兴经济体",
+                    "C": "新兴经济学",
+                    "D": "经济共同体"
+                },
+                "correct": "B"
             },
             {
-                "english": "digital and computerized equipment",
-                "chinese": "数字计算机设备"
+                "q_id": 5,
+                "question": "capacity addition",
+                "options": {
+                    "A": "产能提升",
+                    "B": "增容",
+                    "C": "提升能力",
+                    "D": "额外功率"
+                },
+                "correct": "A"
             },
             {
-                "english": "two-way communication",
-                "chinese": "双向通信"
+                "q_id": 6,
+                "question": "electricity mix",
+                "options": {
+                    "A": "混合电力",
+                    "B": "电力结构",
+                    "C": "电动搅拌机",
+                    "D": "电力配置"
+                },
+                "correct": "B"
             },
             {
-                "english": "information sharing",
-                "chinese": "信息共享"
+                "q_id": 7,
+                "question": "hydrocarbon reserves",
+                "options": {
+                    "A": "氢能储量",
+                    "B": "煤炭储量",
+                    "C": "碳氧储量",
+                    "D": "油气储量"
+                },
+                "correct": "D"
             },
             {
-                "english": "power disturbances",
-                "chinese": "电力扰动"
+                "q_id": 8,
+                "question": "renewable resource",
+                "options": {
+                    "A": "可再生资源",
+                    "B": "可循环物资",
+                    "C": "再生材料",
+                    "D": "可持续物资"
+                },
+                "correct": "A"
             },
             {
-                "english": "operations and management costs",
-                "chinese": "运行管理成本"
+                "q_id": 9,
+                "question": "energy security",
+                "options": {
+                    "A": "能源稳定",
+                    "B": "能源安全",
+                    "C": "电力保障",
+                    "D": "动力防护"
+                },
+                "correct": "B"
             },
             {
-                "english": "peak demand",
-                "chinese": "高峰需求"
+                "q_id": 10,
+                "question": "domestic consumption",
+                "options": {
+                    "A": "国内消费",
+                    "B": "家庭消耗",
+                    "C": "本土开采",
+                    "D": "民用能耗"
+                },
+                "correct": "A"
             },
             {
-                "english": "renewable energy systems",
-                "chinese": "可再生能源系统"
+                "q_id": 11,
+                "question": "能源转型",
+                "options": {
+                    "A": "energy upgrade",
+                    "B": "energy conversion",
+                    "C": "energy optimization",
+                    "D": "energy transition"
+                },
+                "correct": "D"
             },
             {
-                "english": "power generation systems",
-                "chinese": "发电系统"
+                "q_id": 12,
+                "question": "化石燃料",
+                "options": {
+                    "A": "hydrogen fuel",
+                    "B": "fossil fuel",
+                    "C": "biomass fuel",
+                    "D": "solid fuel"
+                },
+                "correct": "B"
             },
             {
-                "english": "electricity disruption",
-                "chinese": "电力中断"
+                "q_id": 13,
+                "question": "生物质能",
+                "options": {
+                    "A": "biomass",
+                    "B": "mineral fuel",
+                    "C": "biomass energy",
+                    "D": "organic mineral"
+                },
+                "correct": "C"
             },
             {
-                "english": "domino effect",
-                "chinese": "多米诺骨牌效应"
+                "q_id": 14,
+                "question": "新兴经济体",
+                "options": {
+                    "A": "unified economy",
+                    "B": "emerging economies",
+                    "C": "emerging economics",
+                    "D": "economic community"
+                },
+                "correct": "B"
             },
             {
-                "english": "electric power system",
-                "chinese": "电力系统"
+                "q_id": 15,
+                "question": "产能提升",
+                "options": {
+                    "A": "capacity improvement",
+                    "B": "capacity addition",
+                    "C": "ability promotion",
+                    "D": "extra power"
+                },
+                "correct": "A"
             },
             {
-                "english": "two-way interactive capacity",
-                "chinese": "双向交互能力"
+                "q_id": 16,
+                "question": "电力结构",
+                "options": {
+                    "A": "mixed power",
+                    "B": "electricity structure",
+                    "C": "electricity mix",
+                    "D": "power configuration"
+                },
+                "correct": "C"
             },
             {
-                "english": "power outage",
-                "chinese": "停电"
+                "q_id": 17,
+                "question": "油气储量",
+                "options": {
+                    "A": "hydrogen reserves",
+                    "B": "coal reserves",
+                    "C": "hydrocarbon reserves",
+                    "D": "carbon oxygen reserves"
+                },
+                "correct": "D"
             },
             {
-                "english": "large-scale blackouts",
-                "chinese": "大面积停电"
+                "q_id": 18,
+                "question": "可再生资源",
+                "options": {
+                    "A": "renewable resource",
+                    "B": "recyclable material",
+                    "C": "regenerated material",
+                    "D": "sustainable material"
+                },
+                "correct": "A"
             },
             {
-                "english": "energy infrastructure",
-                "chinese": "能源基础设施"
+                "q_id": 19,
+                "question": "能源安全",
+                "options": {
+                    "A": "energy stability",
+                    "B": "energy security",
+                    "C": "power guarantee",
+                    "D": "power protection"
+                },
+                "correct": "B"
             },
             {
-                "english": "national security",
-                "chinese": "国家安全"
-            },
-            {
-                "english": "monthly statement",
-                "chinese": "每月报表"
-            },
-            {
-                "english": "real-time pricing",
-                "chinese": "实时定价"
-            }
-        ]
-    },
-    {
-        "group_id": 14,
-        "vocab_list": [
-            {
-                "english": "energy transition / transformation / shift",
-                "chinese": "能源转型"
-            },
-            {
-                "english": "fossil fuel",
-                "chinese": "化石燃料"
-            },
-            {
-                "english": "biomass energy",
-                "chinese": "生物质能"
-            },
-            {
-                "english": "clean energy power generation",
-                "chinese": "清洁能源发电"
-            },
-            {
-                "english": "emerging economies",
-                "chinese": "新兴经济体"
-            },
-            {
-                "english": "capacity addition",
-                "chinese": "产能的增加"
-            },
-            {
-                "english": "electricity mix",
-                "chinese": "电力组合，电力结构"
-            },
-            {
-                "english": "hydrocarbon reserves",
-                "chinese": "油气储量"
-            },
-            {
-                "english": "energy-fueled conflicts",
-                "chinese": "能源引发的冲突"
-            },
-            {
-                "english": "coal industry / sector",
-                "chinese": "煤炭行业"
+                "q_id": 20,
+                "question": "国内消费",
+                "options": {
+                    "A": "domestic consumption",
+                    "B": "household consumption",
+                    "C": "domestic exploitation",
+                    "D": "civil energy use"
+                },
+                "correct": "A"
             }
         ]
     }
