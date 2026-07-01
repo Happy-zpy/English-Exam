@@ -1,0 +1,513 @@
+[
+    {
+        "unit_index": 1,
+        "unit": "Unit4",
+        "task6": {
+            "task_id": 6,
+            "task_name": "短语填空",
+            "phrase_pool": [
+                "leave a mark on",
+                "pertain to",
+                "in high demand",
+                "take a stance for",
+                "in every sense"
+            ],
+            "questions": [
+                {
+                    "sentence": "The government should ______ the public safety and inform the public clearly of what products are contaminated and remove them.",
+                    "answer": "take a stance for",
+                    "analysis": "短语 take a stance for 意为“为……表明立场、支持捍卫”；should 后接动词原形，直接使用短语原形即可。",
+                    "chinese_translation": "政府应当捍卫公共安全，向公众明确告知受污染产品并将其下架。"
+                },
+                {
+                    "sentence": "Contracts and technical manuals normally contain terms with specific meanings that ______ a particular context.",
+                    "answer": "pertain to",
+                    "analysis": "pertain to 表示“与……相关、适用于”；先行词 terms 为复数，从句谓语动词用原形。",
+                    "chinese_translation": "合同与技术手册中通常包含适用于特定场景、具有专属含义的专业术语。"
+                },
+                {
+                    "sentence": "Now that the property market has begun to boom, well-qualified young people with experience in marketing are ______ at the moment.",
+                    "answer": "in high demand",
+                    "analysis": "in high demand 固定搭配，含义为“需求量大、供不应求”，跟在be动词后作表语，无需变形。",
+                    "chinese_translation": "如今房地产市场蓬勃发展，具备丰富营销经验的优秀年轻人当下十分抢手。"
+                },
+                {
+                    "sentence": "It is a mixture of the surface layer, easy to clean, of long term use, and not easy to ______ the surface.",
+                    "answer": "leave a mark on",
+                    "analysis": "leave a mark on 意为“在……留下痕迹”；不定式to后使用动词原形短语。",
+                    "chinese_translation": "该表层为混合材质，易于清洁、经久耐用，且表面不易留下划痕印记。"
+                },
+                {
+                    "sentence": "China is now very much a world power ______ with a solid and rapidly growing presence in the global economy.",
+                    "answer": "in every sense",
+                    "analysis": "in every sense 副词短语，意思是“从各方面、在所有意义上”，作句子状语，无词形变化。",
+                    "chinese_translation": "无论从哪方面来讲，中国如今都是世界大国，在全球经济中拥有稳固且持续壮大的影响力。"
+                }
+            ]
+        },
+        "task7": {
+            "task_id": 7,
+            "task_name": "英译中句子翻译",
+            "sentences": [
+                {
+                    "english": "These machines can range their complexity and sizes, each one designed and built for specific purposes. (Para. 8)",
+                    "chinese_translation": "这些机器复杂程度、尺寸规格各不相同，每一台都是为特定用途量身设计制造的。"
+                },
+                {
+                    "english": "The purification of water using chlorination and processing of metals using chemicals are all byproducts of the chemical engineering feats that have graced the world. (Para. 12)",
+                    "chinese_translation": "氯化净水工艺与化学金属加工技术，都是造福世界的化学工程重大成果衍生出的配套应用。"
+                },
+                {
+                    "english": "Modern automation calls for more electrical engineering and the onset of renewable energy have projected electrical engineers as the saviors of the modern world. (Para. 17)",
+                    "chinese_translation": "现代自动化发展对电气工程提出了更高需求，可再生能源时代的到来，让电气工程师成为现代社会不可或缺的中坚力量。"
+                },
+                {
+                    "english": "Basically, scientists discover a phenomenon that is present in the world. However, we cannot leverage the phenomenon to our advantage unless we understand it. (Para. 23)",
+                    "chinese_translation": "简单来说，科学家负责发现世间客观存在的现象；但除非我们彻底弄懂该现象，否则无法将其转化为对人类有利的价值。"
+                },
+                {
+                    "english": "Scientists help us decode things better and engineers are ones who actually use these findings to create something that isn’t there. (Para. 23)",
+                    "chinese_translation": "科学家帮助我们更好地解读客观规律，而工程师则真正运用这些科研发现，创造出原本不存在的事物。"
+                }
+            ]
+        }
+    },
+    {
+        "unit_index": 2,
+        "unit": "Unit5",
+        "task6": {
+            "task_id": 6,
+            "task_name": "短语填空练习",
+            "phrase_pool": [
+                "speak to",
+                "come to an end",
+                "interact with",
+                "figure out",
+                "bring into being"
+            ],
+            "questions": [
+                {
+                    "sentence": "You'd better take some ______ your medicine.",
+                    "answer": "more of",
+                    "analysis": "more of 表示“更多的……”，后接名词，此处直接填入原形，符合some修饰搭配。",
+                    "chinese_translation": "你最好多吃点药。"
+                },
+                {
+                    "sentence": "There's quite ______ books in the study.",
+                    "answer": "a collection of",
+                    "analysis": "a collection of 意为“一批、一系列、藏书”，固定短语，直接使用原形。",
+                    "chinese_translation": "书房里有不少藏书。"
+                },
+                {
+                    "sentence": "A good architect ______ the building's surroundings.",
+                    "answer": "takes into account",
+                    "analysis": "take into account 意为“考虑到”；主语a good architect是单数，一般现在时动词变为takes into account。",
+                    "chinese_translation": "优秀的建筑师须考虑到建筑物的周围环境。"
+                },
+                {
+                    "sentence": "I will keep blogging because it offers me a way to ______ readers.",
+                    "answer": "engage with",
+                    "analysis": "engage with 表示“与……互动、沟通”；不定式to后接短语原形。",
+                    "chinese_translation": "我将继续写博客，因为它为我提供了一种与读者互动的方式。"
+                },
+                {
+                    "sentence": "It is a great honour to be invited to ______ in this educational tour.",
+                    "answer": "take part",
+                    "analysis": "take part in 固定搭配，意为“参加”；不定式to后用短语原形。",
+                    "chinese_translation": "很荣幸被邀请参加这次教育之旅。"
+                }
+            ]
+        },
+        "task7": {
+            "task_id": 7,
+            "task_name": "英文段落句子英译汉",
+            "sentences": [
+                {
+                    "english": "With the passing of big data, we move forward in tending to the health and care of the era of big data’s progeny, including the era of multi-cloud, era of machine learning, and the era of real-time and ubiquitous context. (Para. 1)",
+                    "chinese_translation": "随着大数据时代落幕，我们开始聚焦大数据衍生技术时代的运维保障，涵盖多云、机器学习、全域实时场景等领域。"
+                },
+                {
+                    "english": "Machine learning requires much of the same work needed to create clean data for analytics, but also requires additional mathematical, business, and ethical context to create lasting and long-term value. (Para. 3)",
+                    "chinese_translation": "机器学习需要完成数据分析所需的海量数据清洗工作，同时还需要数学、业务、伦理多维度支撑体系，以实现可持续长期价值。"
+                },
+                {
+                    "english": "Integration of data from operations and business systems, as well as from suppliers and customers, enables a holistic view of upstream and downstream supply chain processes, driving greater overall supply network efficiency. (Para. 4)",
+                    "chinese_translation": "整合生产运营、业务系统以及上下游供应商、客户的数据，能够完整梳理全链路供应链流程，全面提升供应网络整体效率。"
+                },
+                {
+                    "english": "With the era of big data coming to an end, we now can focus less on the mechanics of collecting large volumes of data and more on the myriad challenges of processing, analyzing, and interacting with massive amounts of data in real-time. (Para. 5)",
+                    "chinese_translation": "大数据时代走向尾声后，我们无需再重点钻研海量数据采集机制，转而应对海量数据实时处理、分析、交互的各类复杂难题。"
+                },
+                {
+                    "english": "The most important consideration here is to use data that does not serve the business well due to small sample size, lack of data sources, poorly defined data, poorly contextualized data, or inaccurate algorithm and classification assumptions. (Para. 8)",
+                    "chinese_translation": "此处核心注意事项：规避因样本量不足、数据源缺失、数据定义模糊、场景适配差、算法分类假设失真而无法支撑业务的数据。"
+                }
+            ]
+        }
+    },
+    {
+        "unit_index": 3,
+        "unit": "Unit6 XR",
+        "task6": {
+            "task_id": 6,
+            "task_name": "短语填空",
+            "phrase_pool": [
+                "other than",
+                "be around",
+                "try out",
+                "given that",
+                "make up"
+            ],
+            "items": [
+                {
+                    "blank_sentence": "VR headsets ______ for some time now.",
+                    "correct_answer": "have been around",
+                    "grammar_analysis": "be around 表示存在、问世；句尾 for some time now 是现在完成时标志，主语为复数，变为 have been around。",
+                    "chinese_translation": "虚拟现实头盔问世已经有一段时间了。"
+                },
+                {
+                    "blank_sentence": "______ he has had six months to do the project, he has not made much progress.",
+                    "correct_answer": "Given that",
+                    "grammar_analysis": "given that 引导原因状语从句，意为“考虑到、鉴于”，置于句首首字母大写。",
+                    "chinese_translation": "考虑到他有六个月的时间来完成这个项目，他却没有取得多大进展。"
+                },
+                {
+                    "blank_sentence": "They are ______ a new head-mounted display that we'll use for the XR show.",
+                    "correct_answer": "trying out",
+                    "grammar_analysis": "try out 意为试用；本句为现在进行时，are 后动词变为现在分词 trying out。",
+                    "chinese_translation": "他们正在为这场扩展现实展会试用一款全新的头戴式显示器。"
+                },
+                {
+                    "blank_sentence": "We are going away in July but ______ that we'll be here all summer.",
+                    "correct_answer": "other than",
+                    "grammar_analysis": "other than 固定搭配，意为除……之外，此处直接跟在转折分句后无需变形。",
+                    "chinese_translation": "我们七月会离开，但除此之外，整个夏天我们都会待在这里。"
+                },
+                {
+                    "blank_sentence": "Roads, buildings, power grids, waterways and thoroughfare all ______ a large part of our infrastructure.",
+                    "correct_answer": "make up",
+                    "grammar_analysis": "make up 表示构成、组成；主语是多个并列名词复数，一般现在时用原形 make up。",
+                    "chinese_translation": "道路、建筑、电网、水道与干道共同构成了基础设施的重要组成部分。"
+                }
+            ]
+        },
+        "task7": {
+            "task_id": 7,
+            "task_name": "英译汉句子翻译",
+            "items": [
+                {
+                    "english_sentence": "Executives can spot trends by following the money, and the increased investment in the XR space—particularly in areas other than gaming, such as workforce innovation and training, e-commerce applications, and others—suggests that forward-thinking executives will soon be affected by immersive technologies. (Para. 2)",
+                    "chinese_translation": "高管们可以通过资金流向把握行业趋势。扩展现实（XR）领域的投资持续上涨，尤其是游戏以外的赛道，例如人力创新培训、电商应用等，这预示着富有远见的管理者很快都将接触到各类沉浸式技术。"
+                },
+                {
+                    "english_sentence": "In fact, Q4 2018 saw the value of global venture capital deals spike to $1.7 billion—three times the value for that same time period in the previous year. (Para. 2)",
+                    "chinese_translation": "事实上，2018年第四季度全球风投交易总额飙升至17亿美元，是上一年同期数额的三倍。"
+                },
+                {
+                    "english_sentence": "Further, 9 out of 10 survey respondents believe that XR is an inescapable feature of the future, predicting that “by the year 2025, immersive technologies of XR—including augmented reality, virtual reality and mixed reality—will be as ubiquitous as mobile devices.” (Para. 2)",
+                    "chinese_translation": "此外，九成受访者认为XR是未来必不可少的技术，并预测“到2025年，包含增强现实、虚拟现实、混合现实在内的XR沉浸式技术，会像手机一样随处可见。”"
+                },
+                {
+                    "english_sentence": "The point is that investment in XR is rapidly increasing, which will result in more applications for connecting and collaborating with employees, vendors, partners, and customers. (Para. 3)",
+                    "chinese_translation": "核心在于XR行业投资规模正在快速扩张，这将催生出更多应用，用于企业和员工、供应商、合作方与客户之间建立连接、协同协作。"
+                },
+                {
+                    "english_sentence": "Respondents believe that XR’s applications in workforce development will be varied; they believe that workforce development benefits of XR include real-time access to information, training that mirrors real-life experiences, enhanced creativity in product design and development, and collaboration among geographically scattered employees. (Para. 5)",
+                    "chinese_translation": "受访者认为XR在人才培养领域拥有多元化应用。XR能为人才发展带来诸多益处：实时调取信息、贴近真实场景的仿真培训、提升产品研发创意，以及实现异地员工协同办公。"
+                }
+            ]
+        }
+    },
+    {
+        "unit_index": 4,
+        "unit": "Smart Factory 5G",
+        "task6": {
+            "task_id": 6,
+            "task_name": "短语填空",
+            "phrase_pool": [
+                "take on",
+                "translate into",
+                "react to",
+                "tap into",
+                "adapt to"
+            ],
+            "items": [
+                {
+                    "blank_sentence": "The agreement could ________ increased international trade.",
+                    "correct_answer": "open the door to",
+                    "grammar_analysis": "open the door to 意为“为……打开大门、促成”；情态动词could后接动词短语原形。",
+                    "chinese_translation": "该协议可能为扩大国际贸易打开大门。"
+                },
+                {
+                    "blank_sentence": "You will be employed to ________ the development of the new equipment.",
+                    "correct_answer": "assist in",
+                    "grammar_analysis": "assist in 表示“协助、帮忙做某事”；不定式to后使用短语原形。",
+                    "chinese_translation": "公司将聘用你来协助开发这款新设备。"
+                },
+                {
+                    "blank_sentence": "The criticisms ________ so as not to offend anybody.",
+                    "correct_answer": "were watered down",
+                    "grammar_analysis": "water down 本意稀释，引申为淡化、弱化；主语criticisms为复数，批评是被弱化，使用一般过去时被动语态were watered down。",
+                    "chinese_translation": "这些批评意见都被弱化处理，避免冒犯任何人。"
+                },
+                {
+                    "blank_sentence": "The company ________ launch its new advertising campaign.",
+                    "correct_answer": "is poised to",
+                    "grammar_analysis": "be poised to 固定搭配，意为“准备好、蓄势待发”；主语the company单数，一般现在时用is poised to。",
+                    "chinese_translation": "这家公司正准备发起新一轮广告宣传攻势。"
+                },
+                {
+                    "blank_sentence": "I read the papers to ________ what is happening in the outside world.",
+                    "correct_answer": "keep up with",
+                    "grammar_analysis": "keep up with 意为“跟上、及时了解”；不定式to后用短语原形。",
+                    "chinese_translation": "我阅读报纸，以此跟进外界发生的各类时事。"
+                }
+            ]
+        },
+        "task7": {
+            "task_id": 7,
+            "task_name": "英译汉句子翻译",
+            "items": [
+                {
+                    "english_sentence": "5G connectivity could also allow wearable devices to share biometric data with financial services to authenticate user identity instantly and accurately. (Para. 14)",
+                    "chinese_translation": "借助5G网络连接，可穿戴设备能够向金融服务机构同步生物识别数据，从而即时、精准完成用户身份核验。"
+                },
+                {
+                    "english_sentence": "5G is set to disrupt media and entertainment on many levels, including mobile media, mobile advertising, home broadband, and TV. (Para. 15)",
+                    "chinese_translation": "5G技术将从多个层面重塑传媒与娱乐行业，涵盖移动媒体、移动广告、家用宽带及电视领域。"
+                },
+                {
+                    "english_sentence": "5G will save people an estimated average of 23 hours of loading time per month while browsing social media, gaming, streaming music, and downloading movies and shows. (Para. 16)",
+                    "chinese_translation": "用户浏览社交平台、游玩游戏、收听流媒体音乐、下载影视节目时，5G每月平均可为每人节省约23小时加载等待时间。"
+                },
+                {
+                    "english_sentence": "Over the next decade, the global media industry stands to gain a staggering $765B in cumulative revenues from new services and applications enabled by 5G technology, according to a study conducted by Ovum. (Para. 18)",
+                    "chinese_translation": "市场研究机构Ovum的一份报告显示，未来十年，依托5G技术落地的全新服务与应用，将为全球传媒行业带来高达7650亿美元的累计营收。"
+                },
+                {
+                    "english_sentence": "A study conducted by Next Galaxy Corp and Nicklaus Children's Hospital found that medical personnel retained as much as 80% of the course material after being trained with VR, compared to only 20% of information from a traditional training session. (Para. 31)",
+                    "chinese_translation": "Next Galaxy公司与尼克劳斯儿童医院联合开展的研究表明，医务人员经过VR培训后，可记住80%的课程内容；而传统培训方式仅能让医务人员留存20%的知识点。"
+                }
+            ]
+        }
+    },
+    {
+        "unit_index": 5,
+        "unit": "央行通胀单元",
+        "task6": {
+            "task_id": 6,
+            "task_name": "短语填空",
+            "phrase_pool": [
+                "take on",
+                "translate into",
+                "react to",
+                "tap into",
+                "adapt to"
+            ],
+            "items": [
+                {
+                    "blank_sentence": "For this reason, some still argue that the central bank should not ______ the financial stability role.",
+                    "correct_answer": "take on",
+                    "grammar_analysis": "take on 意为“承担、扮演（角色）”；情态动词should后接动词短语原形。",
+                    "chinese_translation": "出于这个原因，一些人仍然认为，央行不应该承担稳定金融的职责。"
+                },
+                {
+                    "blank_sentence": "Disruptive innovations, however, usually ______ cheaper products with lower profit margins.",
+                    "correct_answer": "translate into",
+                    "grammar_analysis": "translate into 此处表示“转化为、变成”；主语innovations是复数，一般现在时用原形。",
+                    "chinese_translation": "然而，颠覆性创新通常会转化为成本更低、利润率更低的产品。"
+                },
+                {
+                    "blank_sentence": "A miscalculation would produce big inflation only if the Fed failed to see and ______ it.",
+                    "correct_answer": "react to",
+                    "grammar_analysis": "react to 意为“对……作出反应”；and并列与see一致，用动词原形。",
+                    "chinese_translation": "只有在美联储未能察觉并对此作出应对的情况下，误判才会引发严重通胀。"
+                },
+                {
+                    "blank_sentence": "The rain forest theme products ______ consumer interest in the environment.",
+                    "correct_answer": "tap into",
+                    "grammar_analysis": "tap into 表示“挖掘、激发（需求/兴趣）”；主语products复数，一般现在时用原形。",
+                    "chinese_translation": "雨林主题产品激发了消费者的环保意识。"
+                },
+                {
+                    "blank_sentence": "The results of experiment show that this correction method can ______ a variety of rules of changes in the speed of sound of liquid media.",
+                    "correct_answer": "adapt to",
+                    "grammar_analysis": "adapt to 意为“适应”；情态can后接短语原形。",
+                    "chinese_translation": "实验结果表明，该校正方法能够适配液体介质声速变化的各类规律。"
+                }
+            ]
+        },
+        "task7": {
+            "task_id": 7,
+            "task_name": "英译汉句子翻译",
+            "items": [
+                {
+                    "english_sentence": "The smart factory represents a leap forward from more traditional automation to a fully connected and flexible system—one that can use a constant stream of data from connected operations and production systems to learn and adapt to new demands. (Para. 1)",
+                    "chinese_translation": "智能工厂实现了跨越式升级，从传统自动化模式转变为全互联柔性系统；该系统能够持续采集互联生产运营数据，自主学习并适配全新业务需求。"
+                },
+                {
+                    "english_sentence": "Historically, situations in which machines have made “decisions” have been automation based and linear, such as opening a valve or turning a pump on and off based on a defined set of rules. (Para. 2)",
+                    "chinese_translation": "以往机器做出“决策”均为线性自动化逻辑，例如依据固定规则开启阀门、启停水泵等操作。"
+                },
+                {
+                    "english_sentence": "Integration of data from operations and business systems, as well as from suppliers and customers, enables a holistic view of upstream and downstream supply chain processes, driving greater overall supply network efficiency. (Para. 4)",
+                    "chinese_translation": "整合生产运营、业务系统以及上下游供应商、客户的数据，能够完整梳理全链路供应链流程，全面提升供应网络整体效率。"
+                },
+                {
+                    "english_sentence": "The ability of the smart factory to predict future outcomes based on historical and real-time data can improve uptime, yield, and quality, and prevent safety issues. (Para. 7)",
+                    "chinese_translation": "智能工厂依托历史数据与实时数据预判生产结果的能力，能够提升设备运转时长、产品产量与成品质量，同时规避安全隐患。"
+                },
+                {
+                    "english_sentence": "However, the role of the human worker in a smart factory environment may take on greater levels of judgment and on-the-spot discretion, which can lead to greater job satisfaction and a reduction in turnover. (Para. 12)",
+                    "chinese_translation": "但在智能工厂体系下，一线工人将拥有更高的自主判断与现场处置权限，这有助于提升员工满意度、降低人员流失率。"
+                }
+            ]
+        }
+    },
+    {
+        "unit_index": 6,
+        "unit": "Unit7 能源",
+        "task6": {
+            "task_id": 6,
+            "task_name": "短语填空",
+            "phrase_pool": [
+                "in place",
+                "play out",
+                "call for",
+                "pose a threat to",
+                "as such"
+            ],
+            "items": [
+                {
+                    "blank_sentence": "GSM operators ______ reallocation of 800MHz band to more efficiently use the spectrum and increase revenue from the upcoming auction.",
+                    "correct_answer": "call for",
+                    "grammar_analysis": "call for 意为“要求、呼吁”；主语operators为复数，一般现在时使用原形短语。",
+                    "chinese_translation": "GSM运营商要求重新分配800兆赫兹频段，以更有效地利用频段，并在即将到来的拍卖中增加收入。"
+                },
+                {
+                    "blank_sentence": "As broad as the definition of IoT are the cybersecurity challenges that ______ anything and everyone connected.",
+                    "correct_answer": "pose a threat to",
+                    "grammar_analysis": "pose a threat to 表示“对……构成威胁”；先行词challenges是复数，从句谓语用原形。",
+                    "chinese_translation": "与物联网的定义一样宽泛的是网络安全挑战，它对任何联网的事物和每个人都构成威胁。"
+                },
+                {
+                    "blank_sentence": "In this incident technology has proved already ______ to track bomb hoaxers.",
+                    "correct_answer": "in place",
+                    "grammar_analysis": "in place 固定短语，含义为“准备就绪、到位”，无变形，作主语补足语。",
+                    "chinese_translation": "在这次事件中，追踪炸弹恶作剧者的技术已经得到了证实。"
+                },
+                {
+                    "blank_sentence": "The government is the main contributor and, ______ controls the project.",
+                    "correct_answer": "as such",
+                    "grammar_analysis": "as such 副词短语，意为“照此、因此”，用于句中作插入语，无需变形。",
+                    "chinese_translation": "政府是主要的贡献者，照此理应控制项目。"
+                },
+                {
+                    "blank_sentence": "We can see technology disruption ______ in a number of industries like computing where the mainframe gave way to the PC that gave way to the smartphone.",
+                    "correct_answer": "play out",
+                    "grammar_analysis": "play out 表示“上演、发生、显现”；固定搭配 see sth. do，不定式省略to，用短语原形。",
+                    "chinese_translation": "我们可以看到，技术颠覆在很多行业都在上演，比如计算机行业，大型机让位给了个人电脑，而个人电脑又让位给了智能手机。"
+                }
+            ]
+        },
+        "task7": {
+            "task_id": 7,
+            "task_name": "英译汉句子翻译",
+            "items": [
+                {
+                    "english_sentence": "One of the greatest challenges that the energy transition presents is for fossil fuel-producing countries, many of which are countries that have run their economies on these resources in the past, to adopt a new, diversified, economic model. (Para. 4)",
+                    "chinese_translation": "能源转型带来的最大挑战之一，是化石燃料出产国需要采用全新的多元化经济模式；其中许多国家过去一直依靠化石资源支撑本国经济。"
+                },
+                {
+                    "english_sentence": "If you think of the possibilities that a fast-moving energy transition has for the prices of fossil fuel resources, and the impact it could have on countries like Nigeria, Angola, Gabon and others that are highly dependent on these resources, then unless they have ambitious strategies of economic diversification, they could face some severe challenges in the near future. (Para. 7)",
+                    "chinese_translation": "快速推进的能源转型会改变化石燃料资源价格，这将深刻影响尼日利亚、安哥拉、加蓬等高度依赖化石资源的国家。除非这些国家推出宏大的经济多元化发展战略，否则短期内将面临严峻考验。"
+                },
+                {
+                    "english_sentence": "You have leaders in this field, like Morocco, which is coming from a 90 per cent energy import dependency to a target of having 52 per cent renewables in their electricity mix by 2030—which is an extraordinary achievement. (Para. 12)",
+                    "chinese_translation": "摩洛哥是该领域的标杆国家：该国过去90%能源依赖进口，如今定下目标，到2030年可再生能源发电量占比达到52%，这是一项非凡成就。"
+                },
+                {
+                    "english_sentence": "Renewables have the added potential to mitigate against wider socio-economic stresses and shocks that can lead to conflict too: by improving access to energy to the 1 billion people who are energy-poor, by creating jobs, reducing local pollution, promoting sustainable development and alleviating competition over scarce natural resources. (Para. 18)",
+                    "chinese_translation": "可再生能源还具备缓解大范围社会经济压力与冲击的潜力，而这类压力冲突往往会引发矛盾。它能为十亿能源贫困人群普及能源供给、创造就业岗位、减少区域污染、推动可持续发展，并缓解稀缺自然资源争夺问题。"
+                },
+                {
+                    "english_sentence": "But then if you think about how technology is beginning to reshape the global economy, if we move rapidly into the renewable energy-based electrification of the economy—where major sectors like mobility become increasingly electric—then you could see the whole supply chain of conventional vehicles that employs millions of people around the world, with hundreds of billions of dollars of investment, very quickly begin to experience significant challenges. (Para. 22)",
+                    "chinese_translation": "但技术正逐步重塑全球经济。若全球快速迈向以可再生能源为基础的电气化经济，交通等核心产业全面电动化，那么全球吸纳数百万劳动力、承载数千亿投资的传统汽车全产业链，很快就会遭遇巨大冲击。"
+                }
+            ]
+        }
+    },
+    {
+        "unit_index": 7,
+        "unit": "IoT通信单元",
+        "task6": {
+            "task_id": 6,
+            "task_name": "短语填空",
+            "phrase_pool": [
+                "in place",
+                "play out",
+                "call for",
+                "pose a threat to",
+                "as such"
+            ],
+            "items": [
+                {
+                    "blank_sentence": "GSM operators ______ reallocation of 800MHz band to more efficiently use the spectrum and increase revenue from the upcoming auction.",
+                    "correct_answer": "call for",
+                    "grammar_analysis": "call for 意为“要求、呼吁”；主语operators为复数，一般现在时使用原形短语。",
+                    "chinese_translation": "GSM运营商要求重新分配800兆赫兹频段，以更有效地利用频段，并在即将到来的拍卖中增加收入。"
+                },
+                {
+                    "blank_sentence": "As broad as the definition of IoT are the cybersecurity challenges that ______ anything and everyone connected.",
+                    "correct_answer": "pose a threat to",
+                    "grammar_analysis": "pose a threat to 表示“对……构成威胁”；先行词challenges是复数，从句谓语用原形。",
+                    "chinese_translation": "与物联网的定义一样宽泛的是网络安全挑战，它对任何联网的事物和每个人都构成威胁。"
+                },
+                {
+                    "blank_sentence": "In this incident technology has proved already ______ to track bomb hoaxers.",
+                    "correct_answer": "in place",
+                    "grammar_analysis": "in place 固定短语，含义为“准备就绪、到位”，无变形，作主语补足语。",
+                    "chinese_translation": "在这次事件中，追踪炸弹恶作剧者的技术已经得到了证实。"
+                },
+                {
+                    "blank_sentence": "The government is the main contributor and, ______ controls the project.",
+                    "correct_answer": "as such",
+                    "grammar_analysis": "as such 副词短语，意为“照此、因此”，用于句中作插入语，无需变形。",
+                    "chinese_translation": "政府是主要的贡献者，照此理应控制项目。"
+                },
+                {
+                    "blank_sentence": "We can see technology disruption ______ in a number of industries like computing where the mainframe gave way to the PC that gave way to the smartphone.",
+                    "correct_answer": "play out",
+                    "grammar_analysis": "play out 表示“上演、发生、显现”；固定搭配 see sth. do，不定式省略to，用短语原形。",
+                    "chinese_translation": "我们可以看到，技术颠覆在很多行业都在上演，比如计算机行业，大型机让位给了个人电脑，而个人电脑又让位给了智能手机。"
+                }
+            ]
+        },
+        "task7": {
+            "task_id": 7,
+            "task_name": "英译汉句子翻译",
+            "items": [
+                {
+                    "english_sentence": "One of the greatest challenges that the energy transition presents is for fossil fuel-producing countries, many of which are countries that have run their economies on these resources in the past, to adopt a new, diversified, economic model. (Para. 4)",
+                    "chinese_translation": "能源转型带来的最大挑战之一，是化石燃料出产国需要采用全新的多元化经济模式；其中许多国家过去一直依靠化石资源支撑本国经济。"
+                },
+                {
+                    "english_sentence": "If you think of the possibilities that a fast-moving energy transition has for the prices of fossil fuel resources, and the impact it could have on countries like Nigeria, Angola, Gabon and others that are highly dependent on these resources, then unless they have ambitious strategies of economic diversification, they could face some severe challenges in the near future. (Para. 7)",
+                    "chinese_translation": "快速推进的能源转型会改变化石燃料资源价格，这将深刻影响尼日利亚、安哥拉、加蓬等高度依赖化石资源的国家。除非这些国家推出宏大的经济多元化发展战略，否则短期内将面临严峻考验。"
+                },
+                {
+                    "english_sentence": "You have leaders in this field, like Morocco, which is coming from a 90 per cent energy import dependency to a target of having 52 per cent renewables in their electricity mix by 2030—which is an extraordinary achievement. (Para. 12)",
+                    "chinese_translation": "摩洛哥是该领域的标杆国家：该国过去90%能源依赖进口，如今定下目标，到2030年可再生能源发电量占比达到52%，这是一项非凡成就。"
+                },
+                {
+                    "english_sentence": "Renewables have the added potential to mitigate against wider socio-economic stresses and shocks that can lead to conflict too: by improving access to energy to the 1 billion people who are energy-poor, by creating jobs, reducing local pollution, promoting sustainable development and alleviating competition over scarce natural resources. (Para. 18)",
+                    "chinese_translation": "可再生能源还具备缓解大范围社会经济压力与冲击的潜力，而这类压力冲突往往会引发矛盾。它能为十亿能源贫困人群普及能源供给、创造就业岗位、减少区域污染、推动可持续发展，并缓解稀缺自然资源争夺问题。"
+                },
+                {
+                    "english_sentence": "But then if you think about how technology is beginning to reshape the global economy, if we move rapidly into the renewable energy-based electrification of the economy—where major sectors like mobility become increasingly electric—then you could see the whole supply chain of conventional vehicles that employs millions of people around the world, with hundreds of billions of dollars of investment, very quickly begin to experience significant challenges. (Para. 22)",
+                    "chinese_translation": "但技术正逐步重塑全球经济。若全球快速迈向以可再生能源为基础的电气化经济，交通等核心产业全面电动化，那么全球吸纳数百万劳动力、承载数千亿投资的传统汽车全产业链，很快就会遭遇巨大冲击。"
+                }
+            ]
+        }
+    }
+]

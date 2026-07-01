@@ -423,6 +423,34 @@
             color: #92400e;
         }
 
+        .tag-bank-4 {
+            background: #e0e7ff;
+            color: #4338ca;
+        }
+
+        .tag-bank-5 {
+            background: #fce7f3;
+            color: #9d174d;
+        }
+
+        .translation-input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 1em;
+            font-family: inherit;
+            resize: vertical;
+            box-sizing: border-box;
+            margin-top: 15px;
+        }
+
+        .translation-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+        }
+
         .loading {
             text-align: center;
             padding: 40px;
@@ -662,11 +690,12 @@
 
         async function init() {
             try {
-                const [data1, data2, data3, data4] = await Promise.all([
+                const [data1, data2, data3, data4, data5] = await Promise.all([
                     loadJSON('data.json'),
                     loadJSON('tech_80_english.json'),
                     loadJSON('vocab.json'),
-                    loadJSON('科技表达.json')
+                    loadJSON('科技表达.json'),
+                    loadJSON('task6andtask7.json')
                 ]);
 
                 if (data1 && data1.questions && Array.isArray(data1.questions)) {
@@ -853,6 +882,88 @@
                         questions: techQuestions
                     });
                 }
+
+                if (data5 && Array.isArray(data5)) {
+                    var task6Questions = [];
+                    var task7Questions = [];
+
+                    for (var u = 0; u < data5.length; u++) {
+                        var unit = data5[u];
+
+                        if (unit.task6) {
+                            var questions6 = unit.task6.questions || unit.task6.items || [];
+                            var phrasePool6 = unit.task6.phrase_pool || [];
+
+                            for (var q6 = 0; q6 < questions6.length; q6++) {
+                                var qItem = questions6[q6];
+                                var sentence = qItem.sentence || qItem.blank_sentence || '';
+                                var correctAnswer = qItem.answer || qItem.correct_answer || '';
+                                var analysis = qItem.analysis || qItem.grammar_analysis || '';
+                                var chineseTranslation = qItem.chinese_translation || '';
+
+                                var otherPhrases = phrasePool6.filter(function(p) { return p !== correctAnswer && p !== ''; });
+                                var wrongOptions = [];
+                                for (var wo = 0; wo < 3 && otherPhrases.length > 0; wo++) {
+                                    var rIdx = Math.floor(Math.random() * otherPhrases.length);
+                                    wrongOptions.push(otherPhrases[rIdx]);
+                                    otherPhrases.splice(rIdx, 1);
+                                }
+
+                                var allOptions = [correctAnswer].concat(wrongOptions);
+                                for (var ao = allOptions.length - 1; ao > 0; ao--) {
+                                    var aj = Math.floor(Math.random() * (ao + 1));
+                                    var at = allOptions[ao];
+                                    allOptions[ao] = allOptions[aj];
+                                    allOptions[aj] = at;
+                                }
+
+                                task6Questions.push({
+                                    sentence: sentence,
+                                    answer: correctAnswer,
+                                    analysis: analysis,
+                                    chinese_translation: chineseTranslation,
+                                    question: sentence,
+                                    options: allOptions,
+                                    id: 'task6_' + u + '_' + q6,
+                                    bankIndex: 4,
+                                    type: 'task6'
+                                });
+                            }
+                        }
+
+                        if (unit.task7) {
+                            var sentences7 = unit.task7.sentences || unit.task7.items || [];
+
+                            for (var s7 = 0; s7 < sentences7.length; s7++) {
+                                var sItem = sentences7[s7];
+                                var english = sItem.english || sItem.english_sentence || '';
+                                var chinese = sItem.chinese_translation || '';
+
+                                task7Questions.push({
+                                    english: english,
+                                    answer: chinese,
+                                    question: english,
+                                    options: [],
+                                    id: 'task7_' + u + '_' + s7,
+                                    bankIndex: 5,
+                                    type: 'task7'
+                                });
+                            }
+                        }
+                    }
+
+                    questionBanks.push({
+                        title: '短语填空选择题',
+                        type: 'task6',
+                        questions: task6Questions
+                    });
+
+                    questionBanks.push({
+                        title: '英译中翻译题',
+                        type: 'task7',
+                        questions: task7Questions
+                    });
+                }
             } catch (error) {
                 console.error('初始化错误:', error);
             }
@@ -931,7 +1042,7 @@
 
                 html += '            <div class="bank-card" onclick="startPractice(' + i + ')">';
                 html += '                <h3>' + bank.title + '</h3>';
-                html += '                <p>' + (bank.type === 'word' ? '单词释义选择题' : bank.type === 'vocab' ? '词汇英文释义题' : bank.type === 'tech' ? '中英互译选择题' : '阅读理解填空题') + '</p>';
+                html += '                <p>' + (bank.type === 'word' ? '单词释义选择题' : bank.type === 'vocab' ? '词汇英文释义题' : bank.type === 'tech' ? '中英互译选择题' : bank.type === 'task6' ? '短语填空选择题' : bank.type === 'task7' ? '英译中翻译题' : '阅读理解填空题') + '</p>';
                 html += '                <div class="bank-stats">';
                 html += '                    <span>共 ' + total + ' 题</span>';
                 html += '                    <span>已做 ' + progress.answered + ' 题</span>';
@@ -1114,6 +1225,16 @@
                 var isChineseToEnglish = q.question === q.chinese;
                 questionContent = '<div class="question-word">' + q.question + '</div>';
                 questionContent += '<div style="text-align: center; margin-top: 10px; color: #888; font-size: 0.9em;">请选择' + (isChineseToEnglish ? '正确的英文表达' : '正确的中文表达') + '</div>';
+            } else if (q.type === 'task6') {
+                questionContent = '<div class="question-text" style="text-align: left;">' + q.question + '</div>';
+                questionContent += '<div style="text-align: center; margin-top: 10px; color: #888; font-size: 0.9em;">请选择正确的短语填空</div>';
+                if (q.chinese_translation) {
+                    questionContent += '<div class="chinese-translation">💡 ' + q.chinese_translation + '</div>';
+                }
+            } else if (q.type === 'task7') {
+                questionContent = '<div class="question-text" style="text-align: left;">📖 ' + q.question + '</div>';
+                questionContent += '<div style="text-align: center; margin-top: 10px; color: #888; font-size: 0.9em;">请翻译为中文</div>';
+                questionContent += '<textarea id="translation-input" class="translation-input" placeholder="在此输入中文翻译..." rows="4">' + (isAnswered && userAnswers[currentQuestionIndex] ? userAnswers[currentQuestionIndex] : '') + '</textarea>';
             } else {
                 questionContent = '<div class="question-text">' + q.question + '</div>';
                 questionContent += '<div class="chinese-translation">💡 ' + q.chinese_translation + '</div>';
@@ -1148,7 +1269,7 @@
             html += '        <button class="btn btn-secondary" onclick="prevQuestion()" ' + (currentQuestionIndex === 0 ? 'disabled' : '') + '>上一题</button>';
 
             if (!isAnswered) {
-                html += '        <button class="btn btn-primary" onclick="submitAnswer()" id="submit-btn" disabled>提交答案</button>';
+                html += '        <button class="btn btn-primary" onclick="submitAnswer()" id="submit-btn"' + (q.type !== 'task7' ? ' disabled' : '') + '>提交答案</button>';
             }
 
             html += '        <button class="btn btn-primary" onclick="nextQuestion()">' + nextBtnText + '</button>';
@@ -1191,19 +1312,29 @@
 
             var options = q.options || [];
             var correctAnswer = q.answer || '';
-            var userAnswerIdx = userAnswers[currentQuestionIndex];
-            var isCorrect = userAnswerIdx !== undefined && options[userAnswerIdx] === correctAnswer;
+            var isCorrect = false;
 
-            // 记录题目结果
+            if (q.type === 'task7') {
+                var translationInput = document.getElementById('translation-input');
+                var userAnswer = translationInput ? translationInput.value.trim() : '';
+                userAnswers[currentQuestionIndex] = userAnswer;
+                isCorrect = userAnswer !== '';
+            } else {
+                var userAnswerIdx = userAnswers[currentQuestionIndex];
+                isCorrect = userAnswerIdx !== undefined && options[userAnswerIdx] === correctAnswer;
+            }
+
             questionResults[currentQuestionIndex] = isCorrect ? 'correct' : 'wrong';
 
-            var optionElements = document.querySelectorAll('.option');
-            for (var i = 0; i < optionElements.length; i++) {
-                optionElements[i].classList.remove('selected');
-                if (options[i] === correctAnswer) {
-                    optionElements[i].classList.add('correct');
-                } else if (i === userAnswerIdx) {
-                    optionElements[i].classList.add('wrong');
+            if (q.type !== 'task7') {
+                var optionElements = document.querySelectorAll('.option');
+                for (var i = 0; i < optionElements.length; i++) {
+                    optionElements[i].classList.remove('selected');
+                    if (options[i] === correctAnswer) {
+                        optionElements[i].classList.add('correct');
+                    } else if (i === userAnswers[currentQuestionIndex]) {
+                        optionElements[i].classList.add('wrong');
+                    }
                 }
             }
 
@@ -1239,8 +1370,15 @@
 
             var options = q.options || [];
             var correctAnswer = q.answer || '';
-            var userAnswerIdx = userAnswers[currentQuestionIndex];
-            var isCorrect = userAnswerIdx !== undefined && options[userAnswerIdx] === correctAnswer;
+            var isCorrect = false;
+
+            if (q.type === 'task7') {
+                var userAnswer = userAnswers[currentQuestionIndex] || '';
+                isCorrect = userAnswer !== '';
+            } else {
+                var userAnswerIdx = userAnswers[currentQuestionIndex];
+                isCorrect = userAnswerIdx !== undefined && options[userAnswerIdx] === correctAnswer;
+            }
 
             var resultPanel = document.getElementById('result-panel');
             var resultTitle = document.getElementById('result-title');
@@ -1254,12 +1392,19 @@
                 resultTitle.className = 'result-title result-wrong';
             }
 
-            resultExplanation.innerHTML = '<p>正确答案：<strong>' + correctAnswer + '</strong></p>';
-            if (q.type === 'vocab' && q.cn_translation) {
-                resultExplanation.innerHTML += '<p style="margin-top: 10px;">中文释义：<strong>' + q.cn_translation + '</strong></p>';
-            }
-            if (q.type === 'tech' && q.english && q.chinese) {
-                resultExplanation.innerHTML += '<p style="margin-top: 10px;">完整翻译：<strong>' + q.english + ' = ' + q.chinese + '</strong></p>';
+            if (q.type === 'task7') {
+                resultExplanation.innerHTML = '<p>参考译文：<strong>' + correctAnswer + '</strong></p>';
+            } else {
+                resultExplanation.innerHTML = '<p>正确答案：<strong>' + correctAnswer + '</strong></p>';
+                if (q.type === 'vocab' && q.cn_translation) {
+                    resultExplanation.innerHTML += '<p style="margin-top: 10px;">中文释义：<strong>' + q.cn_translation + '</strong></p>';
+                }
+                if (q.type === 'tech' && q.english && q.chinese) {
+                    resultExplanation.innerHTML += '<p style="margin-top: 10px;">完整翻译：<strong>' + q.english + ' = ' + q.chinese + '</strong></p>';
+                }
+                if (q.type === 'task6' && q.analysis) {
+                    resultExplanation.innerHTML += '<p style="margin-top: 10px;">解析：<strong>' + q.analysis + '</strong></p>';
+                }
             }
             if (resultPanel) {
                 resultPanel.classList.add('show');
